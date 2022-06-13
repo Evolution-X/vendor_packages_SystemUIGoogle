@@ -18,11 +18,12 @@ package com.google.android.systemui.power.dagger;
 
 import com.android.systemui.CoreStartable;
 import com.android.systemui.power.EnhancedEstimates;
-import com.android.systemui.power.EnhancedEstimatesImpl;
 import com.android.systemui.power.PowerNotificationWarnings;
 import com.android.systemui.power.PowerUI;
 import com.android.systemui.power.data.repository.PowerRepositoryModule;
 import com.android.systemui.statusbar.policy.ConfigurationController;
+
+import com.google.android.systemui.power.EnhancedEstimatesGoogleImpl;
 
 import dagger.Binds;
 import dagger.Module;
@@ -48,9 +49,9 @@ public interface PowerModuleGoogle {
     @IntoSet
     ConfigurationController.ConfigurationListener bindPowerUIConfigChanges(PowerUI impl);
 
-    /** Binds EnhancedEstimates to EnhancedEstimatesImpl. */
+    /** Binds EnhancedEstimates to EnhancedEstimatesGoogleImpl. */
     @Binds
-    EnhancedEstimates bindEnhancedEstimates(EnhancedEstimatesImpl enhancedEstimates);
+    EnhancedEstimates bindEnhancedEstimates(EnhancedEstimatesGoogleImpl enhancedEstimates);
 
     /** Binds WarningsUI to PowerNotificationWarnings. */
     @Binds
