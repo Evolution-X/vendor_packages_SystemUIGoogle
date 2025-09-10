@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Smartspace -->
+    <string name="accessibility_next_alarm">Hora da próxima alarma: %s</string>
+    <string name="accessibility_smartspace_page">Páxina %1$d de %2$d</string>
+    <string name="active_mode_content_description">%1$s activado</string>
+    <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
+    <string name="music_controls_no_title">Sen título</string>
+    <string name="smartspace_content_desc">Dunha ollada</string>
+    <string name="smartspace_flight_qr_code">Código QR</string>
+</resources>

@@ -47,6 +47,7 @@ import com.android.systemui.doze.DozeHost;
 import com.android.systemui.dreams.suppression.dagger.NoOpActivityRecognitionModule;
 import com.android.systemui.education.dagger.ContextualEducationModule;
 import com.android.systemui.emergency.EmergencyGestureModule;
+import com.android.systemui.flags.FeatureFlags;
 import com.android.systemui.inputdevice.tutorial.KeyboardTouchpadTutorialModule;
 import com.android.systemui.inputmethod.ImeSwitcherMenuModule;
 import com.android.systemui.keyboard.shortcut.ShortcutHelperModule;
@@ -61,6 +62,7 @@ import com.android.systemui.minmode.MinModeManager;
 import com.android.systemui.minmode.MinModeManagerImpl;
 import com.android.systemui.navigationbar.NavigationBarControllerModule;
 import com.android.systemui.navigationbar.gestural.GestureModule;
+import com.android.systemui.plugins.BcSmartspaceDataPlugin;
 import com.android.systemui.plugins.qs.QSFactory;
 import com.android.systemui.power.dagger.PowerModule;
 import com.android.systemui.qs.QSFragmentStartableModule;
@@ -79,6 +81,8 @@ import com.android.systemui.settings.MultiUserUtilsModule;
 import com.android.systemui.settings.UserTracker;
 import com.android.systemui.shade.NotificationShadeWindowControllerImpl;
 import com.android.systemui.shade.ShadeModule;
+import com.android.systemui.smartspace.config.BcSmartspaceConfigProvider;
+import com.android.systemui.smartspace.dagger.SmartspaceModule;
 import com.android.systemui.startable.Dependencies;
 import com.android.systemui.statusbar.CommandQueue;
 import com.android.systemui.statusbar.NotificationLockscreenUserManager;
@@ -109,6 +113,12 @@ import com.android.systemui.unfold.UnfoldTransitionModule;
 import com.android.systemui.util.kotlin.SysUICoroutinesModule;
 import com.android.systemui.volume.dagger.VolumeModule;
 import com.android.systemui.wallpapers.dagger.WallpaperModule;
+
+import com.google.android.systemui.smartspace.BcSmartspaceDataProvider;
+import com.google.android.systemui.smartspace.DateSmartspaceDataProvider;
+import com.google.android.systemui.smartspace.KeyguardSmartspaceStartable;
+import com.google.android.systemui.smartspace.WeatherSmartspaceDataProvider;
+import com.google.android.systemui.smartspace.dagger.SmartspaceGoogleModule;
 
 import dagger.Binds;
 import dagger.Module;
@@ -192,6 +202,7 @@ import javax.inject.Provider;
         ActionCornerModule.class,
         CursorPositionModule.class,
         ContextualCursorModule.class,
+        SmartspaceGoogleModule.class,
 }, subcomponents = {
         ReferenceSysUIDisplaySubcomponent.class
 })
@@ -291,4 +302,36 @@ public abstract class SystemUIGoogleModule {
     static Set<Class<? extends CoreStartable>> providesStatusBarStateControllerDeps() {
         return Set.of(CentralSurfaces.class);
     }
+
+    @Provides
+    @SysUISingleton
+    static BcSmartspaceDataPlugin provideBcSmartspaceDataPlugin() {
+        return new BcSmartspaceDataProvider();
+    }
+
+    @Provides
+    @SysUISingleton
+    @Named(SmartspaceModule.DATE_SMARTSPACE_DATA_PLUGIN)
+    static BcSmartspaceDataPlugin provideDateSmartspaceDataPlugin() {
+        return new DateSmartspaceDataProvider();
+    }
+
+    @Provides
+    @SysUISingleton
+    @Named(SmartspaceModule.WEATHER_SMARTSPACE_DATA_PLUGIN)
+    static BcSmartspaceDataPlugin provideWeatherSmartspaceDataPlugin() {
+        return new WeatherSmartspaceDataProvider();
+    }
+
+    @Provides
+    @SysUISingleton
+    static BcSmartspaceConfigProvider provideBcSmartspaceConfigPlugin(FeatureFlags featureFlags) {
+        return new BcSmartspaceConfigProvider(featureFlags);
+    }
+
+    @Binds
+    @IntoMap
+    @ClassKey(KeyguardSmartspaceStartable.class)
+    abstract CoreStartable bindKeyguardSmartspaceStartable(
+            KeyguardSmartspaceStartable startable);
 }

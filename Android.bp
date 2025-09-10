@@ -39,6 +39,8 @@ android_library {
     static_libs: [
         "SystemUI-core",
         "SystemUIGoogle-res",
+        "smartspace-proto-java",
+        "smartspace-proto-lite-java",
     ],
     enable_ksp: true,
 }

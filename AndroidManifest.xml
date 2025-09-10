@@ -5,6 +5,11 @@
     coreApp="true"
     android:sharedUserId="android.uid.systemui">
 
+    <!-- Smartspace -->
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <protected-broadcast android:name="com.google.android.systemui.smartspace.CLICK_EVENT"/>
+    <protected-broadcast android:name="com.google.android.systemui.smartspace.EXPIRE_EVENT"/>
+
     <application
         android:appComponentFactory="com.google.android.systemui.SystemUIGoogleAppComponentFactory"
         tools:replace="android:appComponentFactory">

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Smartspace -->
+    <string name="accessibility_next_alarm">闹钟的下一次响铃时间是：%s</string>
+    <string name="accessibility_smartspace_page">第 %1$d 页，共 %2$d 页</string>
+    <string name="active_mode_content_description">“%1$s”处于启用状态</string>
+    <string name="generic_smartspace_concatenated_desc">%1$s，%2$s</string>
+    <string name="music_controls_no_title">无标题</string>
+    <string name="smartspace_content_desc">资讯一览</string>
+    <string name="smartspace_flight_qr_code">二维码</string>
+</resources>

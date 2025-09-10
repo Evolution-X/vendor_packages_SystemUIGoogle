@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Smartspace -->
+    <string name="accessibility_next_alarm">পরবর্তী অ্যালার্মের সময় %s</string>
+    <string name="accessibility_smartspace_page">%2$dটির মধ্যে %1$d নম্বর পৃষ্ঠা</string>
+    <string name="active_mode_content_description">%1$s চালু আছে</string>
+    <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
+    <string name="music_controls_no_title">কোনও শীর্ষক নেই</string>
+    <string name="smartspace_content_desc">এক ঝলকে</string>
+    <string name="smartspace_flight_qr_code">QR কোড</string>
+</resources>

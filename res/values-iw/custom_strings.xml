@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Smartspace -->
+    <string name="accessibility_next_alarm">השעון המעורר הבא ב-%s</string>
+    <string name="accessibility_smartspace_page">דף %1$d מתוך %2$d</string>
+    <string name="active_mode_content_description">מצב %1$s פועל</string>
+    <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
+    <string name="music_controls_no_title">ללא שם</string>
+    <string name="smartspace_content_desc">בקצרה</string>
+    <string name="smartspace_flight_qr_code">‏קוד QR</string>
+</resources>

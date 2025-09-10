@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Smartspace -->
+    <string name="accessibility_next_alarm">Επόμενο ξυπνητήρι στις %s</string>
+    <string name="accessibility_smartspace_page">Σελίδα %1$d από %2$d</string>
+    <string name="active_mode_content_description">Η λειτουργία %1$s είναι ενεργή</string>
+    <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
+    <string name="music_controls_no_title">Χωρίς τίτλο</string>
+    <string name="smartspace_content_desc">Με μια ματιά</string>
+    <string name="smartspace_flight_qr_code">Κωδικός QR</string>
+</resources>

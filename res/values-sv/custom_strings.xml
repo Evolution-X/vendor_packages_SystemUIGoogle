@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Smartspace -->
+    <string name="accessibility_next_alarm">Nästa alarm är kl. %s</string>
+    <string name="accessibility_smartspace_page">Sida %1$d av %2$d</string>
+    <string name="active_mode_content_description">%1$s är på</string>
+    <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
+    <string name="music_controls_no_title">Ingen titel</string>
+    <string name="smartspace_content_desc">Snabböversikt</string>
+    <string name="smartspace_flight_qr_code">QR-kod</string>
+</resources>

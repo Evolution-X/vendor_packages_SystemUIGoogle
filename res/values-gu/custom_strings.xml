@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Smartspace -->
+    <string name="accessibility_next_alarm">આગલું અલાર્મ %s વાગ્યે વાગશે</string>
+    <string name="accessibility_smartspace_page">%2$dમાંથી %1$d પેજ</string>
+    <string name="active_mode_content_description">%1$s ચાલુ છે</string>
+    <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
+    <string name="music_controls_no_title">કોઈ શીર્ષક નથી</string>
+    <string name="smartspace_content_desc">એક નજરમાં</string>
+    <string name="smartspace_flight_qr_code">QR કોડ</string>
+</resources>

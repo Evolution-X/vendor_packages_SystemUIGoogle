@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Smartspace -->
+    <string name="accessibility_next_alarm">Volgende wekker om %s</string>
+    <string name="accessibility_smartspace_page">Bladsy %1$d van %2$d</string>
+    <string name="active_mode_content_description">%1$s is aan</string>
+    <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
+    <string name="music_controls_no_title">Titelloos</string>
+    <string name="smartspace_content_desc">Oorsig</string>
+    <string name="smartspace_flight_qr_code">QR-kode</string>
+</resources>

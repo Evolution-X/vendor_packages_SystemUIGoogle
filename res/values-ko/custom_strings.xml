@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Smartspace -->
+    <string name="accessibility_next_alarm">다음 알람: %s</string>
+    <string name="accessibility_smartspace_page">%2$d페이지 중 %1$d페이지</string>
+    <string name="active_mode_content_description">%1$s 사용 중</string>
+    <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
+    <string name="music_controls_no_title">제목 없음</string>
+    <string name="smartspace_content_desc">한눈에 보기</string>
+    <string name="smartspace_flight_qr_code">QR 코드</string>
+</resources>

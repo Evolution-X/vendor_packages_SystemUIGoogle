@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Smartspace -->
+    <string name="accessibility_next_alarm">Ďalší budík je nastavený na %s</string>
+    <string name="accessibility_smartspace_page">%1$d. stránka z(o) %2$d</string>
+    <string name="active_mode_content_description">Režim %1$s je zapnutý</string>
+    <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
+    <string name="music_controls_no_title">Bez názvu</string>
+    <string name="smartspace_content_desc">Prehľad udalostí</string>
+    <string name="smartspace_flight_qr_code">QR kód</string>
+</resources>

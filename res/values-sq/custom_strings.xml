@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Smartspace -->
+    <string name="accessibility_next_alarm">Alarmi tjetër në %s</string>
+    <string name="accessibility_smartspace_page">Faqja %1$d nga %2$d</string>
+    <string name="active_mode_content_description">\"%1$s\" është aktiv</string>
+    <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
+    <string name="music_controls_no_title">Pa titull</string>
+    <string name="smartspace_content_desc">Shkurtimisht</string>
+    <string name="smartspace_flight_qr_code">Kodi QR</string>
+</resources>

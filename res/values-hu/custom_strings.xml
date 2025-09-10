@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Smartspace -->
+    <string name="accessibility_next_alarm">Következő ébresztés időpontja: %s</string>
+    <string name="accessibility_smartspace_page">%1$d. oldal, összesen: %2$d oldal</string>
+    <string name="active_mode_content_description">A(z) %1$s aktív</string>
+    <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
+    <string name="music_controls_no_title">Nincs cím</string>
+    <string name="smartspace_content_desc">Áttekintés</string>
+    <string name="smartspace_flight_qr_code">QR-kód</string>
+</resources>
