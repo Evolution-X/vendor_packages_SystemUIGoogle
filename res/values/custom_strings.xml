@@ -2,7 +2,9 @@
 <resources>
     <!-- Smartspace -->
     <string name="accessibility_next_alarm">Next alarm at %s</string>
+    <string name="accessibility_smartspace_next_page">Next page</string>
     <string name="accessibility_smartspace_page">Page %1$d of %2$d</string>
+    <string name="accessibility_smartspace_previous_page">Previous page</string>
     <string name="active_mode_content_description">%1$s is on</string>
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="music_controls_no_title">No title</string>

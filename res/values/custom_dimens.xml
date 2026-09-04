@@ -30,6 +30,10 @@
     <dimen name="page_indicator_dot_margin">3dp</dimen>
     <dimen name="page_indicator_dot_size">6dp</dimen>
     <dimen name="page_indicator_padding_top">10dp</dimen>
+    <dimen name="pager_dots_min_touch_target">48dp</dimen>
+    <dimen name="pagination_arrow_margin_inner">2dp</dimen>
+    <dimen name="pagination_arrow_margin_outer">4dp</dimen>
+    <dimen name="pagination_arrow_touch_size">40dp</dimen>
     <dimen name="smartspaceLetterSpacing">0.01</dimen>
     <dimen name="subtitle_hit_rect_height">48dp</dimen>
     <dimen name="weather_dream_complication_icon_dimen">36dp</dimen>
