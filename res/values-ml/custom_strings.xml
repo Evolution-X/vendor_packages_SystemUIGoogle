@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">പേരില്ല</string>
     <string name="smartspace_content_desc">ഒറ്റനോട്ടത്തിൽ</string>
     <string name="smartspace_flight_qr_code">QR കോഡ്</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">വികസിപ്പിക്കുക</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">തിരിച്ചറിഞ്ഞ ഗാനം. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">പാട്ട് തിരിച്ചറിയുന്നു</string>
+    <string name="accessibility_now_playing_like_icon">പ്രിയപ്പെട്ടവയിലേക്ക് ചേർക്കുക</string>
+    <string name="accessibility_now_playing_play_icon">ഡിഫോൾട്ട് മ്യൂസിക് പ്ലേയറിൽ പ്ലേ ചെയ്യുക</string>
+    <string name="accessibility_now_playing_unlike_icon">പ്രിയപ്പെട്ടവയിൽ നിന്ന് നീക്കം ചെയ്യുക</string>
+    <string name="now_playing_label">ഇപ്പോൾ കേൾക്കുന്നത്</string>
 </resources>

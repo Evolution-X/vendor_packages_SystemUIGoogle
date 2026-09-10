@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Wimbo hauna jina</string>
     <string name="smartspace_content_desc">Kwa muhtasari</string>
     <string name="smartspace_flight_qr_code">Msimbo wa QR</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Panua</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Imetambua wimbo. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Inatambua wimbo</string>
+    <string name="accessibility_now_playing_like_icon">Weka kwenye vipendwa</string>
+    <string name="accessibility_now_playing_play_icon">Cheza kwenye Kicheza Muziki Chaguomsingi</string>
+    <string name="accessibility_now_playing_unlike_icon">Ondoa kwenye vipendwa</string>
+    <string name="now_playing_label">Kitambua Ngoma</string>
 </resources>

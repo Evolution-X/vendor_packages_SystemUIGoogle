@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Tanpa judul</string>
     <string name="smartspace_content_desc">Sekilas</string>
     <string name="smartspace_flight_qr_code">Kode QR</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Luaskan</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Lagu diidentifikasi. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Mengidentifikasi lagu</string>
+    <string name="accessibility_now_playing_like_icon">Tambahkan ke favorit</string>
+    <string name="accessibility_now_playing_play_icon">Putar di Pemutar Musik Default</string>
+    <string name="accessibility_now_playing_unlike_icon">Hapus dari favorit</string>
+    <string name="now_playing_label">Now Playing</string>
 </resources>

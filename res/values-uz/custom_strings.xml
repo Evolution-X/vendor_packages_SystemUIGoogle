@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Nomsiz</string>
     <string name="smartspace_content_desc">Eng asosiy</string>
     <string name="smartspace_flight_qr_code">QR kod</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Yoyish</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Tarona aniqlandi. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Tarona aniqlanmoqda</string>
+    <string name="accessibility_now_playing_like_icon">Sevimlilarga kiritish</string>
+    <string name="accessibility_now_playing_play_icon">Standart musiqa pleyerida ijro qilish</string>
+    <string name="accessibility_now_playing_unlike_icon">Sevimlilardan olib tashlash</string>
+    <string name="now_playing_label">Hozir ijroda</string>
 </resources>

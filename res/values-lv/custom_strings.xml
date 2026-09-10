@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Nav nosaukuma</string>
     <string name="smartspace_content_desc">Īsumā</string>
     <string name="smartspace_flight_qr_code">Kvadrātkods</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Izvērst</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Identificēta dziesma. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Notiek dziesmas identificēšana</string>
+    <string name="accessibility_now_playing_like_icon">Pievienot izlasei</string>
+    <string name="accessibility_now_playing_play_icon">Atskaņot noklusējuma mūzikas atskaņotājā</string>
+    <string name="accessibility_now_playing_unlike_icon">Noņemt no izlases</string>
+    <string name="now_playing_label">Tagad atskaņo</string>
 </resources>

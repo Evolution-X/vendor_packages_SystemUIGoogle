@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Brez naslova</string>
     <string name="smartspace_content_desc">Hitri pregled</string>
     <string name="smartspace_flight_qr_code">Koda QR</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Razširi</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Skladba je prepoznana. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Prepoznavanje skladbe …</string>
+    <string name="accessibility_now_playing_like_icon">Dodajanje med priljubljene</string>
+    <string name="accessibility_now_playing_play_icon">Predvajanje v privzetem predvajalniku glasbe</string>
+    <string name="accessibility_now_playing_unlike_icon">Odstranitev iz priljubljenih</string>
+    <string name="now_playing_label">Zdaj se predvaja</string>
 </resources>

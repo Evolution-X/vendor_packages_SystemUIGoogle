@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Ez du izenik</string>
     <string name="smartspace_content_desc">Begi-kolpean</string>
     <string name="smartspace_flight_qr_code">QR kodea</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Zabaldu</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Identifikatu da abestia. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Abestia identifikatzen</string>
+    <string name="accessibility_now_playing_like_icon">Gehitu gogokoetan</string>
+    <string name="accessibility_now_playing_play_icon">Erreproduzitu musika-erreproduzigailu lehenetsian</string>
+    <string name="accessibility_now_playing_unlike_icon">Kendu gogokoetatik</string>
+    <string name="now_playing_label">Orain erreproduzitzen</string>
 </resources>

@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Ingen tittel</string>
     <string name="smartspace_content_desc">Kort fortalt</string>
     <string name="smartspace_flight_qr_code">QR-kode</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Utvid</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Sangen er identifisert. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Identifiserer sangen</string>
+    <string name="accessibility_now_playing_like_icon">Legg til som favoritt</string>
+    <string name="accessibility_now_playing_play_icon">Spill av i standardmusikkspilleren</string>
+    <string name="accessibility_now_playing_unlike_icon">Fjern fra favoritter</string>
+    <string name="now_playing_label">Spilles nå</string>
 </resources>

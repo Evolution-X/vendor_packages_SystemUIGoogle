@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">මාතෘකාවක් නැත</string>
     <string name="smartspace_content_desc">එක් බැල්මකින්</string>
     <string name="smartspace_flight_qr_code">QR කේතය</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">දිග හරින්න</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">හඳුනාගත් ගීතය. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">ගීතය හඳුනා ගනිමින්</string>
+    <string name="accessibility_now_playing_like_icon">ප්‍රියතම වෙත එක් කරන්න</string>
+    <string name="accessibility_now_playing_play_icon">පෙරනිමි සංගීත වාදකයේ වාදනය කරන්න</string>
+    <string name="accessibility_now_playing_unlike_icon">ප්‍රියතමවලින් ඉවත් කරන්න</string>
+    <string name="now_playing_label">දැන් වාදනය වේ</string>
 </resources>

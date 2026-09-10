@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">தலைப்பு இல்லை</string>
     <string name="smartspace_content_desc">முகப்புத் தகவல்</string>
     <string name="smartspace_flight_qr_code">QR குறியீடு</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">விரிவாக்கும்</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">பாடல் கண்டறியப்பட்டது. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">பாடலைக் கண்டறிகிறது</string>
+    <string name="accessibility_now_playing_like_icon">பிடித்தவற்றில் சேர்க்கும்</string>
+    <string name="accessibility_now_playing_play_icon">இயல்பு மியூசிக் பிளேயரில் பிளே செய்யும்</string>
+    <string name="accessibility_now_playing_unlike_icon">பிடித்தவற்றிலிருந்து அகற்றும்</string>
+    <string name="now_playing_label">பாடல் விவரம்</string>
 </resources>

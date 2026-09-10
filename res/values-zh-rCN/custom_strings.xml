@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">无标题</string>
     <string name="smartspace_content_desc">资讯一览</string>
     <string name="smartspace_flight_qr_code">二维码</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">展开</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">已识别歌曲。%1$s，%2$s。</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">正在识别歌曲</string>
+    <string name="accessibility_now_playing_like_icon">添加到收藏夹</string>
+    <string name="accessibility_now_playing_play_icon">在默认音乐播放器中播放</string>
+    <string name="accessibility_now_playing_unlike_icon">从收藏夹中移除</string>
+    <string name="now_playing_label">闻曲知音</string>
 </resources>

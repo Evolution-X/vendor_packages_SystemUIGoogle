@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">ርዕስ የለም</string>
     <string name="smartspace_content_desc">በአፍታ ዕይታ</string>
     <string name="smartspace_flight_qr_code">QR ኮድ</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">ዘርጋ</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">የተለየ ዘፈን። %1$s፣ %2$s።</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">ዘፈንን በመለየት ላይ</string>
+    <string name="accessibility_now_playing_like_icon">ወደ ተወዳጆች አክል</string>
+    <string name="accessibility_now_playing_play_icon">ነባሪ የሙዚቃ ማጫወቻ ላይ አጫውት</string>
+    <string name="accessibility_now_playing_unlike_icon">ከተወዳጆች አስወግድ</string>
+    <string name="now_playing_label">አሁን በመጫወት ላይ</string>
 </resources>

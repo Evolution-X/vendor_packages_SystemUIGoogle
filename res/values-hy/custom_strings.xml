@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Անանուն</string>
     <string name="smartspace_content_desc">Հակիրճ գլխավորի մասին</string>
     <string name="smartspace_flight_qr_code">QR կոդ</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Ծավալել</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Երգը նույնականացվել է։ %1$s, %2$s։</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Երգի նույնականացում</string>
+    <string name="accessibility_now_playing_like_icon">Ավելացնել ընտրանիում</string>
+    <string name="accessibility_now_playing_play_icon">Նվագարկել կանխադրված երաժշտական նվագարկիչում</string>
+    <string name="accessibility_now_playing_unlike_icon">Հեռացնել ընտրանուց</string>
+    <string name="now_playing_label">Այժմ հնչում է</string>
 </resources>

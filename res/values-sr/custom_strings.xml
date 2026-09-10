@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Без наслова</string>
     <string name="smartspace_content_desc">Кратак преглед</string>
     <string name="smartspace_flight_qr_code">QR кôд</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Прошири</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Песма је идентификована. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Песма се идентификује</string>
+    <string name="accessibility_now_playing_like_icon">Додај у омиљене</string>
+    <string name="accessibility_now_playing_play_icon">Пусти у подразумеваном музичком плејеру</string>
+    <string name="accessibility_now_playing_unlike_icon">Уклони из омиљених</string>
+    <string name="now_playing_label">Тренутно свира</string>
 </resources>

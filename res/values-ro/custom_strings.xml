@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Fără titlu</string>
     <string name="smartspace_content_desc">Pe scurt</string>
     <string name="smartspace_flight_qr_code">Cod QR</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Extinde</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Melodie identificată. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Se identifică melodia</string>
+    <string name="accessibility_now_playing_like_icon">Adaugă la favorite</string>
+    <string name="accessibility_now_playing_play_icon">Redă în playerul muzical prestabilit</string>
+    <string name="accessibility_now_playing_unlike_icon">Elimină din favorite</string>
+    <string name="now_playing_label">Now Playing</string>
 </resources>

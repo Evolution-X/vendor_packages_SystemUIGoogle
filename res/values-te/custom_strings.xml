@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">శీర్షిక లేదు</string>
     <string name="smartspace_content_desc">డైనమిక్ డిస్‌ప్లే</string>
     <string name="smartspace_flight_qr_code">QR కోడ్</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">విస్తరించండి</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">గుర్తించబడిన పాట. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">పాటను గుర్తిస్తోంది</string>
+    <string name="accessibility_now_playing_like_icon">ఫేవరెట్స్‌కు జోడించండి</string>
+    <string name="accessibility_now_playing_play_icon">ఆటోమేటిక్ సెట్టింగ్ మ్యూజిక్ ప్లేయర్‌లో ప్లే చేయండి</string>
+    <string name="accessibility_now_playing_unlike_icon">ఫేవరెట్స్ నుండి తీసివేయండి</string>
+    <string name="now_playing_label">Now Playing</string>
 </resources>

@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Ingen titel</string>
     <string name="smartspace_content_desc">Snabböversikt</string>
     <string name="smartspace_flight_qr_code">QR-kod</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Utöka</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Låten har identifierats. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Identifierar låt</string>
+    <string name="accessibility_now_playing_like_icon">Lägg till i Favoriter</string>
+    <string name="accessibility_now_playing_play_icon">Spela upp i standardmusikspelare</string>
+    <string name="accessibility_now_playing_unlike_icon">Ta bort från Favoriter</string>
+    <string name="now_playing_label">Nu spelas</string>
 </resources>

@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Başlıksız</string>
     <string name="smartspace_content_desc">Bir bakışta</string>
     <string name="smartspace_flight_qr_code">QR kodu</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Genişlet</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Şarkı tanımlandı. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Şarkı tanımlanıyor</string>
+    <string name="accessibility_now_playing_like_icon">Favorilere ekle</string>
+    <string name="accessibility_now_playing_play_icon">Varsayılan müzik çalarda oynat</string>
+    <string name="accessibility_now_playing_unlike_icon">Favorilerden kaldır</string>
+    <string name="now_playing_label">Ne Çalıyor?</string>
 </resources>

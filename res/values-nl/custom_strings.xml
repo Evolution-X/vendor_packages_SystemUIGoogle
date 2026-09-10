@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Geen titel</string>
     <string name="smartspace_content_desc">Snel overzicht</string>
     <string name="smartspace_flight_qr_code">QR-code</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Uitvouwen</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Nummer herkend. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Nummer herkennen</string>
+    <string name="accessibility_now_playing_like_icon">Toevoegen aan favorieten</string>
+    <string name="accessibility_now_playing_play_icon">Afspelen op standaard muziekspeler</string>
+    <string name="accessibility_now_playing_unlike_icon">Verwijderen uit favorieten</string>
+    <string name="now_playing_label">Now Playing</string>
 </resources>

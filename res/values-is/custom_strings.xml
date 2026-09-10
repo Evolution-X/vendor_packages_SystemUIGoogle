@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Enginn titill</string>
     <string name="smartspace_content_desc">Í fljótu bragði</string>
     <string name="smartspace_flight_qr_code">QR-kóði</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Stækka</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Lag greint. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Greinir lag</string>
+    <string name="accessibility_now_playing_like_icon">Bæta við uppáhald</string>
+    <string name="accessibility_now_playing_play_icon">Spila í sjálfgefnum tónlistarspilara</string>
+    <string name="accessibility_now_playing_unlike_icon">Fjarlægja úr uppáhaldi</string>
+    <string name="now_playing_label">Í spilun</string>
 </resources>

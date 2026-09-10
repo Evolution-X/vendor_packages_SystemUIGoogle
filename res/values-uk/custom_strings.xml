@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Без назви</string>
     <string name="smartspace_content_desc">Найважливіше</string>
     <string name="smartspace_flight_qr_code">QR-код</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Розгорнути</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Пісню розпізнано. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Розпізнавання пісні</string>
+    <string name="accessibility_now_playing_like_icon">Додати у вибране</string>
+    <string name="accessibility_now_playing_play_icon">Відтворити в музичному програвачі за умовчанням</string>
+    <string name="accessibility_now_playing_unlike_icon">Вилучити з вибраного</string>
+    <string name="now_playing_label">Зараз грає</string>
 </resources>

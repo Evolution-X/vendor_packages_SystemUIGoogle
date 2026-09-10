@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">কোনও শীর্ষক নেই</string>
     <string name="smartspace_content_desc">এক ঝলকে</string>
     <string name="smartspace_flight_qr_code">QR কোড</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">বড় করুন</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">শনাক্ত করা গান। %1$s, %2$s।</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">গান শনাক্ত করা হচ্ছ</string>
+    <string name="accessibility_now_playing_like_icon">পছন্দের বিভাগে যোগ করুন</string>
+    <string name="accessibility_now_playing_play_icon">ডিফল্ট মিউজিক প্লেয়ারে চালান</string>
+    <string name="accessibility_now_playing_unlike_icon">পছন্দের বিভাগ থেকে সরান</string>
+    <string name="now_playing_label">এখন চলছে</string>
 </resources>

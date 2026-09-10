@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">無標題</string>
     <string name="smartspace_content_desc">資訊一覽</string>
     <string name="smartspace_flight_qr_code">QR 圖碼</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">展開</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">已辨識歌曲。%1$s，%2$s。</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">正在辨識歌曲</string>
+    <string name="accessibility_now_playing_like_icon">加入收藏</string>
+    <string name="accessibility_now_playing_play_icon">透過預設音樂播放器播放</string>
+    <string name="accessibility_now_playing_unlike_icon">從收藏中移除</string>
+    <string name="now_playing_label">聽聲辨曲</string>
 </resources>

@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Başlıq yoxdur</string>
     <string name="smartspace_content_desc">Ötəri nəzər</string>
     <string name="smartspace_flight_qr_code">QR kodu</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Genişləndirin</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Müəyyən edilmiş mahnı. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Mahnı müəyyən edilir</string>
+    <string name="accessibility_now_playing_like_icon">Sevimlilərə əlavə edin</string>
+    <string name="accessibility_now_playing_play_icon">Defolt musiqi pleyerində oxudun</string>
+    <string name="accessibility_now_playing_unlike_icon">Sevimlilərdən silin</string>
+    <string name="now_playing_label">İndi oxudulanlar</string>
 </resources>

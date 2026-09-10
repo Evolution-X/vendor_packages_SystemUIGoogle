@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">タイトルなし</string>
     <string name="smartspace_content_desc">スナップショット</string>
     <string name="smartspace_flight_qr_code">QR コード</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">開く</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">曲を特定しました。%1$s、%2$s。</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">曲を特定しています</string>
+    <string name="accessibility_now_playing_like_icon">お気に入りに追加</string>
+    <string name="accessibility_now_playing_play_icon">デフォルトの音楽プレーヤーで再生</string>
+    <string name="accessibility_now_playing_unlike_icon">お気に入りから削除</string>
+    <string name="now_playing_label">この曲なに？</string>
 </resources>

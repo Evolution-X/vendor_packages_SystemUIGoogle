@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Няма заглавие</string>
     <string name="smartspace_content_desc">Бърз поглед</string>
     <string name="smartspace_flight_qr_code">QR код</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Разгъване</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Песента е разпозната. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Песента се разпознава</string>
+    <string name="accessibility_now_playing_like_icon">Добавяне към любимите</string>
+    <string name="accessibility_now_playing_play_icon">Възпроизвеждане в основния музикален плейър</string>
+    <string name="accessibility_now_playing_unlike_icon">Премахване от любимите</string>
+    <string name="now_playing_label">Сега слушате</string>
 </resources>

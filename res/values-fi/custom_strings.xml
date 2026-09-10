@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Ei nimeä</string>
     <string name="smartspace_content_desc">Pikanäkymä</string>
     <string name="smartspace_flight_qr_code">QR-koodi</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Laajenna</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Kappale tunnistettu. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Tunnistetaan kappaletta</string>
+    <string name="accessibility_now_playing_like_icon">Lisää suosikkeihin</string>
+    <string name="accessibility_now_playing_play_icon">Toista oletusmusiikkisoittimella</string>
+    <string name="accessibility_now_playing_unlike_icon">Poista suosikeista</string>
+    <string name="now_playing_label">Musiikintunnistus</string>
 </resources>

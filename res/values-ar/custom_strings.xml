@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">بلا عنوان</string>
     <string name="smartspace_content_desc">نظرة سريعة</string>
     <string name="smartspace_flight_qr_code">رمز الاستجابة السريعة</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">توسيع</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">تم التعرّف على الأغنية. أغنية \"%1$s\" للفنان \"%2$s\".</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">جارٍ التعرّف على الأغنية</string>
+    <string name="accessibility_now_playing_like_icon">الإضافة إلى المفضّلة</string>
+    <string name="accessibility_now_playing_play_icon">التشغيل على مشغِّل الموسيقى التلقائي</string>
+    <string name="accessibility_now_playing_unlike_icon">إزالة من المفضّلة</string>
+    <string name="now_playing_label">التعرّف التلقائي على الموسيقى</string>
 </resources>

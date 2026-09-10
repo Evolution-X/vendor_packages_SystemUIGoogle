@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">କୌଣସି ଶୀର୍ଷକ ନାହିଁ</string>
     <string name="smartspace_content_desc">ଏକ ନଜରରେ</string>
     <string name="smartspace_flight_qr_code">QR କୋଡ</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">ବିସ୍ତାର କରନ୍ତୁ</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">ଗୀତକୁ ଚିହ୍ନଟ କରାଯାଇଛି। %1$s, %2$s।</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">ଗୀତକୁ ଚିହ୍ନଟ କରାଯାଉଛି</string>
+    <string name="accessibility_now_playing_like_icon">ପସନ୍ଦଗୁଡ଼ିକରେ ଯୋଗ କରନ୍ତୁ</string>
+    <string name="accessibility_now_playing_play_icon">ଡିଫଲ୍ଟ ମ୍ୟୁଜିକ ପ୍ଲେୟାରରେ ଚଲାନ୍ତୁ</string>
+    <string name="accessibility_now_playing_unlike_icon">ପସନ୍ଦରୁ କାଢ଼ି ଦିଅନ୍ତୁ</string>
+    <string name="now_playing_label">ବର୍ତ୍ତମାନ ଚାଲୁଛି</string>
 </resources>

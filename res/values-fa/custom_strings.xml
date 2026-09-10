@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">بی‌عنوان</string>
     <string name="smartspace_content_desc">در یک نگاه</string>
     <string name="smartspace_flight_qr_code">رمزینه پاسخ‌سریع</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">ازهم بازکردن</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">ترانه شناسایی شد. ‫%1$s، %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">شناسایی ترانه</string>
+    <string name="accessibility_now_playing_like_icon">افزودن به موارد دلخواه</string>
+    <string name="accessibility_now_playing_play_icon">پخش کردن در «پخش‌کننده موسیقی پیش‌فرض»</string>
+    <string name="accessibility_now_playing_unlike_icon">برداشتن از موارد دلخواه</string>
+    <string name="now_playing_label">درحال پخش</string>
 </resources>

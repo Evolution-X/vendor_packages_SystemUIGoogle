@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Bez názvu</string>
     <string name="smartspace_content_desc">Přehled událostí</string>
     <string name="smartspace_flight_qr_code">QR kód</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Rozbalit</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Skladba byla rozpoznána. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Rozpoznávání skladby</string>
+    <string name="accessibility_now_playing_like_icon">Přidat k oblíbeným</string>
+    <string name="accessibility_now_playing_play_icon">Přehrát ve výchozím přehrávači hudby</string>
+    <string name="accessibility_now_playing_unlike_icon">Odebrat z oblíbených</string>
+    <string name="now_playing_label">Co to hraje</string>
 </resources>

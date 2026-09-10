@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Без названия</string>
     <string name="smartspace_content_desc">Самое главное</string>
     <string name="smartspace_flight_qr_code">QR-код</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Развернуть</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Трек распознан. \"%1$s\", %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Распознавание трека</string>
+    <string name="accessibility_now_playing_like_icon">Добавить в избранное</string>
+    <string name="accessibility_now_playing_play_icon">Воспроизвести в аудиоплеере по умолчанию</string>
+    <string name="accessibility_now_playing_unlike_icon">Удалить из избранного</string>
+    <string name="now_playing_label">Что сейчас играет?</string>
 </resources>

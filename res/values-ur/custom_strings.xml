@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">کوئی عنوان نہیں ہے</string>
     <string name="smartspace_content_desc">ایک نظر میں</string>
     <string name="smartspace_flight_qr_code">‏QR کوڈ</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">پھیلائیں</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">گانے کی شناخت ہو گئی۔ ‫%1$s، %2$s۔</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">گانے کی شناخت ہو رہی ہے</string>
+    <string name="accessibility_now_playing_like_icon">پسندیدہ میں شامل کریں</string>
+    <string name="accessibility_now_playing_play_icon">ڈیفالٹ میوزک پلیئر پر چلائیں</string>
+    <string name="accessibility_now_playing_unlike_icon">پسندیدہ سے ہٹائیں</string>
+    <string name="now_playing_label">Now Playing</string>
 </resources>

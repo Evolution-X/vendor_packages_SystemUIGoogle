@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Pa titull</string>
     <string name="smartspace_content_desc">Shkurtimisht</string>
     <string name="smartspace_flight_qr_code">Kodi QR</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Zgjero</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Kënga e identifikuar. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">Po identifikohet kënga</string>
+    <string name="accessibility_now_playing_like_icon">Shto te të preferuarat</string>
+    <string name="accessibility_now_playing_play_icon">Luaj në luajtësin e parazgjedhur të muzikës</string>
+    <string name="accessibility_now_playing_unlike_icon">Hiq nga të preferuarat</string>
+    <string name="now_playing_label">Po luhet tani</string>
 </resources>

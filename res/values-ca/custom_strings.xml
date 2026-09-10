@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Sense títol</string>
     <string name="smartspace_content_desc">D\'una ullada</string>
     <string name="smartspace_flight_qr_code">Codi QR</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Desplega</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">S\'ha identificat la cançó. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">S\'està identificant la cançó</string>
+    <string name="accessibility_now_playing_like_icon">Afegeix als preferits</string>
+    <string name="accessibility_now_playing_play_icon">Reprodueix al reproductor de música predeterminat</string>
+    <string name="accessibility_now_playing_unlike_icon">Suprimeix de preferits</string>
+    <string name="now_playing_label">Està sonant</string>
 </resources>

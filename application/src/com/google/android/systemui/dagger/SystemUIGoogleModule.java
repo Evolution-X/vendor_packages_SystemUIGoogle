@@ -50,8 +50,11 @@ import com.android.systemui.emergency.EmergencyGestureModule;
 import com.android.systemui.flags.FeatureFlags;
 import com.android.systemui.inputdevice.tutorial.KeyboardTouchpadTutorialModule;
 import com.android.systemui.inputmethod.ImeSwitcherMenuModule;
+import com.android.systemui.keyguard.shared.model.KeyguardSection;
 import com.android.systemui.keyboard.shortcut.ShortcutHelperModule;
 import com.android.systemui.keyguard.dagger.KeyguardModule;
+import com.android.systemui.keyguard.data.quickaffordance.KeyguardQuickAffordanceConfig;
+import com.android.systemui.keyguard.domain.interactor.KeyguardInteractor;
 import com.android.systemui.keyguard.ui.view.layout.blueprints.KeyguardBlueprintModule;
 import com.android.systemui.keyguard.ui.view.layout.sections.KeyguardSectionsModule;
 import com.android.systemui.lowlight.dagger.ScreenAwareLightModeMonitorModule;
@@ -63,6 +66,7 @@ import com.android.systemui.minmode.MinModeManagerImpl;
 import com.android.systemui.navigationbar.NavigationBarControllerModule;
 import com.android.systemui.navigationbar.gestural.GestureModule;
 import com.android.systemui.plugins.BcSmartspaceDataPlugin;
+import com.android.systemui.plugins.keyguard.ui.composable.elements.LockscreenElementProvider;
 import com.android.systemui.plugins.qs.QSFactory;
 import com.android.systemui.power.dagger.PowerModule;
 import com.android.systemui.qs.QSFragmentStartableModule;
@@ -114,6 +118,12 @@ import com.android.systemui.util.kotlin.SysUICoroutinesModule;
 import com.android.systemui.volume.dagger.VolumeModule;
 import com.android.systemui.wallpapers.dagger.WallpaperModule;
 
+import com.google.android.systemui.keyguard.AmbientIndicationCoreStartable;
+import com.google.android.systemui.keyguard.data.quickaffordance.NowPlayingQuickAffordanceConfig;
+import com.google.android.systemui.keyguard.data.repository.AmbientIndicationRepository;
+import com.google.android.systemui.keyguard.domain.interactor.AmbientIndicationInteractor;
+import com.google.android.systemui.keyguard.ui.composable.elements.GoogleAmbientIndicationElementProvider;
+import com.google.android.systemui.keyguard.ui.sections.DefaultAmbientIndicationAreaSection;
 import com.google.android.systemui.smartspace.BcSmartspaceDataProvider;
 import com.google.android.systemui.smartspace.DateSmartspaceDataProvider;
 import com.google.android.systemui.smartspace.KeyguardSmartspaceStartable;
@@ -125,6 +135,7 @@ import dagger.Module;
 import dagger.Provides;
 import dagger.multibindings.ClassKey;
 import dagger.multibindings.IntoMap;
+import dagger.multibindings.IntoSet;
 
 import java.util.Optional;
 import java.util.Set;
@@ -334,4 +345,39 @@ public abstract class SystemUIGoogleModule {
     @ClassKey(KeyguardSmartspaceStartable.class)
     abstract CoreStartable bindKeyguardSmartspaceStartable(
             KeyguardSmartspaceStartable startable);
+
+    @Binds
+    @IntoMap
+    @ClassKey(AmbientIndicationCoreStartable.class)
+    abstract CoreStartable bindAmbientIndicationCoreStartable(
+            AmbientIndicationCoreStartable impl);
+
+    @Provides
+    @SysUISingleton
+    static AmbientIndicationRepository provideAmbientIndicationRepository() {
+        return new AmbientIndicationRepository();
+    }
+
+    @Provides
+    @SysUISingleton
+    static AmbientIndicationInteractor provideAmbientIndicationInteractor(
+            AmbientIndicationRepository repository,
+            KeyguardInteractor keyguardInteractor) {
+        return new AmbientIndicationInteractor(repository, keyguardInteractor);
+    }
+
+    @Binds
+    @Named(KeyguardSectionsModule.KEYGUARD_AMBIENT_INDICATION_AREA_SECTION)
+    abstract KeyguardSection bindDefaultAmbientIndicationAreaSection(
+            DefaultAmbientIndicationAreaSection impl);
+
+    @Binds
+    @IntoSet
+    abstract LockscreenElementProvider bindGoogleAmbientIndicationElementProvider(
+            GoogleAmbientIndicationElementProvider impl);
+
+    @Binds
+    @IntoSet
+    abstract KeyguardQuickAffordanceConfig bindNowPlayingQuickAffordanceConfig(
+            NowPlayingQuickAffordanceConfig impl);
 }

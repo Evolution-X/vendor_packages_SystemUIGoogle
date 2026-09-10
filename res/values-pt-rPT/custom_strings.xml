@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">Sem título</string>
     <string name="smartspace_content_desc">Resumo</string>
     <string name="smartspace_flight_qr_code">Código QR</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">Expandir</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">Música identificada. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">A identificar a música</string>
+    <string name="accessibility_now_playing_like_icon">Adicione aos favoritos</string>
+    <string name="accessibility_now_playing_play_icon">Ouça no leitor de música predefinido</string>
+    <string name="accessibility_now_playing_unlike_icon">Remova dos favoritos</string>
+    <string name="now_playing_label">A tocar</string>
 </resources>

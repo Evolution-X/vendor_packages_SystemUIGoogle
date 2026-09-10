@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">제목 없음</string>
     <string name="smartspace_content_desc">한눈에 보기</string>
     <string name="smartspace_flight_qr_code">QR 코드</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">펼치기</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">노래 식별됨. %1$s, %2$s.</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">노래 식별 중</string>
+    <string name="accessibility_now_playing_like_icon">즐겨찾기에 추가</string>
+    <string name="accessibility_now_playing_play_icon">기본 음악 플레이어에서 재생</string>
+    <string name="accessibility_now_playing_unlike_icon">즐겨찾기에서 삭제</string>
+    <string name="now_playing_label">나우 플레잉</string>
 </resources>

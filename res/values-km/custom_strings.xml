@@ -8,4 +8,13 @@
     <string name="music_controls_no_title">គ្មាន​ចំណងជើង</string>
     <string name="smartspace_content_desc">មើលមួយភ្លែត</string>
     <string name="smartspace_flight_qr_code">​កូដ QR</string>
+
+    <!-- Ambient Indication -->
+    <string name="accessibility_action_expand">ពង្រីក</string>
+    <string name="accessibility_now_playing_container_recognition_result_content_description">បានសម្គាល់ចម្រៀង។ %1$s, %2$s។</string>
+    <string name="accessibility_now_playing_container_song_searching_content_description">កំពុងសម្គាល់ចម្រៀង</string>
+    <string name="accessibility_now_playing_like_icon">បញ្ចូល​ទៅក្នុង​សំណព្វ</string>
+    <string name="accessibility_now_playing_play_icon">ចាក់នៅលើកម្មវិធីចាក់តន្ត្រីលំនាំដើម</string>
+    <string name="accessibility_now_playing_unlike_icon">ដកចេញពី​សំណព្វ</string>
+    <string name="now_playing_label">Now Playing</string>
 </resources>
