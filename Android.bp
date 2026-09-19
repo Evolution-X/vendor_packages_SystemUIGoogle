@@ -1,0 +1,103 @@
+java_defaults {
+    name: "SystemUIGoogle-srcs-defaults",
+    use_resource_processor: true,
+    resource_dirs: [],
+    libs: [
+        "keepanno-annotations",
+    ],
+    kotlincflags: [
+        "-Xjvm-default=all",
+        "-opt-in=kotlinx.coroutines.ExperimentalCoroutinesApi",
+        "-P plugin:androidx.compose.compiler.plugins.kotlin:sourceInformation=true",
+    ],
+    plugins: [
+        "androidx.room_room-compiler-plugin",
+        "dagger2-compiler",
+    ],
+}
+
+android_library {
+    name: "SystemUIGoogle-res",
+    use_resource_processor: true,
+    enable_ksp: true,
+    resource_dirs: [
+        "res",
+    ],
+    static_libs: ["SystemUI-res"],
+    manifest: "AndroidManifest-res.xml",
+}
+
+android_library {
+    name: "SystemUIGoogle-core",
+    srcs: [
+        "src/**/*.kt",
+        "src/**/*.java",
+        "src/**/*.aidl",
+    ],
+    defaults: ["SystemUIGoogle-srcs-defaults"],
+    static_libs: [
+        "SystemUI-core",
+        "SystemUIGoogle-res",
+    ],
+    enable_ksp: true,
+}
+
+android_library {
+    name: "SystemUIGoogle-application",
+    srcs: [
+        "application/src/**/*.java",
+        "application/src/**/*.kt",
+    ],
+    defaults: ["SystemUIGoogle-srcs-defaults"],
+    static_libs: [
+        "SystemUIGoogle-core",
+        "com.android.systemui.bundle.phone_dagger",
+        "dagger2",
+    ],
+    enable_ksp: true,
+    annotation_processor_flags: [
+        "dagger.fastInit=enabled",
+        "dagger.explicitBindingConflictsWithInject=ERROR",
+        "dagger.strictMultibindingValidation=enabled",
+        "dagger.useBindingGraphFix=ENABLED",
+    ],
+    manifest: "AndroidManifest.xml",
+}
+
+
+android_app {
+    name: "SystemUIGoogle",
+    defaults: [
+        "platform_app_defaults",
+        "SystemUI_optimized_defaults",
+        "wmshell_defaults",
+    ],
+    static_libs: [
+        "SystemUIGoogle-application"
+    ],
+    resource_dirs: [],
+    enable_ksp: true,
+
+    use_resource_processor: true,
+    platform_apis: true,
+    system_ext_specific: true,
+    certificate: "platform",
+    privileged: true,
+
+    kotlincflags: ["-Xjvm-default=all"],
+
+    dxflags: ["--multi-dex"],
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+        included_proguard_flags_files: [
+            ":sysui_proguard_common_and_kotlin",
+        ],
+    },
+    required: [
+        "privapp_whitelist_com.android.systemui",
+    ],
+
+    overrides: [
+        "SystemUI",
+    ],
+}

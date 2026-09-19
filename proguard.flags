@@ -1,0 +1,14 @@
+-include ../../../../frameworks/base/packages/SystemUI/proguard_common.flags
+
+-keep class com.google.android.systemui.SystemUIGoogleInitializer {
+    *;
+}
+
+-keep,allowoptimization,allowaccessmodification class com.google.android.systemui.dagger.DaggerSysUIGoogleGlobalRootComponent** { !synthetic *; }
+
+-keep class android.frameworks.** { *; }
+-keep class android.hardware.** { *; }
+-keep class com.android.systemui.smartspace.** { *; }
+-keep class com.google.** { *; }
+-keep class org.tensorflow.** { *; }
+-keep class vendor.** { *; }
