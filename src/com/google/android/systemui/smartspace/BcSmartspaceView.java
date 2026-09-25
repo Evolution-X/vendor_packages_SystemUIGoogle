@@ -59,6 +59,7 @@ public class BcSmartspaceView extends FrameLayout
     public BcSmartspaceDataPlugin mDataProvider;
     public boolean mHasPerformedLongPress;
     public boolean mHasPostedLongPress;
+    private boolean mHiddenByPolicy;
     public float mInitialTouchX;
     public float mInitialTouchY;
     public boolean mIsAodEnabled;
@@ -742,7 +743,7 @@ public class BcSmartspaceView extends FrameLayout
                     mAdapter.refreshCardBackground();
                 }
                 mAdapter.updateCurrentTextColor();
-                if (!mAdapter.smartspaceTargets.isEmpty()) {
+                if (!mAdapter.smartspaceTargets.isEmpty() && !mHiddenByPolicy) {
                     BcSmartspaceTemplateDataUtils.updateVisibility(this, View.VISIBLE);
                 }
                 if (mAdapter.hasAodLockscreenTransition) {
@@ -844,6 +845,19 @@ public class BcSmartspaceView extends FrameLayout
     @Override
     public final void setFalsingManager(FalsingManager falsingManager) {
         BcSmartSpaceUtil.sFalsingManager = falsingManager;
+    }
+
+    @Override
+    public final void setHiddenByPolicy(boolean hidden) {
+        if (mHiddenByPolicy == hidden) {
+            return;
+        }
+        mHiddenByPolicy = hidden;
+        if (hidden) {
+            BcSmartspaceTemplateDataUtils.updateVisibility(this, View.GONE);
+        } else if (!mAdapter.smartspaceTargets.isEmpty()) {
+            BcSmartspaceTemplateDataUtils.updateVisibility(this, View.VISIBLE);
+        }
     }
 
     @Override
