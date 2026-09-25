@@ -42,6 +42,7 @@ android_library {
         "androidx.compose.runtime_runtime",
         "smartspace-proto-java",
         "smartspace-proto-lite-java",
+        "tensorflowlite_java",
     ],
     enable_ksp: true,
 }
@@ -80,7 +81,14 @@ android_app {
     static_libs: [
         "SystemUIGoogle-application"
     ],
+    jni_libs: ["libtensorflowlite_jni"],
+    use_embedded_native_libs: true,
     resource_dirs: [],
+    asset_dirs: ["assets"],
+    aaptflags: [
+        "-0 .tflite",
+        "-0 .vocab",
+    ],
     enable_ksp: true,
 
     use_resource_processor: true,
