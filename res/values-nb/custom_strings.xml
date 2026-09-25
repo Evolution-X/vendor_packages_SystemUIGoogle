@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Spill av i standardmusikkspilleren</string>
     <string name="accessibility_now_playing_unlike_icon">Fjern fra favoritter</string>
     <string name="now_playing_label">Spilles nå</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s batteri gjenstår</string>
+    <string name="low_battery_notification_text">Slå på batterisparing for å forlenge batterilevetiden</string>
+    <string name="low_battery_notification_text_ebs">Slå på Ekstrem batterisparing for å forlenge batterilevetiden</string>
+    <string name="severe_battery_notification_title">%s batteri gjenstår</string>
+    <string name="severe_battery_notification_text">Slå på Ekstrem batterisparing. Dette setter alle apper som ikke er nødvendige, på pause</string>
+    <string name="severe_battery_notification_switch_text">Vil du bytte til Ekstrem batterisparing? \n\nDette setter alle apper som ikke er nødvendige, og tilhørende varsler, på pause</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Bytt</string>
+    <string name="extreme_low_battery_notification_title">Veldig lavt batteri</string>
+    <string name="extreme_low_battery_notification_text">Telefonen din slås av hvis den ikke lades snart</string>
 </resources>

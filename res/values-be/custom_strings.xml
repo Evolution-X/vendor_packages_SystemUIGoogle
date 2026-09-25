@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Прайграць на стандартным прайгравальніку музыкі</string>
     <string name="accessibility_now_playing_unlike_icon">Выдаліць з абраных</string>
     <string name="now_playing_label">Зараз іграе</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">Засталося %s зараду акумулятара</string>
+    <string name="low_battery_notification_text">Уключыце рэжым энергазберажэння, каб павялічыць час працы ад акумулятара</string>
+    <string name="low_battery_notification_text_ebs">Уключыце рэжым экстрэмальнага энергазберажэння, каб павялічыць час працы ад акумулятара</string>
+    <string name="severe_battery_notification_title">Застаецца %s зараду акумулятара</string>
+    <string name="severe_battery_notification_text">Уключыце рэжым экстрэмальнага энергазберажэння. Усе другарадныя праграмы будуць прыпынены.</string>
+    <string name="severe_battery_notification_switch_text">Пераключыцца ў рэжым экстрэмальнага энергазберажэння? \n\nУсе другарадныя праграмы і іх апавяшчэнні будуць прыпынены.</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Пераключыцца</string>
+    <string name="extreme_low_battery_notification_title">Вельмі нізкі зарад акумулятара</string>
+    <string name="extreme_low_battery_notification_text">Калі тэлефон не зарадзіць, ён хутка выключыцца</string>
 </resources>

@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">הפעלה בנגן המוזיקה שמוגדר כברירת מחדל</string>
     <string name="accessibility_now_playing_unlike_icon">הסרה מהמועדפים</string>
     <string name="now_playing_label">מה שומעים?</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s נותרו בסוללה</string>
+    <string name="low_battery_notification_text">כדי להאריך את חיי הסוללה, צריך להפעיל את האפשרות \'חיסכון בסוללה\'</string>
+    <string name="low_battery_notification_text_ebs">ניתן להפעיל את \'חיסכון משמעותי בסוללה\' כדי להאריך את חיי הסוללה</string>
+    <string name="severe_battery_notification_title">%s נותרו בסוללה</string>
+    <string name="severe_battery_notification_text">הפעלת המצב \'חיסכון משמעותי בסוללה\'. הפעולה הזו תשהה את כל האפליקציות הלא חיוניות</string>
+    <string name="severe_battery_notification_switch_text">לעבור למצב \'חיסכון משמעותי בסוללה\'? \n\nהפעולה הזו תשהה את כל האפליקציות הלא חיוניות ואת ההתראות שלהן</string>
+    <string name="severe_low_battery_dialog_switch_action_text">מעבר</string>
+    <string name="extreme_low_battery_notification_title">הסוללה חלשה מאוד</string>
+    <string name="extreme_low_battery_notification_text">אם הטלפון לא ייטען בקרוב, הוא יכבה</string>
 </resources>

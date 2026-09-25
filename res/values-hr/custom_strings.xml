@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Reproduciraj na zadanomu playeru</string>
     <string name="accessibility_now_playing_unlike_icon">Ukloni iz favorita</string>
     <string name="now_playing_label">Upravo svira</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">Preostalo baterije: %s</string>
+    <string name="low_battery_notification_text">Uključite štednju baterije da biste produljili trajanje baterije</string>
+    <string name="low_battery_notification_text_ebs">Uključite ekstremnu štednju baterije da biste produljili trajanje baterije</string>
+    <string name="severe_battery_notification_title">Preostalo baterije: %s</string>
+    <string name="severe_battery_notification_text">Uključite ekstremnu štednju baterije. Time će se pauzirati sve aplikacije koje nisu neophodne</string>
+    <string name="severe_battery_notification_switch_text">Želite li prijeći na ekstremnu štednju baterije? \n\nTime će se pauzirati sve aplikacije koje nisu neophodne i njihove obavijesti</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Prebaci</string>
+    <string name="extreme_low_battery_notification_title">Vrlo slaba baterija</string>
+    <string name="extreme_low_battery_notification_text">Telefon će se isključiti ako ga uskoro ne napunite</string>
 </resources>

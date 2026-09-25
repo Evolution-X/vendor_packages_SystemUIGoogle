@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">ຫຼິ້ນໃນໂປຣແກຣມຫຼິ້ນເພງເລີ່ມຕົ້ນ</string>
     <string name="accessibility_now_playing_unlike_icon">ລຶບອອກຈາກລາຍການທີ່ມັກ</string>
     <string name="now_playing_label">Now Playing</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">ເຫຼືອແບັດເຕີຣີ %s</string>
+    <string name="low_battery_notification_text">ທ່ານສາມາດເປີດໃຊ້ຕົວປະຢັດແບັດເຕີຣີເພື່ອຍືດອາຍຸແບັດເຕີຣີໄດ້</string>
+    <string name="low_battery_notification_text_ebs">ເປີດຕົວປະຢັດແບັດເຕີຣີຂັ້ນສຸດຂີດເພື່ອຍືດອາຍຸແບັດເຕີຣີ</string>
+    <string name="severe_battery_notification_title">ແບັດເຕີຣີເຫຼືອ %s</string>
+    <string name="severe_battery_notification_text">ເປີດໃຊ້ຕົວປະຢັດແບັດເຕີຣີຂັ້ນສຸດຂີດ. ລະບົບຈະຢຸດແອັບທີ່ບໍ່ສຳຄັນທັງໝົດໄວ້ຊົ່ວຄາວ</string>
+    <string name="severe_battery_notification_switch_text">ສະຫຼັບໄປໃຊ້ຕົວປະຢັດແບັດເຕີຣີຂັ້ນສຸດຂີດບໍ? \n\nລະບົບຈະຢຸດແອັບທີ່ບໍ່ສຳຄັນທັງໝົດ ແລະ ການແຈ້ງເຕືອນຂອງແອັບເຫຼົ່ານັ້ນໄວ້ຊົ່ວຄາວ</string>
+    <string name="severe_low_battery_dialog_switch_action_text">ສະຫຼັບ</string>
+    <string name="extreme_low_battery_notification_title">ແບັດເຕີຣີຕໍ່າຫຼາຍ</string>
+    <string name="extreme_low_battery_notification_text">ໂທລະສັບຂອງທ່ານຈະປິດເຄື່ອງຫາກບໍ່ໄດ້ສາກໃນໄວໆນີ້</string>
 </resources>

@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">डिफल्ट म्युजिक प्लेयरमा प्ले गर्नुहोस्</string>
     <string name="accessibility_now_playing_unlike_icon">मन पर्ने कुराहरूको सूचीबाट हटाउनुहोस्</string>
     <string name="now_playing_label">Now Playing</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s ब्याट्री बाँकी छ</string>
+    <string name="low_battery_notification_text">ब्याट्रीको आयु बढाउन ब्याट्री सेभर अन गर्नुहोस्</string>
+    <string name="low_battery_notification_text_ebs">ब्याट्रीको आयु बढाउन एक्स्ट्रिम ब्याट्री सेभर अन गर्नुहोस्</string>
+    <string name="severe_battery_notification_title">%s ब्याट्री बाँकी छ</string>
+    <string name="severe_battery_notification_text">एक्स्ट्रिम ब्याट्री सेभर अन गर्नुहोस्। यसले अत्यावश्यकबाहेकका सबै एप केही समयका लागि पज गर्ने छ</string>
+    <string name="severe_battery_notification_switch_text">एक्स्ट्रिम ब्याट्री सेभर अन गर्ने हो? \n\nयसले अत्यावश्यकबाहेकका सबै एप र तिनका नोटिफिकेसनहरू केही समयका लागि पज गर्ने छ</string>
+    <string name="severe_low_battery_dialog_switch_action_text">बदल्नुहोस्</string>
+    <string name="extreme_low_battery_notification_title">ब्याट्री ज्यादै कम छ</string>
+    <string name="extreme_low_battery_notification_text">तपाईंले आफ्नो फोन चाँडै चार्ज गर्नुभएन भने सो फोन अफ हुने छ</string>
 </resources>

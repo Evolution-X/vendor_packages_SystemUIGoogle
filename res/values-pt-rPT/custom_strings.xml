@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Ouça no leitor de música predefinido</string>
     <string name="accessibility_now_playing_unlike_icon">Remova dos favoritos</string>
     <string name="now_playing_label">A tocar</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s de bateria restante</string>
+    <string name="low_battery_notification_text">Ative a Poupança de bateria para prolongar a autonomia da bateria</string>
+    <string name="low_battery_notification_text_ebs">Ative a Poupança de bateria extrema para prolongar a autonomia da bateria</string>
+    <string name="severe_battery_notification_title">%s de bateria restante</string>
+    <string name="severe_battery_notification_text">Ative a Poupança de bateria extrema. Isto vai pausar todas as apps não essenciais</string>
+    <string name="severe_battery_notification_switch_text">Mudar para a Poupança de bateria extrema? \n\nIsto vai pausar todas as aps não essenciais e as respetivas notificações</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Mudar</string>
+    <string name="extreme_low_battery_notification_title">Bateria muito fraca</string>
+    <string name="extreme_low_battery_notification_text">O telemóvel vai ser encerrado se não for carregado brevemente</string>
 </resources>

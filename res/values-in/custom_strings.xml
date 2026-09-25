@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Putar di Pemutar Musik Default</string>
     <string name="accessibility_now_playing_unlike_icon">Hapus dari favorit</string>
     <string name="now_playing_label">Now Playing</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">Daya baterai tersisa %s</string>
+    <string name="low_battery_notification_text">Aktifkan Penghemat Baterai untuk memperpanjang daya tahan baterai</string>
+    <string name="low_battery_notification_text_ebs">Aktifkan Penghemat Baterai Super untuk memperpanjang daya tahan baterai</string>
+    <string name="severe_battery_notification_title">Daya baterai tersisa %s</string>
+    <string name="severe_battery_notification_text">Aktifkan Penghemat Baterai Super yang akan menjeda semua aplikasi tidak penting</string>
+    <string name="severe_battery_notification_switch_text">Beralih ke Penghemat Baterai Super? \n\nFitur ini akan menjeda semua aplikasi yang tidak penting dan notifikasinya</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Ubah</string>
+    <string name="extreme_low_battery_notification_title">Baterai sangat lemah</string>
+    <string name="extreme_low_battery_notification_text">Ponsel Anda akan mati jika tidak segera diisi daya</string>
 </resources>

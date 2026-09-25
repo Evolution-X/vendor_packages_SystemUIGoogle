@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">ڈیفالٹ میوزک پلیئر پر چلائیں</string>
     <string name="accessibility_now_playing_unlike_icon">پسندیدہ سے ہٹائیں</string>
     <string name="now_playing_label">Now Playing</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s بیٹری باقی ہے</string>
+    <string name="low_battery_notification_text">بیٹری لائف کو بڑھانے کے لیے بیٹری سیور آن کریں</string>
+    <string name="low_battery_notification_text_ebs">بیٹری لائف کو بڑھانے کے لیے انتہائی بیٹری سیور آن کریں</string>
+    <string name="severe_battery_notification_title">%s بیٹری باقی ہے</string>
+    <string name="severe_battery_notification_text">انتہائی بیٹری سیور آن کریں۔ اس سے تمام غیر ضروری ایپس موقوف ہو جائیں گی۔</string>
+    <string name="severe_battery_notification_switch_text">انتہائی بیٹری سیور پر سوئچ کریں؟ \n\nاس سے تمام غیر ضروری ایپس اور ان کی اطلاعات موقوف ہو جائیں گی</string>
+    <string name="severe_low_battery_dialog_switch_action_text">سوئچ کریں</string>
+    <string name="extreme_low_battery_notification_title">بیٹری بہت کم ہے</string>
+    <string name="extreme_low_battery_notification_text">اگر اسے جلد ہی چارج نہیں کیا گیا تو آپ کا فون شٹ ڈاؤن ہو جائے گا</string>
 </resources>

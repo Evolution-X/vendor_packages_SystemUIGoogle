@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">透過預設音樂播放器播放</string>
     <string name="accessibility_now_playing_unlike_icon">從收藏中移除</string>
     <string name="now_playing_label">聽聲辨曲</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">剩餘電池電量：%s</string>
+    <string name="low_battery_notification_text">開啟省電模式可延長電池續航力</string>
+    <string name="low_battery_notification_text_ebs">開啟超級省電模式，延長電池續航力</string>
+    <string name="severe_battery_notification_title">剩餘電池電量：%s</string>
+    <string name="severe_battery_notification_text">開啟超級省電模式可暫停所有非必要應用程式</string>
+    <string name="severe_battery_notification_switch_text">要切換到超級省電模式嗎？\n\n系統將暫停所有非必要應用程式及其通知</string>
+    <string name="severe_low_battery_dialog_switch_action_text">切換</string>
+    <string name="extreme_low_battery_notification_title">電力即將用盡</string>
+    <string name="extreme_low_battery_notification_text">請盡快充電，否則手機即將關機</string>
 </resources>

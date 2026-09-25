@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Whether to show extreme battery saver reminder -->
+    <bool name="config_show_extreme_battery_saver_reminder">true</bool>
+</resources>

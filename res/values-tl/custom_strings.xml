@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">I-play sa Default na Player ng Musika</string>
     <string name="accessibility_now_playing_unlike_icon">Alisin sa mga paborito</string>
     <string name="now_playing_label">Nagpi-play Ngayon</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s na lang ang baterya</string>
+    <string name="low_battery_notification_text">I-on ang Pantipid ng Baterya para patagalin ang baterya</string>
+    <string name="low_battery_notification_text_ebs">I-on ang Max na Pantipid ng Baterya para patagalin ang baterya</string>
+    <string name="severe_battery_notification_title">%s na lang ang baterya</string>
+    <string name="severe_battery_notification_text">I-on ang Max na Pantipid ng Baterya. Ipo-pause nito ang lahat ng hindi mahalagang app</string>
+    <string name="severe_battery_notification_switch_text">Lumipat sa Max na Pantipid ng Baterya? \n\nIpo-pause nito ang lahat ng hindi mahalagang app at ang notification ng mga ito</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Lumipat</string>
+    <string name="extreme_low_battery_notification_title">Napakahinang baterya</string>
+    <string name="extreme_low_battery_notification_text">Magsa-shut down ang iyong telepono kung hindi ito icha-charge sa lalong madaling panahon</string>
 </resources>

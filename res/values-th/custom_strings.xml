@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">เล่นในมิวสิกเพลเยอร์เริ่มต้น</string>
     <string name="accessibility_now_playing_unlike_icon">นำออกจากรายการโปรด</string>
     <string name="now_playing_label">กำลังเล่น</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">แบตเตอรี่เหลืออยู่ %s</string>
+    <string name="low_battery_notification_text">เปิดโหมดประหยัดแบตเตอรี่เพื่อยืดอายุการใช้งานแบตเตอรี่</string>
+    <string name="low_battery_notification_text_ebs">เปิดโหมดประหยัดแบตเตอรี่สูงสุดเพื่อยืดอายุการใช้งานแบตเตอรี่</string>
+    <string name="severe_battery_notification_title">แบตเตอรี่เหลืออยู่ %s</string>
+    <string name="severe_battery_notification_text">เปิดโหมดประหยัดแบตเตอรี่สูงสุด ระบบจะหยุดแอปที่ไม่จำเป็นทั้งหมดไว้ชั่วคราว</string>
+    <string name="severe_battery_notification_switch_text">เปลี่ยนไปใช้โหมดประหยัดแบตเตอรี่สูงสุดไหม \n\nระบบจะหยุดแอปที่ไม่จำเป็นทั้งหมดและการแจ้งเตือนของแอปเหล่านั้นไว้ชั่วคราว</string>
+    <string name="severe_low_battery_dialog_switch_action_text">เปลี่ยน</string>
+    <string name="extreme_low_battery_notification_title">แบตเตอรี่เหลือน้อยมาก</string>
+    <string name="extreme_low_battery_notification_text">โทรศัพท์ของคุณจะปิดลงหากไม่ชาร์จเร็วๆ นี้</string>
 </resources>

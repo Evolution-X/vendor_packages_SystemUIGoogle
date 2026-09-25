@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Reproducir en el reproductor de música predeterminado</string>
     <string name="accessibility_now_playing_unlike_icon">Quitar de favoritos</string>
     <string name="now_playing_label">Está sonando</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">Batería restante: %s</string>
+    <string name="low_battery_notification_text">Activa el Ahorro de batería para extender la duración de la batería</string>
+    <string name="low_battery_notification_text_ebs">Activa el Ahorro de batería extremo para extender la duración de la batería</string>
+    <string name="severe_battery_notification_title">Batería restante: %s</string>
+    <string name="severe_battery_notification_text">Activa el Ahorro de batería extremo. Esto detendrá todas las apps no esenciales.</string>
+    <string name="severe_battery_notification_switch_text">¿Quieres cambiar al Ahorro de batería extremo? \n\nEsto detendrá todas las apps no esenciales y sus notificaciones</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Cambiar</string>
+    <string name="extreme_low_battery_notification_title">Batería muy baja</string>
+    <string name="extreme_low_battery_notification_text">Se apagará el teléfono si no se carga pronto</string>
 </resources>

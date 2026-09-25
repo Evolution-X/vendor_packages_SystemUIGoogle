@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Демейки аудио ойноткучта ойнотуу</string>
     <string name="accessibility_now_playing_unlike_icon">Тандалмалардан өчүрүү</string>
     <string name="now_playing_label">Эмне ойноп жатат?</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">Батареянын кубаты %s калды</string>
+    <string name="low_battery_notification_text">Батареяны көбүрөөк убакытка жеткирүү үчүн Батареяны үнөмдөгүч режимин күйгүзүңүз</string>
+    <string name="low_battery_notification_text_ebs">Батареяны көбүрөөк убакытка жеткирүү үчүн батареяны кескин үнөмдөө режимин күйгүзүңүз</string>
+    <string name="severe_battery_notification_title">Батареянын кубаты %s калды</string>
+    <string name="severe_battery_notification_text">Батареяны кескин үнөмдөө режимин күйгүзүңүз. Кереги жок колдонмолордун баары тындырылат.</string>
+    <string name="severe_battery_notification_switch_text">Батареяны кескин үнөмдөө режимине которуласызбы? \n\nКереги жок колдонмолордун баары жана алардын билдирмелери тындырылат.</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Которулуу</string>
+    <string name="extreme_low_battery_notification_title">Батарея отурайын деп калды</string>
+    <string name="extreme_low_battery_notification_text">Телефонду кубаттабасаңыз, ал бир аздан кийин өчүп калат</string>
 </resources>

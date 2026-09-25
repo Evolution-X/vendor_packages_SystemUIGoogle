@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Prehrať v predvolenom prehrávači hudby</string>
     <string name="accessibility_now_playing_unlike_icon">Odobrať z obľúbených</string>
     <string name="now_playing_label">Čo to hrá</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">Zostáva %s batérie</string>
+    <string name="low_battery_notification_text">Ak chcete predĺžiť výdrž batérie, zapnite šetrič batérie</string>
+    <string name="low_battery_notification_text_ebs">Zapnite super šetrič batérie na predĺženie jej výdrže</string>
+    <string name="severe_battery_notification_title">Zostáva %s batérie</string>
+    <string name="severe_battery_notification_text">Zapnite super šetrič batérie. Táto akcia pozastaví všetky aplikácie, ktoré nie sú nutné.</string>
+    <string name="severe_battery_notification_switch_text">Chcete prepnúť na super šetrič batérie? \n\nTáto akcia pozastaví všetky aplikácie, ktoré nie sú nutné, a ich upozornenia</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Prepnúť</string>
+    <string name="extreme_low_battery_notification_title">Veľmi nízky stav batérie</string>
+    <string name="extreme_low_battery_notification_text">Ak si telefón čo najskôr nenabijete, vypne sa</string>
 </resources>

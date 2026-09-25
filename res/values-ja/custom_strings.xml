@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">デフォルトの音楽プレーヤーで再生</string>
     <string name="accessibility_now_playing_unlike_icon">お気に入りから削除</string>
     <string name="now_playing_label">この曲なに？</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">バッテリー残量: %s</string>
+    <string name="low_battery_notification_text">バッテリー セーバーを ON にするとバッテリーが長持ちします</string>
+    <string name="low_battery_notification_text_ebs">スーパー バッテリー セーバーを ON にするとバッテリーが長持ちします</string>
+    <string name="severe_battery_notification_title">バッテリー残量: %s</string>
+    <string name="severe_battery_notification_text">スーパー バッテリー セーバーをオンにします。必須ではないアプリをすべて一時停止します</string>
+    <string name="severe_battery_notification_switch_text">スーパー バッテリー セーバーに切り替えますか？\n\n必須ではないアプリやその通知を一時停止します。</string>
+    <string name="severe_low_battery_dialog_switch_action_text">切り替える</string>
+    <string name="extreme_low_battery_notification_title">バッテリー残量: 非常に少ない</string>
+    <string name="extreme_low_battery_notification_text">すぐに充電しないとスマートフォンはシャットダウンします</string>
 </resources>

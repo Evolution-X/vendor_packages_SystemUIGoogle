@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Odtwórz w domyślnym odtwarzaczu muzyki</string>
     <string name="accessibility_now_playing_unlike_icon">Usuń z ulubionych</string>
     <string name="now_playing_label">Co jest grane</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">Pozostało %s baterii</string>
+    <string name="low_battery_notification_text">Włącz Oszczędzanie baterii, aby wydłużyć jej żywotność</string>
+    <string name="low_battery_notification_text_ebs">Włącz Maksymalne oszczędzanie baterii, aby wydłużyć jej czas pracy</string>
+    <string name="severe_battery_notification_title">Pozostało %s baterii</string>
+    <string name="severe_battery_notification_text">Włączyć maksymalne oszczędzanie baterii? Spowoduje to wstrzymanie mniej ważnych aplikacji.</string>
+    <string name="severe_battery_notification_switch_text">Przełączyć na maksymalne oszczędzanie baterii? \n\nSpowoduje to wstrzymanie mniej ważnych aplikacji oraz ich powiadomień.</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Przełącz</string>
+    <string name="extreme_low_battery_notification_title">Bardzo słaba bateria</string>
+    <string name="extreme_low_battery_notification_text">Telefon się wyłączy, jeśli nie zostanie wkrótce naładowany</string>
 </resources>

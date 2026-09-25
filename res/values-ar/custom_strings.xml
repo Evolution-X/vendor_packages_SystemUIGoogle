@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">التشغيل على مشغِّل الموسيقى التلقائي</string>
     <string name="accessibility_now_playing_unlike_icon">إزالة من المفضّلة</string>
     <string name="now_playing_label">التعرّف التلقائي على الموسيقى</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">‏يتبقّى ‎%s من طاقة البطارية</string>
+    <string name="low_battery_notification_text">فعِّل ميزة \"توفير شحن البطارية\" لإطالة عمر البطارية</string>
+    <string name="low_battery_notification_text_ebs">ننصحك بتفعيل ميزة \"توفير البطارية العالي\" لإطالة عمر البطارية.</string>
+    <string name="severe_battery_notification_title">‏يتبقى ‎%s من طاقة البطارية</string>
+    <string name="severe_battery_notification_text">فعِّل وضع \"توفير البطارية العالي\"، ما سيؤدي إلى إيقاف جميع التطبيقات غير الأساسية</string>
+    <string name="severe_battery_notification_switch_text">هل تريد التبديل إلى وضع \"توفير البطارية العالي\"؟ \n\nسيؤدي هذا إلى إيقاف جميع التطبيقات غير الأساسية وإشعاراتها.</string>
+    <string name="severe_low_battery_dialog_switch_action_text">تبديل</string>
+    <string name="extreme_low_battery_notification_title">طاقة البطارية منخفضة جدًا</string>
+    <string name="extreme_low_battery_notification_text">سيتم إيقاف تشغيل الهاتف إذا لم تشحنه قريبًا</string>
 </resources>

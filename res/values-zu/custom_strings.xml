@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Dlala Esidlalini Somculo Esizenzakalelayo</string>
     <string name="accessibility_now_playing_unlike_icon">Susa ezintandokazini</string>
     <string name="now_playing_label">Okudlala Manje</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s ibhethri elisele</string>
+    <string name="low_battery_notification_text">Vula Isilondolozi Sebhethri ukuze wandise impilo yebhethri</string>
+    <string name="low_battery_notification_text_ebs">Vula isilondolozi sebhethri ukuze unwebe impilo yebhethri?</string>
+    <string name="severe_battery_notification_title">%s ibhethri elisele</string>
+    <string name="severe_battery_notification_text">Vula Ukonga Ibhethri Okuthuthukisiwe. Lokhu kuzomisa okwesikhashana onke ama-app angabalulekile</string>
+    <string name="severe_battery_notification_switch_text">Shintshela Kusilondolozi Sebhethri Esidlulele? \n\nLokhu kuzomisa onke ama-app abalulekile kanye nezaziso zawo</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Shintsha</string>
+    <string name="extreme_low_battery_notification_title">Ibhethri liphansi kakhulu</string>
+    <string name="extreme_low_battery_notification_text">Ifoni yakho izocisha uma ingashajwa maduze</string>
 </resources>

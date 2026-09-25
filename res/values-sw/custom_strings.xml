@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Cheza kwenye Kicheza Muziki Chaguomsingi</string>
     <string name="accessibility_now_playing_unlike_icon">Ondoa kwenye vipendwa</string>
     <string name="now_playing_label">Kitambua Ngoma</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">Imebaki %s ya chaji ya betri</string>
+    <string name="low_battery_notification_text">Washa Kiokoa Betri ili uongeze muda wa matumizi ya betri</string>
+    <string name="low_battery_notification_text_ebs">Washa Kiokoa Betri kwa Kina ili uongeze muda wa matumizi ya betri</string>
+    <string name="severe_battery_notification_title">Chaji ya betri imebaki %s</string>
+    <string name="severe_battery_notification_text">Washa kipengele cha Kiokoa Betri kwa Kina. Hatua hii itasitisha programu zote zisizo muhimu</string>
+    <string name="severe_battery_notification_switch_text">Ungependa kutumia Kiokoa Betri kwa Kina? \n\nHatua hii itasitisha programu zote zisizo muhimu na arifa zake</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Badilisha</string>
+    <string name="extreme_low_battery_notification_title">Chaji imepungua sana</string>
+    <string name="extreme_low_battery_notification_text">Simu yako itazimika usipoichaji hivi karibuni</string>
 </resources>

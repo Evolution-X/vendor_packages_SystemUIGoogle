@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">ডিফ’ল্ট সংগীত প্লে’য়াৰত প্লে’ কৰক</string>
     <string name="accessibility_now_playing_unlike_icon">প্ৰিয়ৰ পৰা আঁতৰাওক</string>
     <string name="now_playing_label">সদ্য পৰিৱেশিত গীত</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s বেটাৰী বাকী আছে</string>
+    <string name="low_battery_notification_text">বেটাৰীৰ জীৱনকাল বৃদ্ধি কৰিবলৈ বেটাৰী সঞ্চয়কাৰী অন কৰক</string>
+    <string name="low_battery_notification_text_ebs">বেটাৰীৰ জীৱনকাল বৃদ্ধি কৰিবলৈ চৰম বেটাৰী সঞ্চয়কাৰী অন কৰক</string>
+    <string name="severe_battery_notification_title">%s বেটাৰী বাকী আছে</string>
+    <string name="severe_battery_notification_text">চৰম বেটাৰী সঞ্চয়কাৰী অন কৰক। এইটোৱে অত্যাৱশ্যকীয় নোহোৱা আটাইবোৰ এপ্‌ পজ কৰিব</string>
+    <string name="severe_battery_notification_switch_text">চৰম বেটাৰী সঞ্চয়কাৰীলৈ সলনি কৰিবনে? \n\nএইটোৱে অত্যাৱশ্যকীয় নোহোৱা আটাইবোৰ এপ্‌ আৰু সেইবোৰৰ জাননী পজ কৰিব</string>
+    <string name="severe_low_battery_dialog_switch_action_text">সলনি কৰক</string>
+    <string name="extreme_low_battery_notification_title">বেটাৰী তেনেই কম আছে</string>
+    <string name="extreme_low_battery_notification_text">আপোনাৰ ফ’নটো সোনকালে চাৰ্জ নকৰিলে সেইটো শ্বাট ডাউন হৈ যাব</string>
 </resources>

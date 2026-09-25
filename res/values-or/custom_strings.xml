@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">ଡିଫଲ୍ଟ ମ୍ୟୁଜିକ ପ୍ଲେୟାରରେ ଚଲାନ୍ତୁ</string>
     <string name="accessibility_now_playing_unlike_icon">ପସନ୍ଦରୁ କାଢ଼ି ଦିଅନ୍ତୁ</string>
     <string name="now_playing_label">ବର୍ତ୍ତମାନ ଚାଲୁଛି</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s ବେଟେରୀ ଚାର୍ଜ ବାକି ଅଛି</string>
+    <string name="low_battery_notification_text">ବେଟେରୀ ଲାଇଫକୁ ବଢ଼ାଇବା ପାଇଁ ବେଟେରୀ ସେଭରକୁ ଚାଲୁ କରନ୍ତୁ</string>
+    <string name="low_battery_notification_text_ebs">ବେଟେରୀ ଲାଇଫକୁ ବଢ଼ାଇବା ପାଇଁ ଏକ୍ସଟ୍ରିମ ବେଟେରୀ ସେଭରକୁ ଚାଲୁ କରନ୍ତୁ</string>
+    <string name="severe_battery_notification_title">%s ବେଟେରୀ ଚାର୍ଜ ବାକି ଅଛି</string>
+    <string name="severe_battery_notification_text">ଏକ୍ସଟ୍ରିମ ବେଟେରୀ ସେଭରକୁ ଚାଲୁ କରନ୍ତୁ। ଏହା ସମସ୍ତ ଅତ୍ୟାବଶ୍ୟକ-ହୋଇନଥିବା ଆପ୍ସକୁ ବିରତ କରିବ</string>
+    <string name="severe_battery_notification_switch_text">ଏକ୍ସଟ୍ରିମ ବେଟେରୀ ସେଭରକୁ ସ୍ୱିଚ କରିବେ? \n\nଏହା ସମସ୍ତ ଅତ୍ୟାବଶ୍ୟକ-ହୋଇନଥିବା ଆପ୍ସ ଏବଂ ଏହାର ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକୁ ବିରତ କରିବ</string>
+    <string name="severe_low_battery_dialog_switch_action_text">ସ୍ୱିଚ କରନ୍ତୁ</string>
+    <string name="extreme_low_battery_notification_title">ବହୁତ କମ ବେଟେରୀ ଚାର୍ଜ</string>
+    <string name="extreme_low_battery_notification_text">ଯଦି ଆପଣଙ୍କ ଫୋନକୁ ଶୀଘ୍ର ଚାର୍ଜ କରାନଯାଏ ତେବେ ଏହା ବନ୍ଦ ହୋଇଯିବ</string>
 </resources>

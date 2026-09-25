@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">기본 음악 플레이어에서 재생</string>
     <string name="accessibility_now_playing_unlike_icon">즐겨찾기에서 삭제</string>
     <string name="now_playing_label">나우 플레잉</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">배터리 %s 남음</string>
+    <string name="low_battery_notification_text">절전 모드를 사용 설정하여 배터리 수명을 늘리세요</string>
+    <string name="low_battery_notification_text_ebs">최대 절전 모드를 사용 설정하여 배터리 수명을 늘리시겠습니까?</string>
+    <string name="severe_battery_notification_title">배터리 %s 남음</string>
+    <string name="severe_battery_notification_text">최대 절전 모드를 사용 설정합니다. 이렇게 하면 필수 앱 이외의 모든 앱과 앱의 알림이 일시중지됩니다.</string>
+    <string name="severe_battery_notification_switch_text">최대 절전 모드로 전환하시겠습니까? \n\n이렇게 하면 필수 앱 이외의 모든 앱과 앱의 알림이 일시중지됩니다</string>
+    <string name="severe_low_battery_dialog_switch_action_text">전환</string>
+    <string name="extreme_low_battery_notification_title">배터리 매우 부족</string>
+    <string name="extreme_low_battery_notification_text">충전하지 않으면 휴대전화가 곧 종료됩니다.</string>
 </resources>

@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">ਪੂਰਵ-ਨਿਰਧਾਰਿਤ ਮਿਊਜ਼ਿਕ ਪਲੇਅਰ \'ਤੇ ਚਲਾਓ</string>
     <string name="accessibility_now_playing_unlike_icon">ਮਨਪਸੰਦ ਵਿੱਚੋਂ ਹਟਾਓ</string>
     <string name="now_playing_label">Now Playing</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s ਬੈਟਰੀ ਬਾਕੀ ਬਚੀ ਹੈ</string>
+    <string name="low_battery_notification_text">ਬੈਟਰੀ ਲਾਈਫ਼ ਵਧਾਉਣ ਲਈ ਬੈਟਰੀ ਸੇਵਰ ਚਾਲੂ ਕਰੋ</string>
+    <string name="low_battery_notification_text_ebs">ਬੈਟਰੀ ਲਾਈਫ਼ ਵਧਾਉਣ ਲਈ ਐਕਸਟ੍ਰੀਮ ਬੈਟਰੀ ਸੇਵਰ ਚਾਲੂ ਕਰੋ</string>
+    <string name="severe_battery_notification_title">%s ਬੈਟਰੀ ਬਾਕੀ ਬਚੀ ਹੈ</string>
+    <string name="severe_battery_notification_text">ਐਕਸਟ੍ਰੀਮ ਬੈਟਰੀ ਸੇਵਰ ਵਿਸ਼ੇਸ਼ਤਾ ਨੂੰ ਚਾਲੂ ਕਰੋ। ਇਸ ਨਾਲ ਸਾਰੀਆਂ ਗੈਰ-ਜ਼ਰੂਰੀ ਐਪਾਂ ਨੂੰ ਰੋਕ ਦਿੱਤਾ ਜਾਵੇਗਾ</string>
+    <string name="severe_battery_notification_switch_text">ਕੀ ਐਕਸਟ੍ਰੀਮ ਬੈਟਰੀ ਸੇਵਰ \'ਤੇ ਸਵਿੱਚ ਕਰਨਾ ਹੈ? \n\nਇਹ ਸਾਰੀਆਂ ਗੈਰ-ਜ਼ਰੂਰੀ ਐਪਾਂ ਅਤੇ ਉਨ੍ਹਾਂ ਦੀਆਂ ਸੂਚਨਾਵਾਂ ਨੂੰ ਰੋਕ ਦੇਵੇਗਾ</string>
+    <string name="severe_low_battery_dialog_switch_action_text">ਸਵਿੱਚ ਕਰੋ</string>
+    <string name="extreme_low_battery_notification_title">ਬੈਟਰੀ ਬਹੁਤ ਘੱਟ ਹੈ</string>
+    <string name="extreme_low_battery_notification_text">ਜੇ ਤੁਹਾਡੇ ਫ਼ੋਨ ਨੂੰ ਜਲਦੀ ਚਾਰਜ ਨਹੀਂ ਕੀਤਾ ਜਾਂਦਾ, ਤਾਂ ਉਹ ਬੰਦ ਹੋ ਜਾਵੇਗਾ</string>
 </resources>

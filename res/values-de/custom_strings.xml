@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Im Standard-Musikplayer abspielen</string>
     <string name="accessibility_now_playing_unlike_icon">Aus Favoriten entfernen</string>
     <string name="now_playing_label">Now Playing</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">Der Akkustand beträgt noch %s</string>
+    <string name="low_battery_notification_text">Aktiviere den Energiesparmodus, um die Akkulaufzeit zu erhöhen</string>
+    <string name="low_battery_notification_text_ebs">Extrem-Energiesparmodus aktivieren, um Akkulaufzeit zu erhöhen</string>
+    <string name="severe_battery_notification_title">Der Akkustand beträgt noch %s</string>
+    <string name="severe_battery_notification_text">Aktiviere den Extrem-Energiesparmodus. Dadurch werden alle weniger wichtigen Apps pausiert.</string>
+    <string name="severe_battery_notification_switch_text">Zum Extrem-Energiesparmodus wechseln? \n\nDadurch werden alle weniger wichtigen Apps und ihre Benachrichtigungen pausiert.</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Wechseln</string>
+    <string name="extreme_low_battery_notification_title">Sehr niedriger Akkustand</string>
+    <string name="extreme_low_battery_notification_text">Dein Smartphone wird heruntergefahren, wenn es nicht bald geladen wird</string>
 </resources>

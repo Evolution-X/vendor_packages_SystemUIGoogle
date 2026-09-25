@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Spela upp i standardmusikspelare</string>
     <string name="accessibility_now_playing_unlike_icon">Ta bort från Favoriter</string>
     <string name="now_playing_label">Nu spelas</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s av batteriet återstår</string>
+    <string name="low_battery_notification_text">Förläng batteritiden genom att aktivera batterisparläget</string>
+    <string name="low_battery_notification_text_ebs">Aktivera effektivare batterisparläge för att förlänga batteritiden</string>
+    <string name="severe_battery_notification_title">%s av batteriet återstår</string>
+    <string name="severe_battery_notification_text">Aktivera det effektivare batterisparläget. Detta pausar alla appar som inte är viktiga</string>
+    <string name="severe_battery_notification_switch_text">Vill du byta till effektivare batterisparläge? \n\nDetta pausar alla appar som inte är viktiga och deras aviseringar</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Byt</string>
+    <string name="extreme_low_battery_notification_title">Mycket låg batterinivå</string>
+    <string name="extreme_low_battery_notification_text">Telefonen stängs av om den inte laddas snart</string>
 </resources>

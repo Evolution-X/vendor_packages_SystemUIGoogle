@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Lire sur le lecteur de musique par défaut</string>
     <string name="accessibility_now_playing_unlike_icon">Supprimer des favoris</string>
     <string name="now_playing_label">En écoute</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s de batterie restante</string>
+    <string name="low_battery_notification_text">Activer l\'économiseur de batterie pour plus d\'autonomie</string>
+    <string name="low_battery_notification_text_ebs">Activer l\'ultra économiseur de batterie pour prolonger l\'autonomie de la batterie</string>
+    <string name="severe_battery_notification_title">%s de batterie restante</string>
+    <string name="severe_battery_notification_text">Activer l\'ultra économiseur de batterie. Cela mettra en pause toutes les applications non essentielles.</string>
+    <string name="severe_battery_notification_switch_text">Passer en mode Ultra économiseur de batterie ? \n\nCela mettra en pause toutes les applications non essentielles ainsi que leurs notifications.</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Changer</string>
+    <string name="extreme_low_battery_notification_title">Batterie très faible</string>
+    <string name="extreme_low_battery_notification_text">Votre téléphone va s\'éteindre s\'il n\'est pas bientôt rechargé</string>
 </resources>

@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Přehrát ve výchozím přehrávači hudby</string>
     <string name="accessibility_now_playing_unlike_icon">Odebrat z oblíbených</string>
     <string name="now_playing_label">Co to hraje</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">Stav baterie: %s</string>
+    <string name="low_battery_notification_text">Pokud chcete prodloužit výdrž baterie, zapněte Spořič baterie</string>
+    <string name="low_battery_notification_text_ebs">Zapněte super spořič baterie, abyste prodloužili její výdrž</string>
+    <string name="severe_battery_notification_title">Stav baterie: %s</string>
+    <string name="severe_battery_notification_text">Zapněte Super spořič baterie. Tímto pozastavíte všechny nedůležité aplikace.</string>
+    <string name="severe_battery_notification_switch_text">Přepnout na Super spořič baterie? \n\nTímto pozastavíte všechny nedůležité aplikace a jejich oznámení.</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Přepnout</string>
+    <string name="extreme_low_battery_notification_title">Velmi slabá baterie</string>
+    <string name="extreme_low_battery_notification_text">Pokud telefon brzy nenabijete, vypne se</string>
 </resources>

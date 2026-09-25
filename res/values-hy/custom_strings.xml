@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Նվագարկել կանխադրված երաժշտական նվագարկիչում</string>
     <string name="accessibility_now_playing_unlike_icon">Հեռացնել ընտրանուց</string>
     <string name="now_playing_label">Այժմ հնչում է</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">Մնացել է %s մարտկոցի լիցք</string>
+    <string name="low_battery_notification_text">Միացրեք Մարտկոցի տնտեսումը՝ մարտկոցի աշխատաժամանակը երկարացնելու համար</string>
+    <string name="low_battery_notification_text_ebs">Միացրեք մարտկոցի առավելագույն տնտեսումը՝ դրա աշխատաժամանակը երկարացնելու համար</string>
+    <string name="severe_battery_notification_title">Մնացել է մարտկոցի %s լիցք</string>
+    <string name="severe_battery_notification_text">Միացրեք մարտկոցի առավելագույն տնտեսումը։ Բոլոր ոչ կարևոր հավելվածների աշխատանքը կդադարեցվի</string>
+    <string name="severe_battery_notification_switch_text">Անցնե՞լ մարտկոցի առավելագույն տնտեսմանը։ \n\nԲոլոր ոչ կարևոր հավելվածների աշխատանքը և ծանուցումները կդադարեցվեն։</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Անցնել</string>
+    <string name="extreme_low_battery_notification_title">Մարտկոցի լիցքը շատ ցածր է</string>
+    <string name="extreme_low_battery_notification_text">Ձեր հեռախոսը շուտով կանջատվի, եթե չլիցքավորեք մարտկոցը</string>
 </resources>

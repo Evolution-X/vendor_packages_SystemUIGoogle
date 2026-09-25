@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Play on default music player</string>
     <string name="accessibility_now_playing_unlike_icon">Remove from favourites</string>
     <string name="now_playing_label">Now Playing</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s battery left</string>
+    <string name="low_battery_notification_text">Turn on Battery Saver to extend battery life</string>
+    <string name="low_battery_notification_text_ebs">Turn on Extreme Battery Saver to extend battery life</string>
+    <string name="severe_battery_notification_title">%s battery left</string>
+    <string name="severe_battery_notification_text">Turn on Extreme Battery Saver. This will pause all non-essential apps</string>
+    <string name="severe_battery_notification_switch_text">Switch to Extreme Battery Saver? \n\nThis will pause all non-essential apps and their notifications</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Switch</string>
+    <string name="extreme_low_battery_notification_title">Very low battery</string>
+    <string name="extreme_low_battery_notification_text">Your phone will shut down if it’s not charged soon</string>
 </resources>

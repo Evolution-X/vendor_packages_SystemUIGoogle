@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Varsayılan müzik çalarda oynat</string>
     <string name="accessibility_now_playing_unlike_icon">Favorilerden kaldır</string>
     <string name="now_playing_label">Ne Çalıyor?</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s pil kaldı</string>
+    <string name="low_battery_notification_text">Pil ömrünü uzatmak için Pil Tasarrufu özelliğini açın</string>
+    <string name="low_battery_notification_text_ebs">Pil ömrünü uzatmak için Ekstra Pil Tasarrufu\'nu aç</string>
+    <string name="severe_battery_notification_title">%s pil kaldı</string>
+    <string name="severe_battery_notification_text">Ekstra Pil Tasarrufu\'nu etkinleştirin. Bu işlem, gerekli olmayan tüm uygulamaları duraklatır</string>
+    <string name="severe_battery_notification_switch_text">Ekstra Pil Tasarrufu\'na geçilsin mi? \n\nBu işlem, gerekli olmayan tüm uygulamaları ve bildirimlerini duraklatır</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Geç</string>
+    <string name="extreme_low_battery_notification_title">Pil düzeyi çok düşük</string>
+    <string name="extreme_low_battery_notification_text">Kısa bir süre içinde şarj edilmezse telefonunuz kapanacak</string>
 </resources>

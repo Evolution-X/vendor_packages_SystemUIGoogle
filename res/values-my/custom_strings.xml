@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">မူရင်း သီချင်းပလေယာတွင် ဖွင့်ရန်</string>
     <string name="accessibility_now_playing_unlike_icon">စိတ်ကြိုက်များမှ ဖယ်ရှားရန်</string>
     <string name="now_playing_label">Now Playing</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">ဘက်ထရီ %s ကျန်သည်</string>
+    <string name="low_battery_notification_text">ဘက်ထရီသက်တမ်းရှည်စေရန် ‘ဘက်ထရီအားထိန်း’ ကို ဖွင့်ပါ</string>
+    <string name="low_battery_notification_text_ebs">ဘက်ထရီ သက်တမ်းရှည်စေရန် ‘လွန်ကဲဘက်ထရီအားထိန်း’ ကို ဖွင့်ပါ</string>
+    <string name="severe_battery_notification_title">ဘက်ထရီ %s ကျန်သည်</string>
+    <string name="severe_battery_notification_text">‘လွန်ကဲ ဘက်ထရီအားထိန်း’ ဖွင့်ပါ။ ၎င်းသည် မရှိမဖြစ်မဟုတ်သော အက်ပ်အားလုံးကို ခဏရပ်ပါမည်</string>
+    <string name="severe_battery_notification_switch_text">‘လွန်ကဲ ဘက်ထရီအားထိန်း’ သို့ ပြောင်းမလား။ \n\n၎င်းသည် မရှိမဖြစ်မဟုတ်သည့် အက်ပ်အားလုံးနှင့် ၎င်းတို့၏အကြောင်းကြားချက်များကို ခဏရပ်ပါမည်</string>
+    <string name="severe_low_battery_dialog_switch_action_text">ပြောင်းရန်</string>
+    <string name="extreme_low_battery_notification_title">ဘက်ထရီ အလွန်အားနည်းနေသည်</string>
+    <string name="extreme_low_battery_notification_text">သင့်ဖုန်းကို မကြာမီ အားမသွင်းပါက စက်ပိတ်သွားပါမည်</string>
 </resources>

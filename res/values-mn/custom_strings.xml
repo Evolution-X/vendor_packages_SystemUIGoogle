@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Өгөгдмөл хөгжим тоглуулагч дээр тоглуулна</string>
     <string name="accessibility_now_playing_unlike_icon">Дуртайгаас хасах</string>
     <string name="now_playing_label">Now Playing</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s батарей үлдсэн</string>
+    <string name="low_battery_notification_text">Батарейн ажиллах хугацааг уртасгахын тулд Батарей хэмнэгчийг асаана уу</string>
+    <string name="low_battery_notification_text_ebs">Батарейн ажиллах хугацааг уртасгахын тулд Дээд зэргээр батарей хэмнэгчийг асаана уу</string>
+    <string name="severe_battery_notification_title">%s батарей үлдсэн</string>
+    <string name="severe_battery_notification_text">Дээд зэргээр батарей хэмнэгчийг асаана уу. Энэ нь бүх чухал бус аппыг түр зогсооно</string>
+    <string name="severe_battery_notification_switch_text">Дээд зэргээр батарей хэмнэгч рүү сэлгэх үү? \n\nЭнэ нь бүх чухал бус апп болон тэдгээрийн мэдэгдлийг түр зогсооно</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Сэлгэх</string>
+    <string name="extreme_low_battery_notification_title">Батарей маш бага байна</string>
+    <string name="extreme_low_battery_notification_text">Утсаа удахгүй цэнэглэхгүй бол унтарна</string>
 </resources>

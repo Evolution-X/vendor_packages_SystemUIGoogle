@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Predvajanje v privzetem predvajalniku glasbe</string>
     <string name="accessibility_now_playing_unlike_icon">Odstranitev iz priljubljenih</string>
     <string name="now_playing_label">Zdaj se predvaja</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">Preostala napolnjenost baterije: %s</string>
+    <string name="low_battery_notification_text">Vklopite varčevanje z energijo baterije, da podaljšate čas delovanja pri baterijskem napajanju.</string>
+    <string name="low_battery_notification_text_ebs">Vklopite strogo varčevanje z energijo baterije, da podaljšate čas delovanja baterije.</string>
+    <string name="severe_battery_notification_title">Preostala napolnjenost baterije: %s</string>
+    <string name="severe_battery_notification_text">Vklopite strogo varčevanje z energijo baterije. S tem boste začasno zaustavili vse nenujne aplikacije.</string>
+    <string name="severe_battery_notification_switch_text">Želite preklopiti na strogo varčevanje z energijo baterije? \n\nS tem boste začasno zaustavili vse nenujne aplikacije in njihova obvestila.</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Preklopi</string>
+    <string name="extreme_low_battery_notification_title">Baterija je skoraj prazna</string>
+    <string name="extreme_low_battery_notification_text">Telefon se bo izklopil, če ne boste kmalu napolnili baterije</string>
 </resources>

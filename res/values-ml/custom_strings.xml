@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">ഡിഫോൾട്ട് മ്യൂസിക് പ്ലേയറിൽ പ്ലേ ചെയ്യുക</string>
     <string name="accessibility_now_playing_unlike_icon">പ്രിയപ്പെട്ടവയിൽ നിന്ന് നീക്കം ചെയ്യുക</string>
     <string name="now_playing_label">ഇപ്പോൾ കേൾക്കുന്നത്</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s ബാറ്ററി ചാർജ് അവശേഷിക്കുന്നു</string>
+    <string name="low_battery_notification_text">ബാറ്ററി ലെെഫ് വർദ്ധിപ്പിക്കാൻ ബാറ്ററി സേവർ ഓണാക്കുക</string>
+    <string name="low_battery_notification_text_ebs">ബാറ്ററി ലെെഫ് വർദ്ധിപ്പിക്കുന്നതിന് എക്‌സ്ട്രീം ബാറ്ററി സേവർ ഓണാക്കുക</string>
+    <string name="severe_battery_notification_title">%s ബാറ്ററി ചാർജ് അവശേഷിക്കുന്നു</string>
+    <string name="severe_battery_notification_text">എക്‌സ്ട്രീം ബാറ്ററി സേവർ ഓണാക്കുക. ആവശ്യമില്ലാത്ത എല്ലാ ആപ്പുകളും ഇത് താൽക്കാലികമായി നിർത്തും</string>
+    <string name="severe_battery_notification_switch_text">എക്‌സ്ട്രീം ബാറ്ററി സേവറിലേക്ക് മാറണോ? \n\nആവശ്യമില്ലാത്ത എല്ലാ ആപ്പുകളും അവയുടെ അറിയിപ്പുകളും ഇത് താൽക്കാലികമായി നിർത്തും</string>
+    <string name="severe_low_battery_dialog_switch_action_text">മാറുക</string>
+    <string name="extreme_low_battery_notification_title">ബാറ്ററി ചാർജ് വളരെ കുറവാണ്</string>
+    <string name="extreme_low_battery_notification_text">ഉടൻ ചാർജ് ചെയ്‌തില്ലെങ്കിൽ നിങ്ങളുടെ ഫോൺ ഷട്ട് ഡൗൺ ആകും</string>
 </resources>

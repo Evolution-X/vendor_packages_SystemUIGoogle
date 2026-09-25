@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">ಡೀಫಾಲ್ಟ್ ಮ್ಯೂಸಿಕ್ ಪ್ಲೇಯರ್‌ನಲ್ಲಿ ಪ್ಲೇ ಮಾಡಿ</string>
     <string name="accessibility_now_playing_unlike_icon">ಮೆಚ್ಚಿನವುಗಳಿಂದ ತೆಗೆದುಹಾಕಿ</string>
     <string name="now_playing_label">Now Playing</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s ಬ್ಯಾಟರಿ ಮಟ್ಟ ಬಾಕಿ ಉಳಿದಿದೆ</string>
+    <string name="low_battery_notification_text">ಬ್ಯಾಟರಿ ಬಾಳಿಕೆಯನ್ನು ವಿಸ್ತರಿಸಲು ಬ್ಯಾಟರಿ ಸೇವರ್ ಅನ್ನು ಆನ್ ಮಾಡಿ</string>
+    <string name="low_battery_notification_text_ebs">ಬ್ಯಾಟರಿ ಬಾಳಿಕೆಯನ್ನು ವಿಸ್ತರಿಸಲು ಎಕ್ಸ್‌ಟ್ರೀಮ್ ಬ್ಯಾಟರಿ ಸೇವರ್ ಅನ್ನು ಆನ್ ಮಾಡಿ</string>
+    <string name="severe_battery_notification_title">%s ಬ್ಯಾಟರಿ ಉಳಿದಿದೆ</string>
+    <string name="severe_battery_notification_text">ಎಕ್ಸ್‌ಟ್ರೀಮ್ ಬ್ಯಾಟರಿ ಸೇವರ್ ಅನ್ನು ಆನ್ ಮಾಡಿ ಇದು ಎಲ್ಲಾ ಅಗತ್ಯವಲ್ಲದ ಆ್ಯಪ್‌ಗಳನ್ನು ವಿರಾಮಗೊಳಿಸುತ್ತದೆ</string>
+    <string name="severe_battery_notification_switch_text">ಎಕ್ಸ್‌ಟ್ರೀಮ್ ಬ್ಯಾಟರಿ ಸೇವರ್‌ಗೆ ಬದಲಾಯಿಸಬೇಕೆ? \n\nಇದು ಎಲ್ಲಾ ಅಗತ್ಯವಲ್ಲದ ಆ್ಯಪ್‌ಗಳು ಮತ್ತು ಅವುಗಳ ನೋಟಿಫಿಕೇಶನ್‌ಗಳನ್ನು ವಿರಾಮಗೊಳಿಸುತ್ತದೆ</string>
+    <string name="severe_low_battery_dialog_switch_action_text">ಬದಲಿಸಿ</string>
+    <string name="extreme_low_battery_notification_title">ಬ್ಯಾಟರಿ ಮಟ್ಟ ತುಂಬಾ ಕಡಿಮೆಯಿದೆ</string>
+    <string name="extreme_low_battery_notification_text">ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಚಾರ್ಜ್ ಮಾಡದಿದ್ದರೆ ಅದು ಶಟ್ ಡೌನ್ ಆಗುತ್ತದೆ</string>
 </resources>

@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">ડિફૉલ્ટ મ્યુઝિક પ્લેયર પર ચલાવો</string>
     <string name="accessibility_now_playing_unlike_icon">મનપસંદમાંથી કાઢી નાખો</string>
     <string name="now_playing_label">હમણાં વાગી રહ્યું છે</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s બૅટરી બાકી છે</string>
+    <string name="low_battery_notification_text">બૅટરીની આવરદા વધારવા માટે બૅટરી સેવર ચાલુ કરો</string>
+    <string name="low_battery_notification_text_ebs">બૅટરી આવરદા વધારવા માટે, એક્સ્ટ્રીમ બૅટરી સેવર ચાલુ કરો</string>
+    <string name="severe_battery_notification_title">%s બૅટરી બાકી છે</string>
+    <string name="severe_battery_notification_text">એક્સ્ટ્રીમ બૅટરી સેવર મોડ ચાલુ કરો. આમ કરવાથી તમામ અનાવશ્યક ઍપ થોભી જશે</string>
+    <string name="severe_battery_notification_switch_text">એક્સ્ટ્રીમ બૅટરી સેવર મોડ પર સ્વિચ કરીએ? \n\nઆમ કરવાથી તમામ અનાવશ્યક ઍપ અને તેમના નોટિફિકેશન થોભી જશે</string>
+    <string name="severe_low_battery_dialog_switch_action_text">સ્વિચ કરો</string>
+    <string name="extreme_low_battery_notification_title">બૅટરી ઘણી ઓછી છે</string>
+    <string name="extreme_low_battery_notification_text">જો તમારા ફોનને જલ્દી ચાર્જ કરવામાં નહીં આવે તો તે શટ ડાઉન થઈ જશે</string>
 </resources>

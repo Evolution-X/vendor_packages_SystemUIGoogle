@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">පෙරනිමි සංගීත වාදකයේ වාදනය කරන්න</string>
     <string name="accessibility_now_playing_unlike_icon">ප්‍රියතමවලින් ඉවත් කරන්න</string>
     <string name="now_playing_label">දැන් වාදනය වේ</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s බැටරිය ඉතිරියි</string>
+    <string name="low_battery_notification_text">බැටරි ආයු කාලය දීර්ඝ කිරීමට බැටරි සුරැකුම ක්‍රියාත්මක කරන්න</string>
+    <string name="low_battery_notification_text_ebs">බැටරි ආයු කාලය දිගු කිරීමට උපරිම බැටරි සුරැකුම ක්‍රියාත්මක කරන්න</string>
+    <string name="severe_battery_notification_title">%s බැටරිය ඉතිරියි</string>
+    <string name="severe_battery_notification_text">උපරිම බැටරි ඉතිරි කරන්නා සක්‍රීය කරන්න. මෙය සියලු අත්‍යවශ්‍ය නොවන යෙදුම් විරාම කරයි</string>
+    <string name="severe_battery_notification_switch_text">උපරිම බැටරි ඉතිරි කරන්නා වෙත මාරු වෙනවා ද? \n\nමෙය සියලු අත්‍යවශ්‍ය නොවන යෙදුම් සහ ඒවායේ දැනුම්දීම් විරාම කරයි</string>
+    <string name="severe_low_battery_dialog_switch_action_text">මාරු කරන්න</string>
+    <string name="extreme_low_battery_notification_title">බැටරිය ඉතා අඩුයි</string>
+    <string name="extreme_low_battery_notification_text">ඔබේ දුරකථනය එය ඉක්මනින් ආරෝපණය නොකරන්නේ නම් වසා දමනු ඇත</string>
 </resources>

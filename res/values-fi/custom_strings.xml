@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Toista oletusmusiikkisoittimella</string>
     <string name="accessibility_now_playing_unlike_icon">Poista suosikeista</string>
     <string name="now_playing_label">Musiikintunnistus</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">Akkua jäljellä %s</string>
+    <string name="low_battery_notification_text">Laita virransäästö päälle akunkeston parantamiseksi</string>
+    <string name="low_battery_notification_text_ebs">Laita akun tehosäästö päälle akunkeston parantamiseksi</string>
+    <string name="severe_battery_notification_title">Akkua jäljellä %s</string>
+    <string name="severe_battery_notification_text">Laita akun tehosäästö päälle Tämä keskeyttää kaikki paitsi tärkeät sovellukset</string>
+    <string name="severe_battery_notification_switch_text">Vaihdetaanko akun tehosäästöön? \n\nTämä keskeyttää toissijaiset sovellukset ja niiden ilmoitukset</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Vaihda</string>
+    <string name="extreme_low_battery_notification_title">Akku lähes loppu</string>
+    <string name="extreme_low_battery_notification_text">Puhelin sammuu pian jos sitä ei ladata</string>
 </resources>

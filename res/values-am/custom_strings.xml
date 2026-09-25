@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">ነባሪ የሙዚቃ ማጫወቻ ላይ አጫውት</string>
     <string name="accessibility_now_playing_unlike_icon">ከተወዳጆች አስወግድ</string>
     <string name="now_playing_label">አሁን በመጫወት ላይ</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s ባትሪ ቀርቷል</string>
+    <string name="low_battery_notification_text">የባትሪ ዕድሜን ለማራዘም የባትሪ ኃይል ቆጣቢን ያብሩ</string>
+    <string name="low_battery_notification_text_ebs">የባትሪ ዕድሜን ለማራዘም ከፍተኛ ባትሪ ቆጣቢን ያብሩ</string>
+    <string name="severe_battery_notification_title">%s ባትሪ ቀርቷል</string>
+    <string name="severe_battery_notification_text">ከፍተኛ ባትሪ ቆጣቢን ያቡሩ። ይህ ሁሉንም መሠረታዊ ያልሆኑ መተግበሪያዎችን ባሉበት ያቆማል</string>
+    <string name="severe_battery_notification_switch_text">ወደ ከፍተኛ ባትሪ ቆጣቢ ይቀየር? \n\nይህ ሁሉንም መሠረታዊ ያልሆኑ መተግበሪያዎችን እና ማሳወቂያዎቻቸውን ባሉበት ያቆማል</string>
+    <string name="severe_low_battery_dialog_switch_action_text">ቀይር</string>
+    <string name="extreme_low_battery_notification_title">በጣም ዝቅተኛ ባትሪ</string>
+    <string name="extreme_low_battery_notification_text">ስልክዎ በቅርቡ ኃይል ካልተሞላበት ይዘጋል</string>
 </resources>

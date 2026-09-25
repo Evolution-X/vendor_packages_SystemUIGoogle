@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Lejátszás az alapértelmezett zenelejátszóval</string>
     <string name="accessibility_now_playing_unlike_icon">Eltávolítás a kedvencek közül</string>
     <string name="now_playing_label">Now Playing</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">Az akkumulátor töltöttségi szintje: %s</string>
+    <string name="low_battery_notification_text">Az akkumulátor üzemidejének meghosszabbításához kapcsolja be az Akkumulátorkímélő módot</string>
+    <string name="low_battery_notification_text_ebs">Kapcsolja be az Extrém akkumulátorkímélő módot az akkumulátor-élettartam növeléséhez.</string>
+    <string name="severe_battery_notification_title">Az akkumulátor töltöttségi szintje: %s</string>
+    <string name="severe_battery_notification_text">Kapcsolja be az Extrém akkumulátorkímélő módot. Ezzel szüneteltet minden nem alapvető alkalmazást.</string>
+    <string name="severe_battery_notification_switch_text">Átvált az Extrém akkumulátorkímélő módra? \n\nEzzel a nem alapvető alkalmazásokat és azok értesítéseit is szünetelteti.</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Váltás</string>
+    <string name="extreme_low_battery_notification_title">Mindjárt lemerül</string>
+    <string name="extreme_low_battery_notification_text">Telefonja hamarosan kikapcsol, ha nem tölti fel</string>
 </resources>

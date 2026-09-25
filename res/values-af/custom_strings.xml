@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Speel op verstekmusiekspeler</string>
     <string name="accessibility_now_playing_unlike_icon">Verwyder uit gunstelinge</string>
     <string name="now_playing_label">Wat Speel</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">%s batterykrag oor</string>
+    <string name="low_battery_notification_text">Skakel Batterybespaarder aan om batterylewe te verleng</string>
+    <string name="low_battery_notification_text_ebs">Skakel Superbatterybespaarder aan om batterylewe te verleng</string>
+    <string name="severe_battery_notification_title">%s batterykrag oor</string>
+    <string name="severe_battery_notification_text">Wil jy Superbatterybespaarder aanskakel? Dit sal alle nienoodsaaklike apps onderbreek</string>
+    <string name="severe_battery_notification_switch_text">Wil jy na Superbatterybespaarder oorskakel? \n\nDit sal alle nienoodsaaklike apps en hul kennisgewings onderbreek</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Skakel oor</string>
+    <string name="extreme_low_battery_notification_title">Battery is byna pap</string>
+    <string name="extreme_low_battery_notification_text">Jou foon sal afskakel as dit nie binnekort gelaai word nie</string>
 </resources>

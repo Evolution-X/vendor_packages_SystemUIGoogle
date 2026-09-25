@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">ডিফল্ট মিউজিক প্লেয়ারে চালান</string>
     <string name="accessibility_now_playing_unlike_icon">পছন্দের বিভাগ থেকে সরান</string>
     <string name="now_playing_label">এখন চলছে</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">ব্যাটারিতে আর %s চার্জ আছে</string>
+    <string name="low_battery_notification_text">ব্যাটারির আয়ু বাড়াতে ব্যাটারি সেভার চালু করুন</string>
+    <string name="low_battery_notification_text_ebs">ব্যাটারির আয়ু বাড়াতে এক্সট্রিম ব্যাটারি সেভার চালু করুন</string>
+    <string name="severe_battery_notification_title">ব্যাটারিতে আর %s চার্জ আছে</string>
+    <string name="severe_battery_notification_text">এক্সট্রিম ব্যাটারি সেভার চালু করুন। এর ফলে সব অপ্রয়োজনীয় অ্যাপ পজ হয়ে যাবে</string>
+    <string name="severe_battery_notification_switch_text">এক্সট্রিম ব্যাটারি সেভারে পাল্টাবেন? \n\nএর ফলে সব অপ্রয়োজনীয় অ্যাপ ও সেগুলির বিজ্ঞপ্তি পজ হয়ে যাবে</string>
+    <string name="severe_low_battery_dialog_switch_action_text">পাল্টান</string>
+    <string name="extreme_low_battery_notification_title">খুবই কম চার্জ আছে</string>
+    <string name="extreme_low_battery_notification_text">শীঘ্রই চার্জ না দিলে আপনার ফোন বন্ধ হয়ে যাবে</string>
 </resources>

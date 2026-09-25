@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Відтворити в музичному програвачі за умовчанням</string>
     <string name="accessibility_now_playing_unlike_icon">Вилучити з вибраного</string>
     <string name="now_playing_label">Зараз грає</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">Залишилось %s заряду акумулятора</string>
+    <string name="low_battery_notification_text">Щоб подовжити час роботи акумулятора, увімкніть режим енергозбереження</string>
+    <string name="low_battery_notification_text_ebs">Увімкніть режим екстремального енергозбереження, щоб збільшити час роботи акумулятора</string>
+    <string name="severe_battery_notification_title">Залишилось %s заряду акумулятора</string>
+    <string name="severe_battery_notification_text">Увімкніть режим екстремального енергозбереження. Буде призупинено роботу всіх неважливих додатків.</string>
+    <string name="severe_battery_notification_switch_text">Перейти в режим екстремального енергозбереження? \n\nУсі неважливі додатки й сповіщення з них буде призупинено</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Змінити режим</string>
+    <string name="extreme_low_battery_notification_title">Дуже низький заряд</string>
+    <string name="extreme_low_battery_notification_text">Телефон вимкнеться, якщо його найближчим часом не зарядити</string>
 </resources>

@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Leisti naudojant numatytąją muzikos leistuvę</string>
     <string name="accessibility_now_playing_unlike_icon">Pašalinti iš mėgstamiausių</string>
     <string name="now_playing_label">Dabar leidžiama</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">Liko akumuliatoriaus energijos: %s</string>
+    <string name="low_battery_notification_text">Įjunkite Akumuliatoriaus tausojimo priemonę, kad akumuliatorius veiktų ilgiau</string>
+    <string name="low_battery_notification_text_ebs">Įjungti akumuliatoriaus energijos taupymo didžiausiu režimu funkciją, kad akumuliatorius veiktų ilgiau</string>
+    <string name="severe_battery_notification_title">Liko akumuliatoriaus energijos: %s</string>
+    <string name="severe_battery_notification_text">Įjunkite akumuliatoriaus energijos taupymą didžiausiu režimu. Bus pristabdytos visos nebūtinosios programos</string>
+    <string name="severe_battery_notification_switch_text">Perjungti į akumuliatoriaus energijos taupymą didžiausiu režimu? \n\nBus pristabdytos visos nebūtinosios programos ir jų pranešimai.</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Perjungti</string>
+    <string name="extreme_low_battery_notification_title">Akumuliatorius beveik išseko</string>
+    <string name="extreme_low_battery_notification_text">Telefonas bus išjungtas, jei netrukus nebus įkrautas</string>
 </resources>

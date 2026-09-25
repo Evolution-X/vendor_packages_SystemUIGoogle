@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Αναπαραγωγή στο προεπιλεγμένο πρόγραμμα αναπαραγωγής μουσικής</string>
     <string name="accessibility_now_playing_unlike_icon">Κατάργηση από τα αγαπημένα</string>
     <string name="now_playing_label">Ακούγεται τώρα</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">Απομένει %s μπαταρία</string>
+    <string name="low_battery_notification_text">Ενεργοποιήστε την Εξοικονόμηση μπαταρίας για να επεκτείνετε τη διάρκεια ζωής της μπαταρίας</string>
+    <string name="low_battery_notification_text_ebs">Ενεργοποιήστε τη Μέγιστη εξοικονόμηση μπαταρίας, για να επεκτείνετε τη διάρκεια ζωή μπαταρίας</string>
+    <string name="severe_battery_notification_title">Απομένει %s μπαταρία</string>
+    <string name="severe_battery_notification_text">Ενεργοποίηση Μέγιστης εξοικονόμησης μπαταρίας. Αυτή η επιλογή θα θέσει σε παύση όλες τις μη βασικές εφαρμογές</string>
+    <string name="severe_battery_notification_switch_text">Εναλλαγή σε Μέγιστη εξοικονόμηση μπαταρίας; \n\nΑυτή η επιλογή θα θέσει σε παύση όλες τις μη βασικές εφαρμογές και τις ειδοποιήσεις τους</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Εναλλαγή</string>
+    <string name="extreme_low_battery_notification_title">Πολύ χαμηλή μπαταρία</string>
+    <string name="extreme_low_battery_notification_text">Η λειτουργία του τηλεφώνου θα τερματιστεί, αν δεν το φορτίσετε σύντομα</string>
 </resources>

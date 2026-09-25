@@ -17,4 +17,15 @@
     <string name="accessibility_now_playing_play_icon">Воспроизвести в аудиоплеере по умолчанию</string>
     <string name="accessibility_now_playing_unlike_icon">Удалить из избранного</string>
     <string name="now_playing_label">Что сейчас играет?</string>
+
+    <!-- Battery Warnings -->
+    <string name="low_battery_notification_title">Осталось %s заряда батареи</string>
+    <string name="low_battery_notification_text">Включите режим энергосбережения, чтобы увеличить время работы от батареи.</string>
+    <string name="low_battery_notification_text_ebs">Чтобы продлить время работы от батареи, включите режим экстренного энергосбережения.</string>
+    <string name="severe_battery_notification_title">Осталось %s заряда батареи</string>
+    <string name="severe_battery_notification_text">Включите режим экстренного энергосбережения. Все второстепенные приложения будут приостановлены.</string>
+    <string name="severe_battery_notification_switch_text">Включить режим экстренного энергосбережения? \n\nВсе второстепенные приложения и их уведомления будут приостановлены.</string>
+    <string name="severe_low_battery_dialog_switch_action_text">Включить</string>
+    <string name="extreme_low_battery_notification_title">Очень низкий заряд</string>
+    <string name="extreme_low_battery_notification_text">Телефон выключится, если его не зарядить в ближайшее время.</string>
 </resources>
