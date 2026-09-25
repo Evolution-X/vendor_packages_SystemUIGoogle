@@ -19,6 +19,7 @@ import com.android.systemui.qs.tiles.BatterySaverTile;
 import com.android.systemui.res.R;
 import com.android.systemui.settings.UserTracker;
 import com.android.systemui.statusbar.policy.BatteryController;
+import com.android.systemui.statusbar.policy.KeyguardStateController;
 import com.android.systemui.util.settings.SecureSettings;
 
 import com.google.android.systemui.power.PowerUtils;
@@ -44,7 +45,8 @@ public final class BatterySaverTileGoogle extends BatterySaverTile {
             QSLogger qsLogger,
             BatteryController batteryController,
             SecureSettings secureSettings,
-            UserTracker userTracker) {
+            UserTracker userTracker,
+            KeyguardStateController keyguardStateController) {
         super(
                 host,
                 uiEventLogger,
@@ -56,7 +58,8 @@ public final class BatterySaverTileGoogle extends BatterySaverTile {
                 activityStarter,
                 qsLogger,
                 batteryController,
-                secureSettings);
+                secureSettings,
+                keyguardStateController);
         mExtremeEnabled = false;
         mExtremeAggressive = false;
         mContentResolverProvider = userTracker;
