@@ -67,7 +67,6 @@ import com.android.systemui.navigationbar.NavigationBarControllerModule;
 import com.android.systemui.plugins.BcSmartspaceDataPlugin;
 import com.android.systemui.plugins.keyguard.ui.composable.elements.LockscreenElementProvider;
 import com.android.systemui.plugins.qs.QSFactory;
-import com.android.systemui.power.dagger.PowerModule;
 import com.android.systemui.qs.QSFragmentStartableModule;
 import com.android.systemui.qs.dagger.QSModule;
 import com.android.systemui.qs.tileimpl.QSFactoryImpl;
@@ -125,6 +124,7 @@ import com.google.android.systemui.keyguard.data.repository.AmbientIndicationRep
 import com.google.android.systemui.keyguard.domain.interactor.AmbientIndicationInteractor;
 import com.google.android.systemui.keyguard.ui.composable.elements.GoogleAmbientIndicationElementProvider;
 import com.google.android.systemui.keyguard.ui.sections.DefaultAmbientIndicationAreaSection;
+import com.google.android.systemui.power.dagger.PowerModuleGoogle;
 import com.google.android.systemui.smartspace.BcSmartspaceDataProvider;
 import com.google.android.systemui.smartspace.DateSmartspaceDataProvider;
 import com.google.android.systemui.smartspace.KeyguardSmartspaceStartable;
@@ -183,7 +183,7 @@ import javax.inject.Provider;
         NavigationBarControllerModule.class,
         NearbyMediaDevicesManager.StartableModule.class,
         NoOpActivityRecognitionModule.class,
-        PowerModule.class,
+        PowerModuleGoogle.class,
         QSFragmentStartableModule.class,
         QSModule.class,
         RearDisplayModule.class,
