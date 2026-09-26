@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Perjungti</string>
     <string name="extreme_low_battery_notification_title">Akumuliatorius beveik išseko</string>
     <string name="extreme_low_battery_notification_text">Telefonas bus išjungtas, jei netrukus nebus įkrautas</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Sveiki, čia – akumuliatoriaus tausojimo priemonė</string>
+    <string name="saver_confirmation_dialog_subtitle">Pasirinkite norimą naudoti režimą</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Akumuliatoriaus energijos taupymas įprastu režimu</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Apribojami vaizdiniai efektai ir veikla fone. Įjungia tamsiąją temą, jei dar neįjungta.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Akumuliatoriaus energijos taupymas didžiausiu režimu</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Įtraukiami visi anksčiau pateikti pakeitimai. Taip pat pristabdomos nebūtinosios programos ir jų pranešimai.</string>
+    <string name="battery_saver_confirmation_ok">Įjungti</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Atšaukti</string>
+    <string name="battery_saver_confirmation_setup">Nustatyti</string>
 </resources>

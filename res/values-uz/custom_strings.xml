@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Almashish</string>
     <string name="extreme_low_battery_notification_title">Batareya quvvati juda kam</string>
     <string name="extreme_low_battery_notification_text">Tez orada quvvatlanmasa, telefon oʻchadi</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Quvvat tejashga xush kelibsiz</string>
+    <string name="saver_confirmation_dialog_subtitle">Foydalanish rejimini tanlang</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Standart quvvat tejash</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Vizual effektlar va fondagi faollikni cheklaydi. Agar allaqachon yoqilmagan boʻlsa, tungi mavzuni yoqadi.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Batareyani qattiq tejash</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Yuqorida roʻyxatga kiritilgan barcha oʻzgartirishlarni oʻz ichiga oladi. Shuningdek, muhim boʻlmagan ilovalar va ularning bildirishnomalarini pauza qiladi.</string>
+    <string name="battery_saver_confirmation_ok">Yoqish</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Bekor qilish</string>
+    <string name="battery_saver_confirmation_setup">Sozlash</string>
 </resources>

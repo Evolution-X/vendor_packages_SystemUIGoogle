@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Skakel oor</string>
     <string name="extreme_low_battery_notification_title">Battery is byna pap</string>
     <string name="extreme_low_battery_notification_text">Jou foon sal afskakel as dit nie binnekort gelaai word nie</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Welkom by Batterybespaarder</string>
+    <string name="saver_confirmation_dialog_subtitle">Kies die modus wat jy wil gebruik</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Standaardbatterybespaarder</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Beperk visuele effekte en agtergrondaktiwiteit. Skakel donkertema aan as dit nie klaar aan is nie.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Superbatterybespaarder</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Sluit alle veranderinge wat hier bo gelys word, in. Onderbreek ook nienoodsaaklike apps en hul kennisgewings.</string>
+    <string name="battery_saver_confirmation_ok">Skakel aan</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Kanselleer</string>
+    <string name="battery_saver_confirmation_setup">Stel op</string>
 </resources>

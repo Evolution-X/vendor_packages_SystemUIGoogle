@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">ပြောင်းရန်</string>
     <string name="extreme_low_battery_notification_title">ဘက်ထရီ အလွန်အားနည်းနေသည်</string>
     <string name="extreme_low_battery_notification_text">သင့်ဖုန်းကို မကြာမီ အားမသွင်းပါက စက်ပိတ်သွားပါမည်</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">‘ဘက်ထရီ အားထိန်း’ က ကြိုဆိုပါသည်</string>
+    <string name="saver_confirmation_dialog_subtitle">သုံးမည့်မုဒ် ရွေးပါ</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">ပုံမှန် ဘက်ထရီအားထိန်း</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">ပြသမှုဆိုင်ရာ အထူးပြုလုပ်ချက်၊ နောက်ခံလုပ်ဆောင်ချက်တို့ကို ကန့်သတ်သည်။ အမှောင်အပြင်အဆင် မဖွင့်ရသေးပါက ဖွင့်ပေးသည်။</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">လွန်ကဲ ဘက်ထရီအားထိန်း</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">အထက်ဖော်ပြပါ အပြောင်းအလဲအားလုံး ပါဝင်သည်။ မရှိမဖြစ်မဟုတ်သည့် အက်ပ်များနှင့် ၎င်းတို့၏ အကြောင်းကြားချက်များကိုလည်း ခဏရပ်ပေးသည်။</string>
+    <string name="battery_saver_confirmation_ok">ဖွင့်ရန်</string>
+    <string name="saver_confirmation_dialog_dismiss_text">မလုပ်တော့</string>
+    <string name="battery_saver_confirmation_setup">စနစ်ထည့်သွင်းရန်</string>
 </resources>

@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Pārslēgt</string>
     <string name="extreme_low_battery_notification_title">Ļoti zems akumulatora uzlādes līmenis</string>
     <string name="extreme_low_battery_notification_text">Ja drīz neuzlādēsiet tālruni, tas tiks izslēgts.</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Laipni lūdzam akumulatora enerģijas taupīšanas režīmā</string>
+    <string name="saver_confirmation_dialog_subtitle">Atlasiet izmantojamo režīmu</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Akumulatora enerģijas standarta taupīšanas režīms</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Tiek ierobežoti vizuālie efekti un fonā izpildāmas darbības. Ja vēl nav ieslēgts tumšais motīvs, tas tiek ieslēgts.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Akumulatora enerģijas maksimālas taupīšanas režīms</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Ietver visas iepriekš norādītās izmaiņas. Tiek arī pārtraukta nesvarīgu lietotņu darbība un to paziņojumi.</string>
+    <string name="battery_saver_confirmation_ok">Ieslēgt</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Atcelt</string>
+    <string name="battery_saver_confirmation_setup">Iestatīt</string>
 </resources>

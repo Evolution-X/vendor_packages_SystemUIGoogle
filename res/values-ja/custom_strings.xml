@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">切り替える</string>
     <string name="extreme_low_battery_notification_title">バッテリー残量: 非常に少ない</string>
     <string name="extreme_low_battery_notification_text">すぐに充電しないとスマートフォンはシャットダウンします</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">バッテリー セーバーへようこそ</string>
+    <string name="saver_confirmation_dialog_subtitle">使用するモードを選択してください</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">標準バッテリー セーバー</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">視覚効果を抑え、バックグラウンド アクティビティを制限します。ダークモードが ON になっていない場合は ON になります。</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">スーパー バッテリー セーバー</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">上記の変更がすべて反映されるほか、必須ではないアプリやその通知が一時停止されます。</string>
+    <string name="battery_saver_confirmation_ok">ONにする</string>
+    <string name="saver_confirmation_dialog_dismiss_text">キャンセル</string>
+    <string name="battery_saver_confirmation_setup">設定</string>
 </resources>

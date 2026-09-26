@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Ndërro</string>
     <string name="extreme_low_battery_notification_title">Nivel shumë i ulët baterie</string>
     <string name="extreme_low_battery_notification_text">Telefoni do të fiket nëse nuk karikohet së shpejti</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Mirë se vjen te \"Kursyesi i baterisë\"</string>
+    <string name="saver_confirmation_dialog_subtitle">Zgjidh modalitetin që do të përdoret</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Kursyesi standard i baterisë</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Kufizon efektet vizuale dhe aktivitetin në sfond. Aktivizon \"Temën e errët\", nëse nuk është aktivizuar tashmë.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Kursyesi ekstrem i baterisë</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Përfshin të gjitha ndryshimet e listuara më sipër. Vendos në pauzë edhe aplikacionet jothelbësore dhe njoftimet e tyre.</string>
+    <string name="battery_saver_confirmation_ok">Aktivizo</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Anulo</string>
+    <string name="battery_saver_confirmation_setup">Konfiguro</string>
 </resources>

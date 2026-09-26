@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Canvia</string>
     <string name="extreme_low_battery_notification_title">Bateria molt baixa</string>
     <string name="extreme_low_battery_notification_text">El telèfon s\'apagarà si no el carregues aviat</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Et donem la benvinguda a Estalvi de bateria</string>
+    <string name="saver_confirmation_dialog_subtitle">Selecciona el mode que vols utilitzar</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Estalvi de bateria estàndard</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Limita els efectes visuals i l\'activitat en segon pla. Activa el tema fosc si encara no està activat.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Estalvi de bateria extrem</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Inclou tots els canvis anteriors. També posa en pausa aplicacions no essencials i les seves notificacions.</string>
+    <string name="battery_saver_confirmation_ok">Activa</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Cancel·la</string>
+    <string name="battery_saver_confirmation_setup">Configura</string>
 </resources>

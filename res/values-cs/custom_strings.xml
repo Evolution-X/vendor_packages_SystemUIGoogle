@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Přepnout</string>
     <string name="extreme_low_battery_notification_title">Velmi slabá baterie</string>
     <string name="extreme_low_battery_notification_text">Pokud telefon brzy nenabijete, vypne se</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Vítá vás spořič baterie</string>
+    <string name="saver_confirmation_dialog_subtitle">Zvolte si režim:</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Standardní spořič baterie</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Omezuje vizuální efekty a aktivitu na pozadí. Zapne tmavý motiv, pokud už není zapnutý.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Super spořič baterie</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Zahrnuje všechny výše uvedené změny. Pozastaví také méně důležité aplikace a jejich oznámení.</string>
+    <string name="battery_saver_confirmation_ok">Zapnout</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Zrušit</string>
+    <string name="battery_saver_confirmation_setup">Nastavit</string>
 </resources>

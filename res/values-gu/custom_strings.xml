@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">સ્વિચ કરો</string>
     <string name="extreme_low_battery_notification_title">બૅટરી ઘણી ઓછી છે</string>
     <string name="extreme_low_battery_notification_text">જો તમારા ફોનને જલ્દી ચાર્જ કરવામાં નહીં આવે તો તે શટ ડાઉન થઈ જશે</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">બૅટરી સેવરમાં આપનું સ્વાગત છે</string>
+    <string name="saver_confirmation_dialog_subtitle">ઉપયોગ કરવા માટે મોડ પસંદ કરો</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">સ્ટૅન્ડર્ડ બૅટરી સેવર</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">વિઝ્યુઅલ ઇફેક્ટ અને બૅકગ્રાઉન્ડની ઍક્ટિવિટીને મર્યાદિત કરે છે. જો પહેલેથી ચાલુ ન હોય, તો ડાર્ક થીમ ચાલુ કરે છે.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">એક્સ્ટ્રીમ બૅટરી સેવર</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">ઉપર સૂચિબદ્ધ બધા ફેરફારો શામેલ છે. અનાવશ્યક ઍપ અને તેના નોટિફિકેશન પણ થોભાવે છે.</string>
+    <string name="battery_saver_confirmation_ok">ચાલુ કરો</string>
+    <string name="saver_confirmation_dialog_dismiss_text">રદ કરો</string>
+    <string name="battery_saver_confirmation_setup">સેટઅપ કરો</string>
 </resources>

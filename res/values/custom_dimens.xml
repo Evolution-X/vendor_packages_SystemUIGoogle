@@ -52,4 +52,11 @@
     <dimen name="ambient_indication_song_searching_animation_translation_y">12dp</dimen>
     <dimen name="dock_logo_min_size">48dp</dimen>
     <dimen name="dock_top_logo_padding">8dp</dimen>
+
+    <!-- Battery Saver Confirmation Dialog Chip -->
+    <dimen name="battery_saver_dialog_button_background_radius">18dp</dimen>
+    <dimen name="battery_saver_dialog_button_background_vertical_insets">6dp</dimen>
+    <dimen name="battery_saver_dialog_button_to_button_space">8dp</dimen>
+    <dimen name="battery_saver_dialog_content_line_height">20sp</dimen>
+    <dimen name="battery_saver_dialog_content_text_size">14sp</dimen>
 </resources>

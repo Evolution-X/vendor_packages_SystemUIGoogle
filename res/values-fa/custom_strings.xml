@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">عوض کردن</string>
     <string name="extreme_low_battery_notification_title">باتری خیلی ضعیف است</string>
     <string name="extreme_low_battery_notification_text">اگر تلفنتان را فوراً شارژ نکنید خاموش می‌شود</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">به «بهینه‌سازی باتری» خوش آمدید</string>
+    <string name="saver_confirmation_dialog_subtitle">حالت استفاده را انتخاب کنید</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">بهینه‌سازی باتری استاندارد</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">جلوه‌های دیداری و فعالیت پس‌زمینه را محدود می‌کند. «زمینه تیره» را روشن می‌کند (اگر روشن نباشد).</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">نهایت بهینه‌سازی باتری</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">شامل همه تغییرات فهرست‌شده در بالا می‌شود. همچنین برنامه‌های غیرضروری و اعلان‌هایشان را موقتاً متوقف می‌کند.</string>
+    <string name="battery_saver_confirmation_ok">روشن کردن</string>
+    <string name="saver_confirmation_dialog_dismiss_text">لغو</string>
+    <string name="battery_saver_confirmation_setup">تنظیم</string>
 </resources>

@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Lülita ümber</string>
     <string name="extreme_low_battery_notification_title">Akutase on väga madal</string>
     <string name="extreme_low_battery_notification_text">Kui telefoni varsti ei laeta, siis lülitub see välja</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Tere tulemast kasutama akusäästjat</string>
+    <string name="saver_confirmation_dialog_subtitle">Valige kasutatav režiim</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Standardne akusäästja</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Piirab visuaalseid efekte ja taustategevusi. Lülitab sisse tumeda teema, kui see ei ole juba sisse lülitatud.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Ekstreemne akusäästja</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Hõlmab kõiki ülaltoodud muudatusi. Peatatakse ka ebaolulised rakendused ja nende märguanded.</string>
+    <string name="battery_saver_confirmation_ok">Lülita sisse</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Tühista</string>
+    <string name="battery_saver_confirmation_setup">Seadista</string>
 </resources>

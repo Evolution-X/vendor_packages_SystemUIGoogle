@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">전환</string>
     <string name="extreme_low_battery_notification_title">배터리 매우 부족</string>
     <string name="extreme_low_battery_notification_text">충전하지 않으면 휴대전화가 곧 종료됩니다.</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">절전 모드 시작됨</string>
+    <string name="saver_confirmation_dialog_subtitle">사용할 모드 선택</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">표준 절전 모드</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">시각 효과와 백그라운드 활동을 제한합니다. 어두운 테마가 아직 사용 설정되어 있지 않은 경우 사용 설정합니다.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">최대 절전 모드</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">위의 모든 변경사항을 포함합니다. 필수 앱 및 알림을 제외하고 모두 일시중지합니다.</string>
+    <string name="battery_saver_confirmation_ok">사용</string>
+    <string name="saver_confirmation_dialog_dismiss_text">취소</string>
+    <string name="battery_saver_confirmation_setup">설정</string>
 </resources>

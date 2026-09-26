@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">سوئچ کریں</string>
     <string name="extreme_low_battery_notification_title">بیٹری بہت کم ہے</string>
     <string name="extreme_low_battery_notification_text">اگر اسے جلد ہی چارج نہیں کیا گیا تو آپ کا فون شٹ ڈاؤن ہو جائے گا</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">بیٹری سیور میں خوش آمدید</string>
+    <string name="saver_confirmation_dialog_subtitle">استعمال کرنے کے لیے موڈ منتخب کریں</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">معیاری بیٹری سیور</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">ویژوئل ایفیکٹس اور پس منظر کی سرگرمی کو محدود کرتا ہے۔ گہری تھیم کے پہلے سے آن نہ ہونے پر اسے آن کرتا ہے۔</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">انتہائی بیٹری سیور</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">اوپر درج کردہ تمام تبدیلیاں شامل ہیں۔ غیر ضروری ایپس اور ان کی اطلاعات کو بھی موقوف کرتا ہے۔</string>
+    <string name="battery_saver_confirmation_ok">آن کریں</string>
+    <string name="saver_confirmation_dialog_dismiss_text">منسوخ کریں</string>
+    <string name="battery_saver_confirmation_setup">سیٹ اپ کریں</string>
 </resources>

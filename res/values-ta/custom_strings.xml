@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">மாற்று</string>
     <string name="extreme_low_battery_notification_title">பேட்டரி மிகக் குறைவாக உள்ளது</string>
     <string name="extreme_low_battery_notification_text">உங்கள் மொபைலை விரைவில் சார்ஜ் செய்யவில்லை எனில் அது ஷட் டவுன் ஆகிவிடும்</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">பேட்டரி சேமிப்பான் அம்சத்திற்கு வரவேற்கிறோம்</string>
+    <string name="saver_confirmation_dialog_subtitle">பயன்படுத்துவதற்கான மோடைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">இயல்புநிலை பேட்டரி சேமிப்பு</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">விஷுவல் எஃபெக்ட்டுகளையும் பின்னணிச் செயல்பாடுகளையும் குறைக்கும். டார்க் தீம் ஏற்கெனவே ஆன் செய்யப்படவில்லை என்றால் அதை ஆன் செய்யும்.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">மேம்பட்ட பேட்டரி சேமிப்பான்</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">மேலே பட்டியலிடப்பட்டுள்ள அனைத்து மாற்றங்களும் அடங்கும். அத்துடன், அத்தியாவசியமற்ற ஆப்ஸையும் அவற்றின் அறிவிப்புகளையும் இடைநிறுத்தும்.</string>
+    <string name="battery_saver_confirmation_ok">இயக்கு</string>
+    <string name="saver_confirmation_dialog_dismiss_text">ரத்துசெய்</string>
+    <string name="battery_saver_confirmation_setup">அமை</string>
 </resources>

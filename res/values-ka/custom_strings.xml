@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">გადართვა</string>
     <string name="extreme_low_battery_notification_title">ბატარეის მუხტი ძალიან დაბალია</string>
     <string name="extreme_low_battery_notification_text">თუ დროულად არ დატენით, თქვენი ტელეფონი მალე გამოირთვება</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">მოგესალმებათ ბატარეის დამზოგი</string>
+    <string name="saver_confirmation_dialog_subtitle">აირჩიეთ სასურველი რეჟიმი</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">ბატარეის სტანდარტული დამზოგი</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">ზღუდავს ვიზუალურ ეფექტებსა და ფონურ აქტივობას. რთავს მუქ თემას, თუ უკვე ჩართული არაა.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">ბატარეის სუპერდამზოგი</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">მოიცავს ყველა ზემოხსენებულ ცვლილებას. ასევე აპაუზებს არაარსებით აპებსა და მათ შეტყობინებებს.</string>
+    <string name="battery_saver_confirmation_ok">ჩართვა</string>
+    <string name="saver_confirmation_dialog_dismiss_text">გაუქმება</string>
+    <string name="battery_saver_confirmation_setup">დაყენება</string>
 </resources>

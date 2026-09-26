@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">切换</string>
     <string name="extreme_low_battery_notification_title">电池电量非常低</string>
     <string name="extreme_low_battery_notification_text">如果不立即充电，手机将关机</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">欢迎使用省电模式</string>
+    <string name="saver_confirmation_dialog_subtitle">选择要使用的模式</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">标准省电模式</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">限制视觉效果和后台活动，并开启深色主题（如果尚未开启）。</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">超级省电模式</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">包含上方所列的所有更改，还会暂停非必需应用及其通知。</string>
+    <string name="battery_saver_confirmation_ok">开启</string>
+    <string name="saver_confirmation_dialog_dismiss_text">取消</string>
+    <string name="battery_saver_confirmation_setup">设置</string>
 </resources>

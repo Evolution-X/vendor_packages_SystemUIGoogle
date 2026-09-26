@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Превключване</string>
     <string name="extreme_low_battery_notification_title">Много изтощена батерия</string>
     <string name="extreme_low_battery_notification_text">Телефонът ви ще се изключи, ако не бъде зареден скоро</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Добре дошли в режима за запазване на батерията</string>
+    <string name="saver_confirmation_dialog_subtitle">Изберете режима, който да се използва</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Стандартен режим за запазване на батерията</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Ограничава визуалните ефекти и активността на заден план. Включва тъмната тема, ако не е активирана.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Екстремен режим за запазване на батерията</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Включва всички посочени по-горе промени. Също така поставя на пауза маловажните приложения и съответните известия.</string>
+    <string name="battery_saver_confirmation_ok">Включване</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Отказ</string>
+    <string name="battery_saver_confirmation_setup">Настройване</string>
 </resources>

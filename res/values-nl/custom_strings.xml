@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Aanzetten</string>
     <string name="extreme_low_battery_notification_title">Batterij bijna leeg</string>
     <string name="extreme_low_battery_notification_text">Je telefoon gaat uit als deze niet snel wordt opgeladen</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Welkom bij Batterijbesparing</string>
+    <string name="saver_confirmation_dialog_subtitle">Kies de modus die je wilt gebruiken</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Standaard batterijbesparing</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Beperkt visuele effecten en activiteit op de achtergrond. Zet het donkere thema aan als dit nog niet actief is.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Extreme batterijbesparing</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Bevat alle hierboven vermelde wijzigingen. Onderbreekt ook niet-essentiële apps en de meldingen daarvan.</string>
+    <string name="battery_saver_confirmation_ok">Aanzetten</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Annuleren</string>
+    <string name="battery_saver_confirmation_setup">Instellen</string>
 </resources>

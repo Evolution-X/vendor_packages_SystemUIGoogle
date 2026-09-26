@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">ສະຫຼັບ</string>
     <string name="extreme_low_battery_notification_title">ແບັດເຕີຣີຕໍ່າຫຼາຍ</string>
     <string name="extreme_low_battery_notification_text">ໂທລະສັບຂອງທ່ານຈະປິດເຄື່ອງຫາກບໍ່ໄດ້ສາກໃນໄວໆນີ້</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">ຍິນດີຕ້ອນຮັບສູ່ຕົວປະຢັດແບັດເຕີຣີ</string>
+    <string name="saver_confirmation_dialog_subtitle">ເລືອກໂໝດເພື່ອໃຊ້</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">ຕົວປະຢັດແບັດເຕີຣີມາດຕະຖານ</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">ຈຳກັດເອັບເຟັກພາບ ແລະ ການເຄື່ອນໄຫວໃນພື້ນຫຼັງ. ເປີດໃຊ້ຮູບແບບສີສັນມືດ, ຫາກຍັງບໍ່ໄດ້ເປີດ.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">ຕົວປະຢັດແບັດເຕີຣີຂັ້ນສຸດຂີດ</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">ຮວມທັງການປ່ຽນແປງທັງໝົດຕາມລາຍຊື່ດ້ານເທິງ. ນອກຈາກນັ້ນຍັງຢຸດແອັບທີ່ບໍ່ສຳຄັນ ແລະ ການແຈ້ງເຕືອນຂອງພວກມັນໄວ້ຊົ່ວຄາວນຳອີກ.</string>
+    <string name="battery_saver_confirmation_ok">ເປີດ​ໃຊ້</string>
+    <string name="saver_confirmation_dialog_dismiss_text">ຍົກເລີກ</string>
+    <string name="battery_saver_confirmation_setup">ຕັ້ງຄ່າ</string>
 </resources>

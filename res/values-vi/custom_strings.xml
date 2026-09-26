@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Chuyển</string>
     <string name="extreme_low_battery_notification_title">Pin rất yếu</string>
     <string name="extreme_low_battery_notification_text">Điện thoại của bạn sẽ tắt nếu không được sạc sớm</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Chào mừng bạn đến với Trình tiết kiệm pin</string>
+    <string name="saver_confirmation_dialog_subtitle">Chọn chế độ để sử dụng</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Trình tiết kiệm pin tiêu chuẩn</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Giới hạn hiệu ứng hình ảnh và hoạt động ở chế độ nền. Hãy bật giao diện tối nếu bạn chưa bật.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Trình siêu tiết kiệm pin</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Chế độ này sẽ thực hiện mọi thay đổi nêu trên. Đồng thời tạm dừng các ứng dụng không thiết yếu và thông báo của những ứng dụng đó.</string>
+    <string name="battery_saver_confirmation_ok">Bật</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Huỷ</string>
+    <string name="battery_saver_confirmation_setup">Thiết lập</string>
 </resources>

@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Εναλλαγή</string>
     <string name="extreme_low_battery_notification_title">Πολύ χαμηλή μπαταρία</string>
     <string name="extreme_low_battery_notification_text">Η λειτουργία του τηλεφώνου θα τερματιστεί, αν δεν το φορτίσετε σύντομα</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Καλώς ορίσατε στην Εξοικονόμηση μπαταρίας</string>
+    <string name="saver_confirmation_dialog_subtitle">Επιλέξτε ποια λειτουργία θα χρησιμοποιηθεί</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Βασική εξοικονόμηση μπαταρίας</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Περιορίζει τα οπτικά εφέ και τη δραστηριότητα στο παρασκήνιο. Ενεργοποιεί το Σκούρο θέμα, αν δεν είναι ήδη ενεργοποιημένο.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Μέγιστη εξοικονόμηση μπαταρίας</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Περιλαμβάνει όλες τις αλλαγές που αναφέρονται παραπάνω. Επίσης, θέτει σε παύση τις μη βασικές εφαρμογές και τις ειδοποιήσεις τους.</string>
+    <string name="battery_saver_confirmation_ok">Ενεργοποίηση</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Ακύρωση</string>
+    <string name="battery_saver_confirmation_setup">Ρύθμιση</string>
 </resources>

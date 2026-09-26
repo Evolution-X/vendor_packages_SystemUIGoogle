@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">تبديل</string>
     <string name="extreme_low_battery_notification_title">طاقة البطارية منخفضة جدًا</string>
     <string name="extreme_low_battery_notification_text">سيتم إيقاف تشغيل الهاتف إذا لم تشحنه قريبًا</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">مرحبًا بك في \"توفير شحن البطارية\"</string>
+    <string name="saver_confirmation_dialog_subtitle">اختَر الوضع الذي تريد استخدامه</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">توفير البطارية العادي</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">يحدّ هذا الخيار من المؤثرات البصرية والأنشطة في الخلفية ويُفعِّل \"المظهر الداكن\" في حال لم يكُن مفعَّلاً.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">توفير البطارية العالي</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">يشمل جميع التغييرات المذكورة أعلاه. ويتم أيضًا إيقاف التطبيقات غير الأساسية وإشعاراتها مؤقتًا.</string>
+    <string name="battery_saver_confirmation_ok">تفعيل</string>
+    <string name="saver_confirmation_dialog_dismiss_text">إلغاء</string>
+    <string name="battery_saver_confirmation_setup">إعداد</string>
 </resources>

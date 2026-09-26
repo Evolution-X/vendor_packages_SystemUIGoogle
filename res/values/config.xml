@@ -58,6 +58,9 @@
     <!-- ThemePicker package name for overlaying icons. -->
     <string name="themepicker_overlayable_package" translatable="false">com.google.android.apps.wallpaper</string>
 
+    <!-- Whether to show extra battery saver confirmation dialog. -->
+    <bool name="config_extra_battery_saver_confirmation">true</bool>
+
     <!-- Package name of the preferred system app to perform eSOS action -->
     <string name="config_preferredEmergencySosPackage" translatable="false">com.google.android.apps.safetyhub</string>
 
@@ -70,7 +73,7 @@
          are still counted towards the total frames to determine whether a deferred message
          (see config_face_help_msgs_defer_until_timeout) meets the threshold % of frames to show on
          face timeout. -->
-     <integer-array name="config_face_acquire_device_entry_ignorelist" translatable="false">
+    <integer-array name="config_face_acquire_device_entry_ignorelist" translatable="false">
         <item>1</item>
         <item>2</item>
         <item>4</item>

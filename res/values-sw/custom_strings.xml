@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Badilisha</string>
     <string name="extreme_low_battery_notification_title">Chaji imepungua sana</string>
     <string name="extreme_low_battery_notification_text">Simu yako itazimika usipoichaji hivi karibuni</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Karibu katika kipengele cha Kiokoa Betri</string>
+    <string name="saver_confirmation_dialog_subtitle">Chagua hali ya kutumia</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Kiokoa Betri kwa Wastani</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Hupunguza madoido yanayoonekana na shughuli za chinichini. Huwasha mandhari meusi, iwapo bado hayajawashwa.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Kiokoa Betri kwa Kina</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Inajumuisha mabadiliko yote yaliyoorodheshwa hapo juu. Pia husitisha programu zisizo muhimu na arifa zake.</string>
+    <string name="battery_saver_confirmation_ok">Washa</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Ghairi</string>
+    <string name="battery_saver_confirmation_setup">Weka mipangilio</string>
 </resources>

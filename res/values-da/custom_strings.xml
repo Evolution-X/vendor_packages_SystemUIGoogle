@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Skift</string>
     <string name="extreme_low_battery_notification_title">Meget lavt batteriniveau</string>
     <string name="extreme_low_battery_notification_text">Din telefon slukker, hvis du ikke snart oplader den</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Velkommen til Batterisparefunktion</string>
+    <string name="saver_confirmation_dialog_subtitle">Vælg den tilstand, du vil bruge</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Standard batterisparefunktion</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Reducerer visuelle effekter og baggrundsaktivitet. Aktiverer Mørkt tema, hvis det ikke allerede er aktiveret.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Ekstrem batterisparefunktion</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Omfatter alle ændringer angivet ovenfor. Sætter også apps, der ikke er vigtige, og deres notifikationer på pause.</string>
+    <string name="battery_saver_confirmation_ok">Aktivér</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Annuller</string>
+    <string name="battery_saver_confirmation_setup">Konfigurer</string>
 </resources>

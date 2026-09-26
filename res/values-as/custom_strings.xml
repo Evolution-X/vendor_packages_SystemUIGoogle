@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">সলনি কৰক</string>
     <string name="extreme_low_battery_notification_title">বেটাৰী তেনেই কম আছে</string>
     <string name="extreme_low_battery_notification_text">আপোনাৰ ফ’নটো সোনকালে চাৰ্জ নকৰিলে সেইটো শ্বাট ডাউন হৈ যাব</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">বেটাৰী সঞ্চয়কাৰীলৈ স্বাগতম</string>
+    <string name="saver_confirmation_dialog_subtitle">ব্যৱহাৰ কৰিবলৈ ম’ডটো বাছনি কৰক</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">মানক বেটাৰী সঞ্চয়কাৰী</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">ভিজুৱেল ইফেক্ট আৰু পৃষ্ঠভূমিৰ কাৰ্যকলাপ সীমিত কৰে। ইতিমধ্যে অন কৰি থোৱা নাথাকিলে গাঢ় ৰঙৰ থীম অন কৰে।</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">চৰম বেটাৰী সঞ্চয়কাৰী</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">ওপৰত সূচীবদ্ধ কৰা আটাইবোৰ সালসলনি অন্তৰ্ভুক্ত কৰে। অত্যাৱশ্যকীয় নোহোৱা এপ্‌ আৰু সেইবোৰৰ জাননীও পজ কৰে।</string>
+    <string name="battery_saver_confirmation_ok">অন কৰক</string>
+    <string name="saver_confirmation_dialog_dismiss_text">বাতিল কৰক</string>
+    <string name="battery_saver_confirmation_setup">ছেট আপ কৰক</string>
 </resources>

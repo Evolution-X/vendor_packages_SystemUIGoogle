@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Ubah</string>
     <string name="extreme_low_battery_notification_title">Baterai sangat lemah</string>
     <string name="extreme_low_battery_notification_text">Ponsel Anda akan mati jika tidak segera diisi daya</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Selamat datang di Penghemat Baterai</string>
+    <string name="saver_confirmation_dialog_subtitle">Pilih mode yang akan digunakan</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Penghemat Baterai Standar</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Membatasi efek visual dan aktivitas latar belakang. Mengaktifkan tema gelap, jika belum diaktifkan.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Penghemat Baterai Super</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Mencakup semua perubahan yang tercantum di atas. Juga menjeda aplikasi yang tidak penting dan notifikasinya.</string>
+    <string name="battery_saver_confirmation_ok">Aktifkan</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Batal</string>
+    <string name="battery_saver_confirmation_setup">Siapkan</string>
 </resources>

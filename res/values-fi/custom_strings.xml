@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Vaihda</string>
     <string name="extreme_low_battery_notification_title">Akku lähes loppu</string>
     <string name="extreme_low_battery_notification_text">Puhelin sammuu pian jos sitä ei ladata</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Tervetuloa virransäästöön</string>
+    <string name="saver_confirmation_dialog_subtitle">Valitse käytettävä tila</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Akun vakiosäästö</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Rajoittaa visuaalisia tehosteita ja taustatoimintaa. Laittaa tumman teeman päälle, jos se ei ole päällä.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Akun tehosäästö</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Sisältää yllä mainitut muutokset. Keskeyttää myös toissijaiset sovellukset ja niiden ilmoitukset.</string>
+    <string name="battery_saver_confirmation_ok">Laita päälle</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Peru</string>
+    <string name="battery_saver_confirmation_setup">Ota käyttöön</string>
 </resources>

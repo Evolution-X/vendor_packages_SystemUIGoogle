@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Váltás</string>
     <string name="extreme_low_battery_notification_title">Mindjárt lemerül</string>
     <string name="extreme_low_battery_notification_text">Telefonja hamarosan kikapcsol, ha nem tölti fel</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Üdvözöljük az Akkumulátorkímélő módban</string>
+    <string name="saver_confirmation_dialog_subtitle">Válassza ki a használni kívánt üzemmódot</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Normál akkumulátorkímélő mód</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Korlátozza a vizuális effekteket és a háttértevékenységeket. Bekapcsolja a Sötét témát, ha még nem aktív.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Extrém akkumulátorkímélő mód</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Az összes fenti módosítást tartalmazza. Ezek mellett nem alapvető alkalmazásokat és azok értesítéseit is szünetelteti.</string>
+    <string name="battery_saver_confirmation_ok">Bekapcsolás</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Mégse</string>
+    <string name="battery_saver_confirmation_setup">Beállítás</string>
 </resources>

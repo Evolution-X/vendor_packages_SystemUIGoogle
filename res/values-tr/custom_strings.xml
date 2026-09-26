@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Geç</string>
     <string name="extreme_low_battery_notification_title">Pil düzeyi çok düşük</string>
     <string name="extreme_low_battery_notification_text">Kısa bir süre içinde şarj edilmezse telefonunuz kapanacak</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Pil Tasarrufu\'na hoş geldiniz</string>
+    <string name="saver_confirmation_dialog_subtitle">Kullanılacak modu seçin</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Standart Pil Tasarrufu</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Görsel efektleri ve arka plan etkinliğini sınırlandırır. Açık değilse koyu temayı açar.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Ekstra Pil Tasarrufu</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Yukarıda listelenen tüm değişiklikleri içerir. Bunun yanı sıra, gerekli olmayan uygulamaları ve bildirimlerini duraklatır.</string>
+    <string name="battery_saver_confirmation_ok">Aç</string>
+    <string name="saver_confirmation_dialog_dismiss_text">İptal</string>
+    <string name="battery_saver_confirmation_setup">Kur</string>
 </resources>

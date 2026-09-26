@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Wechseln</string>
     <string name="extreme_low_battery_notification_title">Sehr niedriger Akkustand</string>
     <string name="extreme_low_battery_notification_text">Dein Smartphone wird heruntergefahren, wenn es nicht bald geladen wird</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Willkommen beim Energiesparmodus</string>
+    <string name="saver_confirmation_dialog_subtitle">Modus auswählen, der verwendet werden soll</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Standard-Energiesparmodus</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Visuelle Effekte und Hintergrundaktivitäten werden eingeschränkt. Falls das dunkle Design deaktiviert ist, wird es aktiviert.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Extrem-Energiesparmodus</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Alle oben aufgeführten Änderungen werden übernommen. Außerdem werden weniger wichtige Apps und deren Benachrichtigungen pausiert.</string>
+    <string name="battery_saver_confirmation_ok">Aktivieren</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Abbrechen</string>
+    <string name="battery_saver_confirmation_setup">Einrichten</string>
 </resources>

@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">เปลี่ยน</string>
     <string name="extreme_low_battery_notification_title">แบตเตอรี่เหลือน้อยมาก</string>
     <string name="extreme_low_battery_notification_text">โทรศัพท์ของคุณจะปิดลงหากไม่ชาร์จเร็วๆ นี้</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">ยินดีต้อนรับสู่โหมดประหยัดแบตเตอรี่</string>
+    <string name="saver_confirmation_dialog_subtitle">เลือกโหมดที่จะใช้</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">โหมดประหยัดแบตเตอรี่แบบมาตรฐาน</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">จำกัดเอฟเฟกต์ภาพและกิจกรรมในเบื้องหลัง เปิดธีมมืดหากยังไม่ได้เปิด</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">โหมดประหยัดแบตเตอรี่สูงสุด</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">ประกอบด้วยการเปลี่ยนแปลงทั้งหมดที่ระบุไว้ด้านบน รวมถึงการหยุดแอปที่ไม่จำเป็นและการแจ้งเตือนของแอปไว้ชั่วคราว</string>
+    <string name="battery_saver_confirmation_ok">เปิด</string>
+    <string name="saver_confirmation_dialog_dismiss_text">ยกเลิก</string>
+    <string name="battery_saver_confirmation_setup">ตั้งค่า</string>
 </resources>

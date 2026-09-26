@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Lumipat</string>
     <string name="extreme_low_battery_notification_title">Napakahinang baterya</string>
     <string name="extreme_low_battery_notification_text">Magsa-shut down ang iyong telepono kung hindi ito icha-charge sa lalong madaling panahon</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Welcome sa Battery Saver</string>
+    <string name="saver_confirmation_dialog_subtitle">Piliin ang gagamiting mode</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Karaniwang Pantipid ng Baterya</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Nililimitahan ang mga visual effect at aktibidad sa background. Ino-on ang dark theme, kung hindi pa ito naka-on.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Max na Pantipid ng Baterya</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Kasama ang lahat ng pagbabagong nakalista sa itaas. Pino-pause din ang hindi mahahalagang app at mga notification ng mga ito.</string>
+    <string name="battery_saver_confirmation_ok">I-on</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Kanselahin</string>
+    <string name="battery_saver_confirmation_setup">I-set up</string>
 </resources>

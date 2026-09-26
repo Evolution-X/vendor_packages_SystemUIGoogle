@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Пераключыцца</string>
     <string name="extreme_low_battery_notification_title">Вельмі нізкі зарад акумулятара</string>
     <string name="extreme_low_battery_notification_text">Калі тэлефон не зарадзіць, ён хутка выключыцца</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Прадстаўляем рэжым энергазберажэння</string>
+    <string name="saver_confirmation_dialog_subtitle">Выберыце рэжым для выкарыстання</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Стандартны рэжым энергазберажэння</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Абмяжоўвае візуальныя эфекты і фонавыя працэсы, а таксама ўключае цёмную тэму.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Рэжым экстрэмальнага энергазберажэння</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Уключае ўсе змяненні, пералічаныя вышэй, і прыпыняе другарадныя праграмы і іх апавяшчэнні.</string>
+    <string name="battery_saver_confirmation_ok">Уключыць</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Скасаваць</string>
+    <string name="battery_saver_confirmation_setup">Наладзіць</string>
 </resources>

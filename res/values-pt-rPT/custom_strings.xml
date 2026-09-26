@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Mudar</string>
     <string name="extreme_low_battery_notification_title">Bateria muito fraca</string>
     <string name="extreme_low_battery_notification_text">O telemóvel vai ser encerrado se não for carregado brevemente</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Poupança de bateria</string>
+    <string name="saver_confirmation_dialog_subtitle">Selecione o modo a usar</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Poupança de bateria padrão</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Limita os efeitos visuais e a atividade em segundo plano. Se o tema escuro estiver desativado, ativa-o.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Poupança de bateria extrema</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Inclui todas as alterações indicadas acima. Também pausa apps não essenciais e as respetivas notificações.</string>
+    <string name="battery_saver_confirmation_ok">Ativar</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Cancelar</string>
+    <string name="battery_saver_confirmation_setup">Configurar</string>
 </resources>

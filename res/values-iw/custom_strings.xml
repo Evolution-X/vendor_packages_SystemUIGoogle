@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">מעבר</string>
     <string name="extreme_low_battery_notification_title">הסוללה חלשה מאוד</string>
     <string name="extreme_low_battery_notification_text">אם הטלפון לא ייטען בקרוב, הוא יכבה</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">נעים להכיר: מצב חיסכון בסוללה</string>
+    <string name="saver_confirmation_dialog_subtitle">בחירת המצב לשימוש</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">חיסכון סטנדרטי בסוללה</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">האפקטים הוויזואליים והפעילות ברקע יוגבלו. העיצוב הכהה יופעל.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">חיסכון משמעותי בסוללה</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">כל השינויים שרשומים למעלה, וגם השהיית אפליקציות לא חיוניות וההתראות שלהן.</string>
+    <string name="battery_saver_confirmation_ok">הפעלה</string>
+    <string name="saver_confirmation_dialog_dismiss_text">ביטול</string>
+    <string name="battery_saver_confirmation_setup">הגדרה</string>
 </resources>

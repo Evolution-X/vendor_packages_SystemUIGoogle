@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Changer</string>
     <string name="extreme_low_battery_notification_title">Batterie très faible</string>
     <string name="extreme_low_battery_notification_text">Votre téléphone va s\'éteindre s\'il n\'est pas bientôt rechargé</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Bienvenue dans l\'économiseur de batterie</string>
+    <string name="saver_confirmation_dialog_subtitle">Sélectionnez le mode à utiliser</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Économiseur de batterie standard</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Limite les effets visuels et l\'activité en arrière-plan. Active le thème sombre, si ce n\'est pas déjà fait.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Ultra économiseur de batterie</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Applique tous les changements ci-dessus. Suspend aussi les applis non essentielles et leurs notifications.</string>
+    <string name="battery_saver_confirmation_ok">Activer</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Annuler</string>
+    <string name="battery_saver_confirmation_setup">Configurer</string>
 </resources>

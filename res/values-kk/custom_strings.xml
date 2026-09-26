@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Ауысу</string>
     <string name="extreme_low_battery_notification_title">Батарея өте аз</string>
     <string name="extreme_low_battery_notification_text">Жақын арада зарядталмаса, телефоныңыз өшеді.</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Батареяны үнемдеу режиміне қош келдіңіз!</string>
+    <string name="saver_confirmation_dialog_subtitle">Пайдаланатын режимді таңдаңыз.</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Батареяны стандартты үнемдеу режимі</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Визуалдық әсерлер мен фондық әрекет жұмысын шектейді. Қараңғы режим әлі қосылмаған болса, оны қосып қояды.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Батареяны барынша үнемдеу режимі</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Жоғарыда берілген барлық өзгерісті қамтиды. Сондай-ақ маңызды емес қолданбалар мен олардың хабарландыруларын кідіртіп қояды.</string>
+    <string name="battery_saver_confirmation_ok">Қосу</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Бас тарту</string>
+    <string name="battery_saver_confirmation_setup">Реттеу</string>
 </resources>

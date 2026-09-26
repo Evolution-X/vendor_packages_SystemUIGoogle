@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">మారండి</string>
     <string name="extreme_low_battery_notification_title">చాలా తక్కువ బ్యాటరీ ఉంది</string>
     <string name="extreme_low_battery_notification_text">మీ ఫోన్‌ను త్వరగా ఛార్జ్ చేయకపోతే షట్ డౌన్ అవుతుంది</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">బ్యాటరీ సేవర్ మోడ్‌కు స్వాగతం</string>
+    <string name="saver_confirmation_dialog_subtitle">ఉపయోగించడానికి మోడ్‌ను ఎంచుకోండి</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">స్టాండర్డ్ బ్యాటరీ సేవర్</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">విజువల్ ఎఫెక్ట్స్‌ను, బ్యాక్‌గ్రౌండ్ యాక్టివిటీని పరిమితం చేస్తుంది. డార్క్ థీమ్ ఆన్‌లో లేకపోతే, దాన్ని ఆన్ చేస్తుంది.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">అధునాతన బ్యాటరీ సేవర్</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">పైన లిస్ట్ చేసిన అన్ని మార్పులు ఇందులో ఉంటాయి. ముఖ్యం కాని యాప్‌లను, వాటి నోటిఫికేషన్‌లను కూడా పాజ్ చేస్తుంది.</string>
+    <string name="battery_saver_confirmation_ok">ఆన్ చేయండి</string>
+    <string name="saver_confirmation_dialog_dismiss_text">రద్దు చేయండి</string>
+    <string name="battery_saver_confirmation_setup">సెటప్ చేయండి</string>
 </resources>

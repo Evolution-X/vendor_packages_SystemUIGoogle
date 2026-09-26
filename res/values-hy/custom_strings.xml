@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Անցնել</string>
     <string name="extreme_low_battery_notification_title">Մարտկոցի լիցքը շատ ցածր է</string>
     <string name="extreme_low_battery_notification_text">Ձեր հեռախոսը շուտով կանջատվի, եթե չլիցքավորեք մարտկոցը</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Բարի գալուստ մարտկոցի տնտեսման ռեժիմ</string>
+    <string name="saver_confirmation_dialog_subtitle">Ընտրեք ռեժիմ</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Մարտկոցի տնտեսման ստանդարտ ռեժիմ</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Սահմանափակում է վիզուալ էֆեկտները և աշխատանքը ֆոնային ռեժիմում։ Միացնում է մուգ թեման, եթե այն դեռ միացված չէ։</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Մարտկոցի առավելագույն տնտեսում</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Ներառում է վերը թվարկված բոլոր փոփոխությունները։ Ինչպես նաև դադարեցնում է երկրորդական հավելվածների աշխատանքը և անջատում դրանց ծանուցումները։</string>
+    <string name="battery_saver_confirmation_ok">Միացնել</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Չեղարկել</string>
+    <string name="battery_saver_confirmation_setup">Կարգավորել</string>
 </resources>

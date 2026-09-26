@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">මාරු කරන්න</string>
     <string name="extreme_low_battery_notification_title">බැටරිය ඉතා අඩුයි</string>
     <string name="extreme_low_battery_notification_text">ඔබේ දුරකථනය එය ඉක්මනින් ආරෝපණය නොකරන්නේ නම් වසා දමනු ඇත</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">බැටරි සුරැකුම වෙත සාදරයෙන් පිළිගනිමු</string>
+    <string name="saver_confirmation_dialog_subtitle">භාවිතා කිරීමට ප්‍රකාරය තෝරන්න</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">සම්මත බැටරි සුරැකුම</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">දෘශ්‍ය ප්‍රයෝග සහ පසුබිම් ක්‍රියාකාරකම් සීමා කරයි. දැනටමත් ක්‍රියාත්මක නොවේ නම්, අඳුරු තේමාව ක්‍රියාත්මක කරයි.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">උපරිම බැටරි සුරැකුම</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">ඉහත ලැයිස්තුගත කර ඇති සියලුම වෙනස්කම් ඇතුළත් වේ. අත්‍යවශ්‍ය නොවන යෙදුම් සහ ඒවායේ දැනුම්දීම් ද විරාම කරයි.</string>
+    <string name="battery_saver_confirmation_ok">ක්‍රියාත්මක කරන්න</string>
+    <string name="saver_confirmation_dialog_dismiss_text">අවලංගු කරන්න</string>
+    <string name="battery_saver_confirmation_setup">පිහිටුවන්න</string>
 </resources>

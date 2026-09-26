@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Aldatu</string>
     <string name="extreme_low_battery_notification_title">Bateria oso gutxi</string>
     <string name="extreme_low_battery_notification_text">Telefonoa laster kargatzen ez baduzu, itzali egingo da</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Ongi etorri Bateria-aurreztailea eginbidera</string>
+    <string name="saver_confirmation_dialog_subtitle">Hautatu erabili nahi duzun modua</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Bateria-aurreztaile estandarra</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Ikusizko efektuak eta atzeko planoko jarduerak mugatzen ditu. Halaber, gai iluna aktibatzen du, dagoeneko aktibatuta ez badago.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Muturreko bateria-aurreztailea</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Goiko aukeran aipatutakoa aplikatzen zaio. Horrez gain, ezinbestekoak ez diren aplikazioak eta haien jakinarazpenak pausatzen ditu.</string>
+    <string name="battery_saver_confirmation_ok">Aktibatu</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Utzi</string>
+    <string name="battery_saver_confirmation_setup">Konfiguratu</string>
 </resources>

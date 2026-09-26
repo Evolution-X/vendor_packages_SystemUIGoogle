@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">മാറുക</string>
     <string name="extreme_low_battery_notification_title">ബാറ്ററി ചാർജ് വളരെ കുറവാണ്</string>
     <string name="extreme_low_battery_notification_text">ഉടൻ ചാർജ് ചെയ്‌തില്ലെങ്കിൽ നിങ്ങളുടെ ഫോൺ ഷട്ട് ഡൗൺ ആകും</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">ബാറ്ററി സേവറിലേക്ക് സ്വാഗതം</string>
+    <string name="saver_confirmation_dialog_subtitle">ഉപയോഗിക്കേണ്ട മോഡ് തിരഞ്ഞെടുക്കുക</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">സ്റ്റാൻഡേർഡ് ബാറ്ററി സേവർ</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">വിഷ്വൽ ഇഫക്റ്റുകളും പശ്ചാത്തല ആക്റ്റിവിറ്റിയും പരിമിതപ്പെടുത്തുന്നു. ഡാർക്ക് തീം നിലവിൽ ഓണല്ലെങ്കിൽ, അത് ഓണാക്കുന്നു.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">പരമാവധി ബാറ്ററി സേവർ</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">മുകളിൽ ലിസ്റ്റ് ചെയ്ത എല്ലാ മാറ്റങ്ങളും ഉൾപ്പെടുന്നു. അത്യാവശ്യമല്ലാത്ത ആപ്പുകളും അവയുടെ അറിയിപ്പുകളും താൽക്കാലികമായി നിർത്തുകയും ചെയ്യുന്നു.</string>
+    <string name="battery_saver_confirmation_ok">ഓൺ ചെയ്യുക</string>
+    <string name="saver_confirmation_dialog_dismiss_text">റദ്ദാക്കുക</string>
+    <string name="battery_saver_confirmation_setup">സജ്ജീകരിക്കുക</string>
 </resources>

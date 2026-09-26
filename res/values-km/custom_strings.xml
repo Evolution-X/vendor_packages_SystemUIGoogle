@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">ប្ដូរ</string>
     <string name="extreme_low_battery_notification_title">ជិតអស់ថ្មមែនទែនហើយ</string>
     <string name="extreme_low_battery_notification_text">ទូរសព្ទ​របស់អ្នក​នឹង​បិទ ប្រសិនបើមិនសាកថ្មឧបករណ៍នេះឱ្យបានឆាប់ទេ</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">សូមស្វាគមន៍​មកកាន់មុខងារ​សន្សំ​ថ្ម</string>
+    <string name="saver_confirmation_dialog_subtitle">ជ្រើសរើសមុខងារសម្រាប់ប្រើ</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">មុខងារ​សន្សំ​ថ្មស្តង់ដា</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">ដាក់កំហិតលើ​បែបផែនរូបភាព និងសកម្មភាពនៅផ្ទៃខាងក្រោយ។ បើកទម្រង់រចនាងងឹត ប្រសិនបើមិនទាន់បើក។</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">មុខងារសន្សំថ្មខ្លាំង</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">រួមបញ្ចូលការផ្លាស់ប្ដូរទាំងអស់ដែលបង្ហាញខាងលើ។ ផ្អាក​កម្មវិធីមិនចាំបាច់ និងការជូនដំណឹង​របស់កម្មវិធីទាំងនោះ​ផងដែរ។</string>
+    <string name="battery_saver_confirmation_ok">បើក</string>
+    <string name="saver_confirmation_dialog_dismiss_text">បោះបង់</string>
+    <string name="battery_saver_confirmation_setup">រៀបចំ</string>
 </resources>

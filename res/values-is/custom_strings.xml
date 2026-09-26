@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Skipta</string>
     <string name="extreme_low_battery_notification_title">Mjög lítil hleðsla</string>
     <string name="extreme_low_battery_notification_text">Ef síminn er ekki hlaðinn fljótlega mun slokkna á honum</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Velkomin(n) í rafhlöðusparnað</string>
+    <string name="saver_confirmation_dialog_subtitle">Veldu stillingu til að nota</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Venjulegur rafhlöðusparnaður</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Takmarkar myndáhrif og bakgrunnsvirkni. Kveikir á dökku þema, ef ekki er þegar kveikt á því.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Ofurrafhlöðu­sparnaður</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Inniheldur allar breytingar sem getið er hér að ofan. Gerir einnig hlé á ónauðsynlegum forritum og tilkynningum frá þeim.</string>
+    <string name="battery_saver_confirmation_ok">Kveikja</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Hætta við</string>
+    <string name="battery_saver_confirmation_setup">Setja upp</string>
 </resources>

@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">ቀይር</string>
     <string name="extreme_low_battery_notification_title">በጣም ዝቅተኛ ባትሪ</string>
     <string name="extreme_low_battery_notification_text">ስልክዎ በቅርቡ ኃይል ካልተሞላበት ይዘጋል</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">ወደ የባትሪ ኃይል ቆጣቢ እንኳን ደህና መጡ</string>
+    <string name="saver_confirmation_dialog_subtitle">ለመጠቀም ሁነታውን ይምረጡ</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">መደበኛ የባትሪ ኃይል ቆጣቢ</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">የሚታዩ ነገሮች ተጽዕኖዎች እና የዳራ እንቅስቃሴን ይገድባል። ጠቆር ያለ ገጽታ ቀድሞውኑ ካልበራ ያበራዋል።</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">ከፍተኛ ባትሪ ቆጣቢ</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">ከላይ የተዘረዘሩትን ሁሉንም ለውጦች ያካትታል። እንዲሁም መሠረታዊ ያልሆኑ መተግበሪያዎችን እና ማሳወቂያዎቻቸውን ባሉበት ያቆማል።</string>
+    <string name="battery_saver_confirmation_ok">አብራ</string>
+    <string name="saver_confirmation_dialog_dismiss_text">ይቅር</string>
+    <string name="battery_saver_confirmation_setup">አዋቅር</string>
 </resources>

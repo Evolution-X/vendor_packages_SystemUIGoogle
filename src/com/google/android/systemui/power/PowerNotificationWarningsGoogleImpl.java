@@ -7,12 +7,12 @@ import android.content.IntentFilter;
 import android.os.BatteryManager;
 import android.os.Handler;
 import android.os.PowerManager;
-import android.provider.Settings;
 import android.util.Log;
 
 import com.android.internal.logging.UiEventLogger;
 import com.android.settingslib.fuelgauge.BatteryStatus;
 import com.android.systemui.animation.DialogTransitionAnimator;
+import com.android.systemui.animation.Expandable;
 import com.android.systemui.broadcast.BroadcastDispatcher;
 import com.android.systemui.broadcast.BroadcastSender;
 import com.android.systemui.dagger.SysUISingleton;
@@ -21,6 +21,7 @@ import com.android.systemui.dagger.qualifiers.Main;
 import com.android.systemui.plugins.ActivityStarter;
 import com.android.systemui.power.BatteryStateSnapshot;
 import com.android.systemui.power.PowerNotificationWarnings;
+import com.android.systemui.res.R;
 import com.android.systemui.settings.UserTracker;
 import com.android.systemui.statusbar.phone.SystemUIDialog;
 import com.android.systemui.statusbar.policy.BatteryController;
@@ -35,11 +36,13 @@ import com.google.android.systemui.power.batteryevent.common.module.SevereLowBat
 import dagger.Lazy;
 
 import java.io.PrintWriter;
+import java.lang.ref.WeakReference;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.Executor;
 
 import javax.inject.Inject;
+import javax.inject.Provider;
 
 @SysUISingleton
 public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnings {
@@ -54,6 +57,9 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
     private final UiEventLogger mUiEventLogger;
     private final SevereLowBatteryNotification mSevereLowBatteryNotification;
     private final LowPowerWarningsController mLowPowerWarningsController;
+    private final Provider<BatterySaverConfirmationDialog> mBatterySaverConfirmationDialogProvider;
+    private final Lazy<BatteryController> mBatteryControllerLazy;
+    private BatterySaverConfirmationDialog mBatterySaverConfirmationDialog;
 
     private final BroadcastReceiver mBroadcastReceiver =
             new BroadcastReceiver() {
@@ -79,6 +85,10 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
                         case "PNW.dismissSevereLowBatteryWarning":
                             handleDismissSevereLowBatteryWarning(intent);
                             break;
+                        case "PNW.startSaverConfirmation":
+                        case "FLIPENDO.startSaverConfirmation":
+                            handleStartSaverConfirmation();
+                            break;
                         case "systemui.power.action.START_FLIPENDO":
                             handleStartFlipendo(intent);
                             break;
@@ -103,7 +113,8 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
             GlobalSettings globalSettings,
             @Background Executor backgroundExecutor,
             @Main Handler mainHandler,
-            SevereLowBatteryNotification severeLowBatteryNotification) {
+            SevereLowBatteryNotification severeLowBatteryNotification,
+            Provider<BatterySaverConfirmationDialog> batterySaverConfirmationDialogProvider) {
         super(
                 context,
                 activityStarter,
@@ -115,11 +126,13 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
                 systemUIDialogFactory);
         mContext = context;
         mBroadcastDispatcher = broadcastDispatcher;
+        mBatteryControllerLazy = batteryControllerLazy;
         mGlobalSettings = globalSettings;
         mExecutor = backgroundExecutor;
         mHandler = mainHandler;
         mUiEventLogger = uiEventLogger;
         mSevereLowBatteryNotification = severeLowBatteryNotification;
+        mBatterySaverConfirmationDialogProvider = batterySaverConfirmationDialogProvider;
         mLowPowerWarningsController =
                 new LowPowerWarningsController(
                         context,
@@ -128,10 +141,6 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
                         uiEventLogger,
                         severeLowBatteryNotification);
 
-        Settings.Secure.putInt(
-                context.getContentResolver(), "suppress_auto_battery_saver_suggestion", 1);
-        Settings.Secure.putInt(context.getContentResolver(), "low_power_warning_acknowledged", 1);
-
         IntentFilter filter = new IntentFilter();
         filter.addAction(Intent.ACTION_BATTERY_CHANGED);
         filter.addAction(Intent.ACTION_POWER_CONNECTED);
@@ -139,9 +148,28 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
         filter.addAction(PowerManager.ACTION_POWER_SAVE_MODE_CHANGED);
         filter.addAction("com.android.settingslib.fuelgauge.ACTION_SAVER_STATE_MANUAL_UPDATE");
         filter.addAction("PNW.dismissSevereLowBatteryWarning");
+        filter.addAction("PNW.startSaverConfirmation");
+        filter.addAction("FLIPENDO.startSaverConfirmation");
         filter.addAction("systemui.power.action.START_FLIPENDO");
         filter.addAction("PNW.dismissedWarning");
         mBroadcastDispatcher.registerReceiver(mBroadcastReceiver, filter);
+    }
+
+    private void handleStartSaverConfirmation() {
+        if (mLowPowerWarningsController != null) {
+            mLowPowerWarningsController.cancelNotification();
+        }
+        if (!mContext.getResources().getBoolean(R.bool.config_extra_battery_saver_confirmation)) {
+            return;
+        }
+        if (mBatterySaverConfirmationDialog == null) {
+            mBatterySaverConfirmationDialog = mBatterySaverConfirmationDialogProvider.get();
+        }
+        WeakReference<Expandable> ref =
+                mBatteryControllerLazy.get().getLastPowerSaverStartExpandable();
+        Expandable expandable = (ref != null) ? ref.get() : null;
+        mBatteryControllerLazy.get().clearLastPowerSaverStartExpandable();
+        mBatterySaverConfirmationDialog.show(expandable);
     }
 
     private void handleBatteryChanged(Intent intent) {

@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Пребаци</string>
     <string name="extreme_low_battery_notification_title">Батерија је на измаку</string>
     <string name="extreme_low_battery_notification_text">Телефон ће се искључити ако ускоро не почнете да га пуните</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Добро дошли у Уштеду батерије</string>
+    <string name="saver_confirmation_dialog_subtitle">Изаберите режим за коришћење</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Стандардна уштеда батерије</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Ограничава визуелне ефекте и активности у позадини. Укључује тамну тему ако није већ укључена.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Екстремна уштеда батерије</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Обухвата све промене наведене изнад. Такође паузира апликације које нису неопходне и њихова обавештења.</string>
+    <string name="battery_saver_confirmation_ok">Укључи</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Откажи</string>
+    <string name="battery_saver_confirmation_setup">Подеси</string>
 </resources>

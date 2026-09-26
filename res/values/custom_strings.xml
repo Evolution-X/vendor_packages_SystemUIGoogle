@@ -29,4 +29,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Switch</string>
     <string name="extreme_low_battery_notification_title">Very low battery</string>
     <string name="extreme_low_battery_notification_text">Your phone will shut down if it’s not charged soon</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Welcome to Battery Saver</string>
+    <string name="saver_confirmation_dialog_subtitle">Select the mode to use</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Standard Battery Saver</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Limits visual effects and background activity. Turns on dark theme, if not already on.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Extreme Battery Saver</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Includes all changes listed above. Also pauses non-essential apps and their notifications.</string>
+    <string name="battery_saver_confirmation_ok">Turn on</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Cancel</string>
+    <string name="battery_saver_confirmation_setup">Set up</string>
 </resources>

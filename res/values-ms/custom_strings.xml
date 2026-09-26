@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Tukar</string>
     <string name="extreme_low_battery_notification_title">Bateri sangat lemah</string>
     <string name="extreme_low_battery_notification_text">Telefon anda akan dimatikan jika tidak dicas segera</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Selamat datang ke Penjimat Bateri</string>
+    <string name="saver_confirmation_dialog_subtitle">Pilih mod untuk digunakan</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Penjimat Bateri Standard</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Mengehadkan kesan visual dan aktiviti latar. Menghidupkan tema gelap jika belum dihidupkan.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Penjimat Bateri Ekstrem</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Termasuk semua perubahan yang disenaraikan di atas. Juga menjeda apl tidak penting dan pemberitahuan apl tersebut.</string>
+    <string name="battery_saver_confirmation_ok">Hidupkan</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Batal</string>
+    <string name="battery_saver_confirmation_setup">Sediakan</string>
 </resources>

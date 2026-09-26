@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Byt</string>
     <string name="extreme_low_battery_notification_title">Mycket låg batterinivå</string>
     <string name="extreme_low_battery_notification_text">Telefonen stängs av om den inte laddas snart</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Välkommen till Batterisparläge</string>
+    <string name="saver_confirmation_dialog_subtitle">Välj vilket läge du vill använda</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Standardbatterisparläge</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Begränsar visuella effekter och aktivitet i bakgrunden. Mörkt tema aktiveras om det inte redan är på.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Effektivare batterisparläge</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Omfattar alla ändringar som anges ovan. Appar som inte är viktiga och deras aviseringar pausas också.</string>
+    <string name="battery_saver_confirmation_ok">Aktivera</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Avbryt</string>
+    <string name="battery_saver_confirmation_setup">Konfigurera</string>
 </resources>

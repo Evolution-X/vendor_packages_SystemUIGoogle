@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Змінити режим</string>
     <string name="extreme_low_battery_notification_title">Дуже низький заряд</string>
     <string name="extreme_low_battery_notification_text">Телефон вимкнеться, якщо його найближчим часом не зарядити</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Вітаємо в режимі енергозбереження</string>
+    <string name="saver_confirmation_dialog_subtitle">Виберіть потрібний режим</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Стандартний режим енергозбереження</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Обмежуються візуальні ефекти й дії у фоновому режимі. Вмикається темна тема (якщо її ще не ввімкнено).</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Режим екстремального енергозбереження</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Включає всі вказані вище зміни. Також призупиняються неважливі додатки й сповіщення з них.</string>
+    <string name="battery_saver_confirmation_ok">Увімкнути</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Скасувати</string>
+    <string name="battery_saver_confirmation_setup">Налаштувати</string>
 </resources>

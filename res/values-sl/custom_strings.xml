@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Preklopi</string>
     <string name="extreme_low_battery_notification_title">Baterija je skoraj prazna</string>
     <string name="extreme_low_battery_notification_text">Telefon se bo izklopil, če ne boste kmalu napolnili baterije</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Pozdravljeni v varčevanju z energijo baterije</string>
+    <string name="saver_confirmation_dialog_subtitle">Izberite način, ki ga želite uporabiti.</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Standardno varčevanje z energijo baterije</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Omeji vizualne učinke in dejavnost v ozadju. Vklopi temno temo, če še ni vklopljena.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Strogo varčevanje z energijo baterije</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Vključuje vse zgoraj navedene spremembe. Prav tako začasno zaustavi nenujne aplikacije in njihova obvestila.</string>
+    <string name="battery_saver_confirmation_ok">Vklopi</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Prekliči</string>
+    <string name="battery_saver_confirmation_setup">Nastavi</string>
 </resources>

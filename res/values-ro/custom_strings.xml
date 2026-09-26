@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Comută</string>
     <string name="extreme_low_battery_notification_title">Nivel foarte scăzut al bateriei</string>
     <string name="extreme_low_battery_notification_text">Telefonul se va închide dacă nu este încărcat în curând</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Bun venit la Economisirea bateriei!</string>
+    <string name="saver_confirmation_dialog_subtitle">Selectează modul de folosit</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Economisirea bateriei standard</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Limitează efectele vizuale și activitatea din fundal. Activează Tema întunecată dacă nu este deja activată.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Economisirea extremă a bateriei</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Include toate modificările menționate mai sus. Întrerupe și aplicațiile neesențiale și notificările aferente.</string>
+    <string name="battery_saver_confirmation_ok">Activează</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Anulează</string>
+    <string name="battery_saver_confirmation_setup">Configurează</string>
 </resources>

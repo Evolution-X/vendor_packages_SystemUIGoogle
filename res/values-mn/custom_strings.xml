@@ -28,4 +28,15 @@
     <string name="severe_low_battery_dialog_switch_action_text">Сэлгэх</string>
     <string name="extreme_low_battery_notification_title">Батарей маш бага байна</string>
     <string name="extreme_low_battery_notification_text">Утсаа удахгүй цэнэглэхгүй бол унтарна</string>
+
+    <!-- Battery Saver Confirmation Dialog -->
+    <string name="saver_confirmation_dialog_title">Батарей хэмнэгчид тавтай морилно уу</string>
+    <string name="saver_confirmation_dialog_subtitle">Ашиглах горим сонгоорой</string>
+    <string name="saver_confirmation_dialog_title_standard_mode">Стандарт батарей хэмнэгч</string>
+    <string name="saver_confirmation_dialog_summary_standard_mode">Визуал эффект болон арын үйл ажиллагааг хязгаарладаг. Бараан загварыг асаалттай биш бол асаана.</string>
+    <string name="saver_confirmation_dialog_title_extreme_mode">Дээд зэргээр батарей хэмнэгч</string>
+    <string name="saver_confirmation_dialog_summary_extreme_mode">Дээр жагсаасан бүх өөрчлөлт багтсан. Мөн чухал бус аппууд болон тэдгээрийн мэдэгдлүүдийг түр зогсооно.</string>
+    <string name="battery_saver_confirmation_ok">Асаах</string>
+    <string name="saver_confirmation_dialog_dismiss_text">Цуцлах</string>
+    <string name="battery_saver_confirmation_setup">Тохируулах</string>
 </resources>
