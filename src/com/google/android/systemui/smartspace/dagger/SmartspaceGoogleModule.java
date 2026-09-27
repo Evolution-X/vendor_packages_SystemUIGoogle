@@ -2,11 +2,14 @@ package com.google.android.systemui.smartspace.dagger;
 
 import com.android.systemui.dagger.SysUISingleton;
 import com.android.systemui.plugins.BcSmartspaceDataPlugin;
+import com.android.systemui.smartspace.SmartspaceTargetFilter;
 import com.android.systemui.smartspace.dagger.SmartspaceModule;
+import com.android.systemui.smartspace.filters.LockscreenTargetFilter;
 
 import com.google.android.systemui.smartspace.BcSmartspaceDataProvider;
 import com.google.android.systemui.smartspace.WeatherSmartspaceDataProvider;
 
+import dagger.Binds;
 import dagger.Module;
 import dagger.Provides;
 
@@ -14,6 +17,11 @@ import javax.inject.Named;
 
 @Module
 public abstract class SmartspaceGoogleModule {
+
+    @Binds
+    @Named(SmartspaceModule.LOCKSCREEN_SMARTSPACE_TARGET_FILTER)
+    abstract SmartspaceTargetFilter bindLockscreenSmartspaceTargetFilter(
+            LockscreenTargetFilter impl);
 
     /** The BcSmartspaceDataProvider for dreams. */
     @Provides
