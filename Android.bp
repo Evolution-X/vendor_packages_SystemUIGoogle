@@ -22,6 +22,7 @@ android_library {
     enable_ksp: true,
     resource_dirs: [
         "res",
+        "res-keyguard",
     ],
     static_libs: ["SystemUI-res"],
     manifest: "AndroidManifest-res.xml",

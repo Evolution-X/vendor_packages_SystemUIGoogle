@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Message shown when Trust Agent is disabled.  [CHAR LIMIT=70] -->
+    <string name="kg_trust_agent_disabled">Extend Unlock की सुविधा उपलब्ध नहीं है</string>
+</resources>

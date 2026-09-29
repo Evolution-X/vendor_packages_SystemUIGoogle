@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Indication on the keyguard that appears when a trust agents unlocks the device. [CHAR LIMIT=40] -->
+    <string name="keyguard_indication_trust_unlocked">എക്സ്റ്റൻഡ് അൺലോക്ക്, അൺലോക്ക് നില തുടരുന്നു</string>
+
+    <!-- Text displayed indicating that the user is connected to a satellite signal. -->
+    <string name="satellite_connected_carrier_text">Pixel സാറ്റലൈറ്റ് SOS</string>
+</resources>

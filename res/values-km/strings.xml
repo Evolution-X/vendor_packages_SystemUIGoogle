@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Indication on the keyguard that appears when a trust agents unlocks the device. [CHAR LIMIT=40] -->
+    <string name="keyguard_indication_trust_unlocked">ទុកឱ្យនៅដោះសោដោយប្រើ Extend Unlock</string>
+
+    <!-- Text displayed indicating that the user is connected to a satellite signal. -->
+    <string name="satellite_connected_carrier_text">ការប្រកាសអាសន្នតាមផ្កាយរណបតាមរយៈ Pixel</string>
+</resources>

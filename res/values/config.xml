@@ -1,2 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources/>
+<resources>
+    <!-- Whether or not lockscreen shortcuts can be customized -->
+    <bool name="custom_lockscreen_shortcuts_enabled">true</bool>
+
+    <!-- Whether or not long-pressing on keyguard will display to customize lockscreen -->
+    <bool name="long_press_keyguard_customize_lockscreen_enabled">true</bool>
+
+    <!-- The default tiles to display in QuickSettings after the internet tile split-->
+    <string name="quick_settings_tiles_default_split" translatable="false">
+        wifi,bt,cell,custom(com.google.android.gms/.nearby.sharing.SharingTileService),dnd,wallet,airplane,rotation,flashlight,battery,alarm,controls,cast,screenrecord
+    </string>
+
+    <!-- The default large tiles in Quick Settings after the internet tile split -->
+    <string-array name="quick_settings_large_tiles_default_split" translatable="false">
+        <item>wifi</item>
+        <item>bt</item>
+        <item>cell</item>
+        <item>custom(com.google.android.gms/.nearby.sharing.SharingTileService)</item>
+        <item>dnd</item>
+        <item>wallet</item>
+    </string-array>
+
+    <!-- Tiles to auto add to Quick Settings upon first change of a given secure setting.
+         The syntax is setting-name:spec. If the tile is a TileService, the spec should be specified
+         as custom(package/class). Relative class name is supported. -->
+    <string-array name="config_quickSettingsAutoAdd" translatable="false">
+        <item>accessibility_font_scaling_has_been_changed:font_scaling</item>
+        <item>accessibility_force_invert_color_enabled:dark</item>
+        <item>wind_down_first_time_setup:custom(com.google.android.apps.wellbeing/.screen.ui.GrayscaleTileService)</item>
+        <item>focus_mode_first_time_setup:custom(com.google.android.apps.wellbeing/.focusmode.quicksettings.FocusModeTileService)</item>
+        <item>vpn_first_time_enabled:custom(com.google.android.apps.privacy.wildlife/.quicksettings.WildlifeVpnTileService)</item>
+    </string-array>
+
+    <!-- Hearing devices related tool list. Each entry must be in ComponentName format
+         (package/class), indicating the specific application component to launch.
+         Already contains tool that handles intent: "com.android.settings.action.live_caption" by
+         default. You can add up to 2 additional related tools. -->
+    <string-array name="config_quickSettingsHearingDevicesRelatedToolName" translatable="false">
+        <item>com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.scribe.MainActivity</item>
+        <item>com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.dolphin.ui.visualizer.TimelineActivity</item>
+    </string-array>
+
+    <!-- Hearing devices related tool icon list. Provide drawable resource names in the same order
+         as the component names in config_quickSettingsHearingDevicesRelatedToolName. The icons
+         should be monochrome and will be tinted according to the system's material color. Ensure
+         the number of icon resources matches the number of components specified in
+         config_quickSettingsHearingDevicesRelatedToolName. If this array is empty or the sizes
+         don't match, the original application icons will be used. -->
+    <string-array name="config_quickSettingsHearingDevicesRelatedToolIcon" translatable="false">
+        <item>ic_scribe_qs_icon_tint_48dp</item>
+        <item>ic_dolphin_qs_icon_tint_48dp</item>
+    </string-array>
+
+    <!-- Launcher package name for overlaying icons. -->
+    <string name="launcher_overlayable_package" translatable="false">com.google.android.apps.nexuslauncher</string>
+
+    <!-- ThemePicker package name for overlaying icons. -->
+    <string name="themepicker_overlayable_package" translatable="false">com.google.android.apps.wallpaper</string>
+
+    <!-- Package name of the preferred system app to perform eSOS action -->
+    <string name="config_preferredEmergencySosPackage" translatable="false">com.google.android.apps.safetyhub</string>
+
+    <!-- Messages that should NOT be shown to the user during face authentication on keyguard.
+         This includes both lockscreen and bouncer. This should be used to hide messages that may be
+         too chatty or messages that the user can't do much about. Entries are defined in
+         android.hardware.biometrics.face@1.0 types.hal.
+
+         Although not visibly shown to the user, these acquired messages (sent per face auth frame)
+         are still counted towards the total frames to determine whether a deferred message
+         (see config_face_help_msgs_defer_until_timeout) meets the threshold % of frames to show on
+         face timeout. -->
+     <integer-array name="config_face_acquire_device_entry_ignorelist" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>11</item>
+        <item>12</item>
+        <item>14</item>
+        <item>15</item>
+        <item>19</item>
+    </integer-array>
+
+    <!-- Which face help messages to defer until face auth times out. If face auth is cancelled
+         or ends on another error, then the message is never surfaced. May also never surface
+         if it doesn't meet a threshold % of authentication frames specified by.
+         config_face_help_msgs_defer_until_timeout_threshold. -->
+    <integer-array name="config_face_help_msgs_defer_until_timeout">
+        <item>3</item>
+    </integer-array>
+
+    <!-- Package name for the app that implements the wallpaper picker. -->
+    <string name="config_wallpaperPickerPackage" translatable="false">com.google.android.apps.wallpaper</string>
+
+    <!--
+    The package name of the app store app. If empty, features using this should be gracefully
+    disabled.
+    -->
+    <string name="config_appStorePackageName" translatable="false">com.android.vending</string>
+
+    <!-- Template for a link that leads to an app page in the relevant app store. If empty,
+    features using this should be gracefully disabled. If not empty, it must include a
+    "$packageName" part that will be replaced by the code with the package name of the target app.
+    -->
+    <string name="config_appStoreAppLinkTemplate" translatable="false">https://play.google.com/store/apps/details?id=$packageName</string>
+
+    <!-- List of packages for which we want to use activity info (instead of application info) for biometric prompt logo. Empty for AOSP. [DO NOT TRANSLATE] -->
+    <string-array name="config_useActivityLogoForBiometricPrompt" translatable="false">
+        <item>com.google.android.gms</item>
+    </string-array>
+
+    <!-- The type of the light sensor used by the low light monitor. -->
+    <string name="config_lowLightMonitorLightSensorType" translatable="false">com.google.sensor.auto_brightness</string>
+
+    <!-- The name of the light sensor used by the low light monitor. -->
+    <string name="config_lowLightMonitorLightSensorName" translatable="false">Auto Brightness</string>
+
+    <!-- Configuration for wallpaper focal area -->
+    <string name="focal_area_target" translatable="false">com.google.android.apps.magicportrait.service.MagicPortraitWallpaperService</string>
+</resources>
