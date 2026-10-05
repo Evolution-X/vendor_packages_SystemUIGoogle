@@ -86,6 +86,7 @@ import com.android.systemui.smartspace.config.BcSmartspaceConfigProvider;
 import com.android.systemui.smartspace.dagger.SmartspaceModule;
 import com.android.systemui.startable.Dependencies;
 import com.android.systemui.statusbar.CommandQueue;
+import com.android.systemui.statusbar.KeyguardIndicationController;
 import com.android.systemui.statusbar.NotificationLockscreenUserManager;
 import com.android.systemui.statusbar.NotificationLockscreenUserManagerImpl;
 import com.android.systemui.statusbar.NotificationShadeWindowController;
@@ -98,7 +99,6 @@ import com.android.systemui.statusbar.phone.CentralSurfaces;
 import com.android.systemui.statusbar.phone.DozeServiceHost;
 import com.android.systemui.statusbar.phone.StatusBarKeyguardViewManager;
 import com.android.systemui.statusbar.phone.dagger.StatusBarPhoneModule;
-import com.android.systemui.statusbar.policy.AospPolicyModule;
 import com.android.systemui.statusbar.policy.DeviceProvisionedController;
 import com.android.systemui.statusbar.policy.DeviceProvisionedControllerImpl;
 import com.android.systemui.statusbar.policy.IndividualSensorPrivacyController;
@@ -130,6 +130,8 @@ import com.google.android.systemui.smartspace.DateSmartspaceDataProvider;
 import com.google.android.systemui.smartspace.KeyguardSmartspaceStartable;
 import com.google.android.systemui.smartspace.WeatherSmartspaceDataProvider;
 import com.google.android.systemui.smartspace.dagger.SmartspaceGoogleModule;
+import com.google.android.systemui.statusbar.KeyguardIndicationControllerGoogle;
+import com.google.android.systemui.statusbar.policy.GooglePolicyModule;
 import com.google.android.systemui.theme.ThemeOverlayControllerGoogle;
 
 import dagger.Binds;
@@ -163,7 +165,7 @@ import javax.inject.Provider;
 @Module(includes = {
         AccessibilityModule.class,
         AccessibilityRepositoryModule.class,
-        AospPolicyModule.class,
+        GooglePolicyModule.class,
         BatterySaverModuleGoogle.class,
         CentralSurfacesModule.class,
         ClipboardOverlayOverrideModule.class,
@@ -295,6 +297,10 @@ public abstract class SystemUIGoogleModule {
         deviceProvisionedController.init();
         return deviceProvisionedController;
     }
+
+    @Binds
+    abstract KeyguardIndicationController bindKeyguardIndicationController(
+            KeyguardIndicationControllerGoogle keyguardIndicationControllerGoogle);
 
     @Binds
     abstract KeyguardViewController bindKeyguardViewController(
