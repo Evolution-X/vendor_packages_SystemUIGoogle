@@ -1,0 +1,58 @@
+syntax = "proto2";
+
+package ColumbusProto;
+
+option java_package = "com.google.android.systemui.columbus.proto";
+option java_outer_classname = "ColumbusProto";
+
+// Messages exchanged with the Columbus CHRE nanoapp.
+
+message RecognizerStart {
+  optional float sensitivity = 1;
+}
+
+message SensitivityUpdate {
+  optional float sensitivity = 1;
+}
+
+message GestureDetected {
+  enum GestureType {
+    GESTURE_NONE = 0;
+    GESTURE_DOUBLE_TAP = 1;
+    GESTURE_SINGLE_TAP = 2;
+  }
+
+  optional GestureType gesture_type = 1;
+  repeated float feature_vector = 2 [packed = true];
+}
+
+message ScreenStateUpdate {
+  enum ScreenState {
+    SCREEN_UNKNOWN = 0;
+    SCREEN_ON = 1;
+    SCREEN_OFF = 2;
+  }
+
+  optional ScreenState screen_state = 1;
+}
+
+message NanoappEvent {
+  enum Type {
+    UNKNOWN = 0;
+    GATE_START = 1;
+    GATE_STOP = 2;
+    HIGH_IMU_ODR_START = 3;
+    HIGH_IMU_ODR_STOP = 4;
+    ML_PREDICTION_START = 5;
+    ML_PREDICTION_STOP = 6;
+    SINGLE_TAP = 7;
+    DOUBLE_TAP = 8;
+  }
+
+  optional int64 timestamp = 1;
+  optional Type type = 2;
+}
+
+message NanoappEvents {
+  repeated NanoappEvent batched_events = 1;
+}

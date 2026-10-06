@@ -63,4 +63,11 @@
     <string name="pulsar_enabled_notification_help_url" translatable="false">https://support.google.com/pixelphone?p=battery-health</string>
     <string name="pulsar_reminder_notification_title">Battery health assistance is off</string>
     <string name="pulsar_reminder_notification_text">Turn on battery health assistance to help manage your battery\'s long term health and performance</string>
+
+    <!-- Quick Tap -->
+    <string name="columbus_bouncer_message">Unlock to complete Quick Tap</string>
+    <string name="columbus_target_request_dialog_title">Allow Quick Tap to open %1$s?</string>
+    <string name="columbus_target_request_dialog_summary">Tap the back of your phone twice to open %1$s. You can change this anytime in Settings.</string>
+    <string name="columbus_target_request_dialog_allow">Allow</string>
+    <string name="columbus_target_request_dialog_deny">Don’t allow</string>
 </resources>

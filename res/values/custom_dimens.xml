@@ -59,4 +59,22 @@
     <dimen name="battery_saver_dialog_button_to_button_space">8dp</dimen>
     <dimen name="battery_saver_dialog_content_line_height">20sp</dimen>
     <dimen name="battery_saver_dialog_content_text_size">14sp</dimen>
+
+    <!-- Quick Tap Target Request Dialog -->
+    <dimen name="columbus_target_request_dialog_bottom_padding">18dp</dimen>
+    <dimen name="columbus_target_request_dialog_button_background_radius">18dp</dimen>
+    <dimen name="columbus_target_request_dialog_button_background_vertical_insets">6dp</dimen>
+    <dimen name="columbus_target_request_dialog_button_height">48dp</dimen>
+    <dimen name="columbus_target_request_dialog_button_to_button_space">8dp</dimen>
+    <dimen name="columbus_target_request_dialog_content_line_height">20sp</dimen>
+    <dimen name="columbus_target_request_dialog_content_text_size">14sp</dimen>
+    <dimen name="columbus_target_request_dialog_content_to_button_space">32dp</dimen>
+    <dimen name="columbus_target_request_dialog_end_padding">24dp</dimen>
+    <dimen name="columbus_target_request_dialog_icon_size">32dp</dimen>
+    <dimen name="columbus_target_request_dialog_icon_to_title_space">16dp</dimen>
+    <dimen name="columbus_target_request_dialog_start_padding">24dp</dimen>
+    <dimen name="columbus_target_request_dialog_title_line_height">32sp</dimen>
+    <dimen name="columbus_target_request_dialog_title_text_size">24sp</dimen>
+    <dimen name="columbus_target_request_dialog_title_to_content_space">16dp</dimen>
+    <dimen name="columbus_target_request_dialog_top_padding">24dp</dimen>
 </resources>

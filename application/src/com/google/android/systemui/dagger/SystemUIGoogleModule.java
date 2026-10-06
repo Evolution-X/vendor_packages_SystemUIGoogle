@@ -117,6 +117,7 @@ import com.android.systemui.volume.dagger.VolumeModule;
 import com.android.systemui.wallpapers.dagger.WallpaperModule;
 
 import com.google.android.systemui.battery.BatterySaverModuleGoogle;
+import com.google.android.systemui.columbus.legacy.ColumbusModule;
 import com.google.android.systemui.gesture.GestureModuleGoogle;
 import com.google.android.systemui.keyguard.AmbientIndicationCoreStartable;
 import com.google.android.systemui.keyguard.data.quickaffordance.NowPlayingQuickAffordanceConfig;
@@ -169,6 +170,7 @@ import javax.inject.Provider;
         BatterySaverModuleGoogle.class,
         CentralSurfacesModule.class,
         ClipboardOverlayOverrideModule.class,
+        ColumbusModule.class,
         ConnectingDisplayViewModel.StartableModule.class,
         ImeSwitcherMenuModule.class,
         DisplayPhoneModule.class,
