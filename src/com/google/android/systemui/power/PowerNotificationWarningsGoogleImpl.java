@@ -1,5 +1,10 @@
 package com.google.android.systemui.power;
 
+import android.bluetooth.BluetoothA2dp;
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
+import android.bluetooth.BluetoothHeadset;
+import android.bluetooth.BluetoothHearingAid;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -25,6 +30,7 @@ import com.android.systemui.dagger.qualifiers.Background;
 import com.android.systemui.dagger.qualifiers.Main;
 import com.android.systemui.plugins.ActivityStarter;
 import com.android.systemui.power.BatteryStateSnapshot;
+import com.android.systemui.power.EnhancedEstimates;
 import com.android.systemui.power.PowerNotificationWarnings;
 import com.android.systemui.settings.UserTracker;
 import com.android.systemui.statusbar.phone.SystemUIDialog;
@@ -75,6 +81,7 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
     private final ChargeLimitDiscoveryNotification mChargeLimitDiscoveryNotification;
     private final AdaptiveChargingNotification mAdaptiveChargingNotification;
     private final PulsarController mPulsarController;
+    private final BatteryInfoBroadcast mBatteryInfoBroadcast;
     private BatterySaverConfirmationDialog mBatterySaverConfirmationDialog;
 
     private final BroadcastReceiver mBroadcastReceiver =
@@ -86,6 +93,7 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
                     }
                     String action = intent.getAction();
                     Log.d(TAG, "onReceive: " + action);
+                    mBatteryInfoBroadcast.dispatchIntent(intent);
                     switch (action) {
                         case Intent.ACTION_BATTERY_CHANGED:
                             handleBatteryChanged(intent);
@@ -185,6 +193,7 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
             DialogTransitionAnimator dialogTransitionAnimator,
             UiEventLogger uiEventLogger,
             UserTracker userTracker,
+            EnhancedEstimates enhancedEstimates,
             SystemUIDialog.Factory systemUIDialogFactory,
             BroadcastDispatcher broadcastDispatcher,
             GlobalSettings globalSettings,
@@ -219,6 +228,13 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
         mBatterySaverConfirmationDialogProvider = batterySaverConfirmationDialogProvider;
         mChargeLimitController = chargeLimitController;
         mPulsarController = pulsarController;
+        mBatteryInfoBroadcast =
+                new BatteryInfoBroadcast(
+                        context,
+                        broadcastSender,
+                        enhancedEstimates,
+                        backgroundExecutor,
+                        userTracker);
         boolean adaptiveChargingEnabled =
                 context.getResources().getBoolean(R.bool.config_adaptive_charging_warning_enabled);
         boolean isEuSku = TextUtils.equals(SystemProperties.get("ro.boot.warranty.sku"), "EMA");
@@ -255,6 +271,13 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
         filter.addAction("FLIPENDO.startSaverConfirmation");
         filter.addAction("systemui.power.action.START_FLIPENDO");
         filter.addAction("PNW.dismissedWarning");
+        filter.addAction(BluetoothAdapter.ACTION_STATE_CHANGED);
+        filter.addAction(BluetoothAdapter.ACTION_CONNECTION_STATE_CHANGED);
+        filter.addAction(BluetoothDevice.ACTION_BATTERY_LEVEL_CHANGED);
+        filter.addAction(BluetoothDevice.ACTION_ALIAS_CHANGED);
+        filter.addAction(BluetoothA2dp.ACTION_CONNECTION_STATE_CHANGED);
+        filter.addAction(BluetoothHeadset.ACTION_CONNECTION_STATE_CHANGED);
+        filter.addAction(BluetoothHearingAid.ACTION_CONNECTION_STATE_CHANGED);
         filter.addAction(Intent.ACTION_BOOT_COMPLETED);
         filter.addAction(Intent.ACTION_LOCKED_BOOT_COMPLETED);
         filter.addAction(PulsarController.ACTION_CLICK_PULSAR_ENABLED_NOTIFICATION);
@@ -277,6 +300,7 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
         Intent batteryChanged =
                 context.registerReceiver(null, new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
         if (batteryChanged != null) {
+            mBatteryInfoBroadcast.dispatchIntent(batteryChanged);
             if (mAdaptiveChargingNotification != null) {
                 mAdaptiveChargingNotification.resolveBatteryChangedIntent(batteryChanged);
             }
@@ -416,6 +440,7 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
     @Override
     public void dump(PrintWriter pw) {
         super.dump(pw);
+        mBatteryInfoBroadcast.dump(pw);
         if (mLowPowerWarningsController != null) {
             pw.println("\tdump LowPowerWarningsController states");
             pw.println("\t\tprevBatteryLevel: " + mLowPowerWarningsController.prevBatteryLevel);
