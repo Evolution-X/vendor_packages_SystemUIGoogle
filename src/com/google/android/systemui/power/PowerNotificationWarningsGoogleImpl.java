@@ -74,7 +74,6 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
     private final ChargeLimitController mChargeLimitController;
     private final ChargeLimitDiscoveryNotification mChargeLimitDiscoveryNotification;
     private final AdaptiveChargingNotification mAdaptiveChargingNotification;
-    private final PulsarController mPulsarController;
     private BatterySaverConfirmationDialog mBatterySaverConfirmationDialog;
 
     private final BroadcastReceiver mBroadcastReceiver =
@@ -172,7 +171,6 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
                             }
                             break;
                     }
-                    mPulsarController.dispatchIntent(intent);
                 }
             };
 
@@ -195,8 +193,7 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
             Provider<BatterySaverConfirmationDialog> batterySaverConfirmationDialogProvider,
             ChargeLimitController chargeLimitController,
             ChargeLimitDiscoveryNotification chargeLimitDiscoveryNotification,
-            BatterySaverAutoDisableController batterySaverAutoDisableController,
-            PulsarController pulsarController) {
+            BatterySaverAutoDisableController batterySaverAutoDisableController) {
         super(
                 context,
                 activityStarter,
@@ -218,7 +215,6 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
         mSevereLowBatteryNotification = severeLowBatteryNotification;
         mBatterySaverConfirmationDialogProvider = batterySaverConfirmationDialogProvider;
         mChargeLimitController = chargeLimitController;
-        mPulsarController = pulsarController;
         boolean adaptiveChargingEnabled =
                 context.getResources().getBoolean(R.bool.config_adaptive_charging_warning_enabled);
         boolean isEuSku = TextUtils.equals(SystemProperties.get("ro.boot.warranty.sku"), "EMA");
@@ -257,10 +253,6 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
         filter.addAction("PNW.dismissedWarning");
         filter.addAction(Intent.ACTION_BOOT_COMPLETED);
         filter.addAction(Intent.ACTION_LOCKED_BOOT_COMPLETED);
-        filter.addAction(PulsarController.ACTION_CLICK_PULSAR_ENABLED_NOTIFICATION);
-        filter.addAction(PulsarController.ACTION_DISMISS_PULSAR_ENABLED_NOTIFICATION);
-        filter.addAction(PulsarController.ACTION_CLICK_PULSAR_REMINDER_NOTIFICATION);
-        filter.addAction(PulsarController.ACTION_DISMISS_PULSAR_REMINDER_NOTIFICATION);
         if (adaptiveChargingEnabled) {
             filter.addAction(
                     "com.google.android.systemui.adaptivecharging.ADAPTIVE_CHARGING_DEADLINE_SET");

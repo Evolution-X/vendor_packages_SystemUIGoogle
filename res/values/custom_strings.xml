@@ -56,11 +56,4 @@
     <string name="keyguard_indication_charging_time_charge_limit">%2$s • Done charging by %1$s</string>
     <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Done charging in %1$s</string>
     <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Done charging</string>
-
-    <!-- Battery Health Assistance -->
-    <string name="pulsar_enabled_notification_title">Battery health assistance is on</string>
-    <string name="pulsar_enabled_notification_text">Pixel is now helping to manage your battery\'s long term health and performance. You can turn this off in Settings.</string>
-    <string name="pulsar_enabled_notification_help_url" translatable="false">https://support.google.com/pixelphone?p=battery-health</string>
-    <string name="pulsar_reminder_notification_title">Battery health assistance is off</string>
-    <string name="pulsar_reminder_notification_text">Turn on battery health assistance to help manage your battery\'s long term health and performance</string>
 </resources>

@@ -68,25 +68,7 @@ public enum BatteryMetricEvent implements UiEventLogger.UiEventEnum {
     SEVERE_LOW_BATTERY_NOTIFICATION_TURN_ON_EBS_DISMISS(1838),
 
     @UiEvent(doc = "Severe low battery notification switch to EBS dismissed")
-    SEVERE_LOW_BATTERY_NOTIFICATION_SWITCH_TO_EBS_DISMISS(1839),
-
-    @UiEvent(doc = "Battery health assistance enabled notification displayed")
-    SEND_PULSAR_ENABLED_NOTIFICATION(2189),
-
-    @UiEvent(doc = "Battery health assistance enabled notification dismissed")
-    DISMISS_PULSAR_ENABLED_NOTIFICATION(2190),
-
-    @UiEvent(doc = "Battery health assistance enabled notification clicked")
-    CLICK_PULSAR_ENABLED_NOTIFICATION(2191),
-
-    @UiEvent(doc = "Battery health assistance reminder notification displayed")
-    SEND_PULSAR_REMINDER_NOTIFICATION(2207),
-
-    @UiEvent(doc = "Battery health assistance reminder notification dismissed")
-    DISMISS_PULSAR_REMINDER_NOTIFICATION(2208),
-
-    @UiEvent(doc = "Battery health assistance reminder notification clicked")
-    CLICK_PULSAR_REMINDER_NOTIFICATION(2209);
+    SEVERE_LOW_BATTERY_NOTIFICATION_SWITCH_TO_EBS_DISMISS(1839);
 
     private final int mId;
 

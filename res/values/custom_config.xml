@@ -8,10 +8,4 @@
 
     <!-- Whether to show the charge limit discovery notification on EU devices -->
     <bool name="config_charge_limit_discovery_enabled">false</bool>
-
-    <!-- Whether the battery health index service is enabled -->
-    <bool name="config_battery_index_enabled">true</bool>
-
-    <!-- Whether to refresh the battery health index once a day -->
-    <bool name="config_battery_health_periodic_update_enabled">false</bool>
 </resources>
