@@ -4,15 +4,6 @@ import com.android.internal.logging.UiEvent;
 import com.android.internal.logging.UiEventLogger;
 
 public enum BatteryMetricEvent implements UiEventLogger.UiEventEnum {
-    @UiEvent(doc = "Adaptive charging notification displayed")
-    ADAPTIVE_CHARGING_NOTIFICATION(1274),
-
-    @UiEvent(doc = "Adaptive charging notification dismissed")
-    DELETE_ADAPTIVE_CHARGING_NOTIFICATION(1275),
-
-    @UiEvent(doc = "Adaptive charging notification charge normally clicked")
-    ADAPTIVE_CHARGING_NOTIFICATION_BYPASS(1346),
-
     @UiEvent(doc = "Battery saver confirmation dialog displayed")
     SAVER_CONFIRMATION_DIALOG(1347),
 
@@ -39,18 +30,6 @@ public enum BatteryMetricEvent implements UiEventLogger.UiEventEnum {
 
     @UiEvent(doc = "Battery saver disabled reason")
     BATTERY_SAVER_DISABLED_REASON(1373),
-
-    @UiEvent(doc = "Charge limit discovery notification displayed")
-    SEND_CHARGE_LIMIT_DISCOVERY_NOTIFICATION(1707),
-
-    @UiEvent(doc = "Charge limit discovery notification dismissed")
-    DISMISS_CHARGE_LIMIT_DISCOVERY_NOTIFICATION(1708),
-
-    @UiEvent(doc = "Charge limit enabled from discovery notification")
-    ENABLE_CHARGE_LIMIT_FEATURE(1709),
-
-    @UiEvent(doc = "Charge limit discovery notification clicked")
-    CLICK_CHARGE_LIMIT_DISCOVERY_NOTIFICATION(1712),
 
     @UiEvent(doc = "Severe low battery notification turn on extreme battery saver displayed")
     SEVERE_LOW_BATTERY_NOTIFICATION_TURN_ON_EBS(1834),

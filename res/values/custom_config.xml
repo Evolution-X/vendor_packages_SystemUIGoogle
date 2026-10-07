@@ -2,10 +2,4 @@
 <resources>
     <!-- Whether to show extreme battery saver reminder -->
     <bool name="config_show_extreme_battery_saver_reminder">true</bool>
-
-    <!-- Whether to show the Adaptive Charging notification -->
-    <bool name="config_adaptive_charging_warning_enabled">true</bool>
-
-    <!-- Whether to show the charge limit discovery notification on EU devices -->
-    <bool name="config_charge_limit_discovery_enabled">false</bool>
 </resources>

@@ -5,59 +5,17 @@ import android.app.PendingIntent;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.UserHandle;
-import android.telephony.SubscriptionInfo;
-import android.telephony.SubscriptionManager;
-import android.text.TextUtils;
 import android.util.Log;
 
 import androidx.core.app.NotificationCompat;
-
-import com.android.systemui.util.settings.SecureSettings;
-
-import java.util.Arrays;
-import java.util.List;
-import java.util.Locale;
 
 public final class PowerUtils {
 
     private static final String TAG = "PowerUtils";
 
-    public static final List<String> NON_EU_COUNTRY_CODES = Arrays.asList("us", "in", "sg", "my");
-
     private PowerUtils() {}
-
-    public static PendingIntent createHelpArticlePendingIntentAsUser(int resId, Context context) {
-        return PendingIntent.getActivityAsUser(
-                context,
-                0,
-                new Intent(Intent.ACTION_VIEW, Uri.parse(context.getString(resId))),
-                PendingIntent.FLAG_IMMUTABLE,
-                null,
-                UserHandle.CURRENT);
-    }
-
-    public static boolean isChargeLimitEnabledForUser(SecureSettings secureSettings, int userId) {
-        return secureSettings.getIntForUser("charge_optimization_mode", 0, userId) == 1;
-    }
-
-    public static boolean isSimInEuCountry(SubscriptionManager subscriptionManager) {
-        List<SubscriptionInfo> infos = subscriptionManager.getActiveSubscriptionInfoList();
-        if (infos == null || infos.isEmpty()) {
-            return true;
-        }
-        for (SubscriptionInfo info : infos) {
-            String countryIso = info.getCountryIso();
-            Log.d(TAG, "countryIso = " + countryIso);
-            if (!TextUtils.isEmpty(countryIso)
-                    && !NON_EU_COUNTRY_CODES.contains(countryIso.toLowerCase(Locale.ENGLISH))) {
-                return true;
-            }
-        }
-        return false;
-    }
 
     public static boolean isFlipendoEnabled(ContentResolver contentResolver) {
         try {
