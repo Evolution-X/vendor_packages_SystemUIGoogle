@@ -40,7 +40,6 @@ android_library {
         "SystemUI-core",
         "SystemUIGoogle-res",
         "androidx.compose.runtime_runtime",
-        "googlebattery-lib",
         "smartspace-proto-java",
         "smartspace-proto-lite-java",
         "tensorflowlite_java",
