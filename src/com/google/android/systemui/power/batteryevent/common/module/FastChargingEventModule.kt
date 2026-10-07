@@ -1,13 +1,14 @@
 package com.google.android.systemui.power.batteryevent.common.module
 
+import android.content.Context
 import android.content.Intent
 import com.android.settingslib.fuelgauge.BatteryStatus
 import com.google.android.systemui.power.batteryevent.aidl.BatteryEventType
 import com.google.android.systemui.power.batteryevent.common.EventDataType
 import com.google.android.systemui.power.batteryevent.common.data.SystemEventData
 
-class SevereLowBatteryEventModule : BaseBatteryEventModule() {
-    override val moduleType = BatteryEventType.SEVERE_LOW_BATTERY
+class FastChargingEventModule(private val context: Context) : BaseBatteryEventModule() {
+    override val moduleType = BatteryEventType.FAST_CHARGING
 
     override val intentActions = listOf(Intent.ACTION_BATTERY_CHANGED)
 
@@ -15,12 +16,16 @@ class SevereLowBatteryEventModule : BaseBatteryEventModule() {
 
     override fun validate(systemEventData: SystemEventData): Boolean {
         val plugged = systemEventData.plugged
-        val level = systemEventData.batteryLevel
-        val scale = systemEventData.batteryScale
-        if (plugged.isChanged || level.isChanged || scale.isChanged) {
-            val batteryLevel = BatteryStatus.getBatteryLevel(level.value, scale.value)
+        val maxCurrent = systemEventData.maxChargingCurrent
+        val maxVoltage = systemEventData.maxChargingVoltage
+        if (plugged.isChanged || maxCurrent.isChanged || maxVoltage.isChanged) {
             lastValidation =
-                batteryLevel <= 10 && batteryLevel > 3 && !BatteryStatus.isPluggedIn(plugged.value)
+                BatteryStatus.isPluggedIn(plugged.value) &&
+                    BatteryStatus.calculateChargingSpeed(
+                        context,
+                        maxCurrent.value,
+                        maxVoltage.value,
+                    ) == BatteryStatus.CHARGING_FAST
         }
         return lastValidation
     }

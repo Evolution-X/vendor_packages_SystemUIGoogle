@@ -1,13 +1,14 @@
 package com.google.android.systemui.power.batteryevent.common.module
 
 import android.content.Intent
+import android.os.BatteryManager
 import com.android.settingslib.fuelgauge.BatteryStatus
 import com.google.android.systemui.power.batteryevent.aidl.BatteryEventType
 import com.google.android.systemui.power.batteryevent.common.EventDataType
 import com.google.android.systemui.power.batteryevent.common.data.SystemEventData
 
-class SevereLowBatteryEventModule : BaseBatteryEventModule() {
-    override val moduleType = BatteryEventType.SEVERE_LOW_BATTERY
+class FullChargedEventModule : BaseBatteryEventModule() {
+    override val moduleType = BatteryEventType.FULL_CHARGED
 
     override val intentActions = listOf(Intent.ACTION_BATTERY_CHANGED)
 
@@ -15,12 +16,14 @@ class SevereLowBatteryEventModule : BaseBatteryEventModule() {
 
     override fun validate(systemEventData: SystemEventData): Boolean {
         val plugged = systemEventData.plugged
-        val level = systemEventData.batteryLevel
+        val status = systemEventData.batteryStatus
         val scale = systemEventData.batteryScale
-        if (plugged.isChanged || level.isChanged || scale.isChanged) {
-            val batteryLevel = BatteryStatus.getBatteryLevel(level.value, scale.value)
+        val level = systemEventData.batteryLevel
+        if (plugged.isChanged || status.isChanged || scale.isChanged || level.isChanged) {
             lastValidation =
-                batteryLevel <= 10 && batteryLevel > 3 && !BatteryStatus.isPluggedIn(plugged.value)
+                BatteryStatus.isPluggedIn(plugged.value) &&
+                    (status.value == BatteryManager.BATTERY_STATUS_FULL ||
+                        BatteryStatus.getBatteryLevel(level.value, scale.value) >= 100)
         }
         return lastValidation
     }

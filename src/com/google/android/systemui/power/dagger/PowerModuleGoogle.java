@@ -27,6 +27,7 @@ import com.android.systemui.statusbar.policy.ConfigurationController;
 
 import com.google.android.systemui.power.EnhancedEstimatesGoogleImpl;
 import com.google.android.systemui.power.PowerNotificationWarningsGoogleImpl;
+import com.google.android.systemui.power.batteryevent.common.dagger.EventFrameworkModule;
 import com.google.android.systemui.power.batteryhealth.HealthManagerStartable;
 import com.google.android.systemui.power.batteryhealth.HealthService;
 import com.google.android.systemui.power.batteryhealth.HealthUpdateReceiver;
@@ -40,6 +41,7 @@ import dagger.multibindings.IntoSet;
 /** Dagger Module for code in the power package. */
 @Module(
         includes = {
+                EventFrameworkModule.class,
                 PowerRepositoryModule.class,
         }
 )

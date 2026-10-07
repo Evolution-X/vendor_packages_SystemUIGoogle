@@ -21,6 +21,12 @@
         android:appComponentFactory="com.google.android.systemui.SystemUIGoogleAppComponentFactory"
         tools:replace="android:appComponentFactory">
 
+        <!-- Battery Events -->
+        <service
+            android:name="com.google.android.systemui.power.batteryevent.domain.BatteryEventService"
+            android:exported="true"
+            android:singleUser="true"/>
+
         <!-- Battery Health -->
         <service
             android:name="com.google.android.systemui.power.batteryhealth.HealthService"

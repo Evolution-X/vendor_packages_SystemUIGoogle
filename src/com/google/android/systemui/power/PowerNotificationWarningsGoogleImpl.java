@@ -9,7 +9,6 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.os.BatteryManager;
 import android.os.Handler;
 import android.os.PowerManager;
 import android.os.RemoteException;
@@ -20,7 +19,6 @@ import android.text.TextUtils;
 import android.util.Log;
 
 import com.android.internal.logging.UiEventLogger;
-import com.android.settingslib.fuelgauge.BatteryStatus;
 import com.android.systemui.animation.DialogTransitionAnimator;
 import com.android.systemui.animation.Expandable;
 import com.android.systemui.broadcast.BroadcastDispatcher;
@@ -29,7 +27,6 @@ import com.android.systemui.dagger.SysUISingleton;
 import com.android.systemui.dagger.qualifiers.Background;
 import com.android.systemui.dagger.qualifiers.Main;
 import com.android.systemui.plugins.ActivityStarter;
-import com.android.systemui.power.BatteryStateSnapshot;
 import com.android.systemui.power.EnhancedEstimates;
 import com.android.systemui.power.PowerNotificationWarnings;
 import com.android.systemui.settings.UserTracker;
@@ -41,20 +38,18 @@ import com.android.systemui.util.settings.SecureSettings;
 import com.google.android.systemui.googlebattery.AdaptiveChargingManager;
 import com.google.android.systemui.googlebattery.GoogleBatteryManager;
 import com.google.android.systemui.power.batteryevent.aidl.BatteryEventType;
-import com.google.android.systemui.power.batteryevent.common.module.BaseBatteryEventModule;
-import com.google.android.systemui.power.batteryevent.common.module.ExtremeLowBatteryEventModule;
-import com.google.android.systemui.power.batteryevent.common.module.LowBatteryEventModule;
-import com.google.android.systemui.power.batteryevent.common.module.SevereLowBatteryEventModule;
+import com.google.android.systemui.power.batteryevent.aidl.SurfaceType;
 import com.google.android.systemui.res.R;
 
 import dagger.Lazy;
+
+import kotlin.Unit;
 
 import vendor.google.google_battery.IGoogleBattery;
 
 import java.io.PrintWriter;
 import java.lang.ref.WeakReference;
-import java.util.Collections;
-import java.util.List;
+import java.util.Arrays;
 import java.util.concurrent.Executor;
 
 import javax.inject.Inject;
@@ -96,7 +91,6 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
                     mBatteryInfoBroadcast.dispatchIntent(intent);
                     switch (action) {
                         case Intent.ACTION_BATTERY_CHANGED:
-                            handleBatteryChanged(intent);
                             if (mAdaptiveChargingNotification != null) {
                                 mAdaptiveChargingNotification.resolveBatteryChangedIntent(intent);
                             }
@@ -194,6 +188,7 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
             UiEventLogger uiEventLogger,
             UserTracker userTracker,
             EnhancedEstimates enhancedEstimates,
+            BatteryEventClient batteryEventClient,
             SystemUIDialog.Factory systemUIDialogFactory,
             BroadcastDispatcher broadcastDispatcher,
             GlobalSettings globalSettings,
@@ -259,6 +254,22 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
                         globalSettings,
                         uiEventLogger,
                         severeLowBatteryNotification);
+        batteryEventClient.registerBatteryEventCallback(
+                SurfaceType.NOTIFICATION,
+                TAG,
+                Arrays.asList(
+                        BatteryEventType.LOW_BATTERY,
+                        BatteryEventType.SEVERE_LOW_BATTERY,
+                        BatteryEventType.EXTREME_LOW_BATTERY,
+                        BatteryEventType.WIRED_INCOMPATIBLE_CHARGING,
+                        BatteryEventType.TEMP_DEFEND_BATTERY,
+                        BatteryEventType.DWELL_DEFEND_BATTERY,
+                        BatteryEventType.DOCK_DEFEND_BATTERY),
+                (events, batteryLevel, pluggedType) -> {
+                    Log.d(TAG, "[onBatteryEventUpdate] " + events);
+                    mLowPowerWarningsController.onBatteryEventUpdate(batteryLevel, events);
+                    return Unit.INSTANCE;
+                });
 
         IntentFilter filter = new IntentFilter();
         filter.addAction(Intent.ACTION_BATTERY_CHANGED);
@@ -329,36 +340,6 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
         mBatterySaverConfirmationDialog.show(expandable);
     }
 
-    private void handleBatteryChanged(Intent intent) {
-        int level = intent.getIntExtra(BatteryManager.EXTRA_LEVEL, 100);
-        int scale = intent.getIntExtra(BatteryManager.EXTRA_SCALE, 100);
-        int plugged = intent.getIntExtra(BatteryManager.EXTRA_PLUGGED, 0);
-        int batteryLevel = BatteryStatus.getBatteryLevel(level, scale);
-        updateBatteryEvent(batteryLevel, plugged);
-    }
-
-    private void updateBatteryEvent(int batteryLevel, int plugged) {
-        List<BatteryEventType> events = evaluateBatteryEvents(batteryLevel, plugged);
-        if (mLowPowerWarningsController != null) {
-            mLowPowerWarningsController.onBatteryEventUpdate(batteryLevel, events);
-        }
-    }
-
-    private final List<BaseBatteryEventModule> mBatteryEventModules =
-            List.of(
-                    new ExtremeLowBatteryEventModule(),
-                    new SevereLowBatteryEventModule(),
-                    new LowBatteryEventModule());
-
-    private List<BatteryEventType> evaluateBatteryEvents(int batteryLevel, int plugged) {
-        for (BaseBatteryEventModule module : mBatteryEventModules) {
-            if (module.validate(batteryLevel, plugged)) {
-                return Collections.singletonList(module.getModuleType());
-            }
-        }
-        return Collections.emptyList();
-    }
-
     private void handleStartFlipendo(Intent intent) {
         mExecutor.execute(
                 () -> {
@@ -406,13 +387,6 @@ public class PowerNotificationWarningsGoogleImpl extends PowerNotificationWarnin
                         BatteryMetricEvent.SEVERE_LOW_BATTERY_NOTIFICATION_SWITCH_TO_EBS_DISMISS);
             }
         }
-    }
-
-    @Override
-    public void updateSnapshot(BatteryStateSnapshot snapshot) {
-        super.updateSnapshot(snapshot);
-        int plugged = snapshot.getPlugged() ? BatteryManager.BATTERY_PLUGGED_AC : 0;
-        updateBatteryEvent(snapshot.getBatteryLevel(), plugged);
     }
 
     @Override
