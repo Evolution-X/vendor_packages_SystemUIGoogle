@@ -19,14 +19,3 @@ java_library {
     ],
     sdk_version: "current",
 }
-
-java_library {
-    name: "columbus-proto-java",
-    proto: {
-        type: "nano",
-    },
-    srcs: [
-        "ColumbusProto.proto",
-    ],
-    sdk_version: "current",
-}
