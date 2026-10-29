@@ -206,7 +206,8 @@ class NonPixelAmbientIndicationService(
 
     private fun scheduleNextPeriodicRecognition(delayMillis: Long? = null) {
         cancelPeriodicRecognition()
-        if (!isContinuousRecognitionEnabled()) {
+        // On-demand only listens when the shortcut is tapped, never on its own schedule.
+        if (!isContinuousRecognitionEnabled() || isOnDemandEnabled()) {
             return
         }
         val actualDelay = delayMillis ?: when {
@@ -237,7 +238,7 @@ class NonPixelAmbientIndicationService(
     }
 
     private fun performPeriodicRecognition() {
-        if (!isContinuousRecognitionEnabled()) {
+        if (!isContinuousRecognitionEnabled() || isOnDemandEnabled()) {
             return
         }
         if (!keyguardUpdateMonitor.isKeyguardVisible && !keyguardUpdateMonitor.isDreaming) {
