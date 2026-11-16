@@ -3,6 +3,7 @@ package com.google.android.systemui.keyguard.ui.sections
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
+import androidx.constraintlayout.widget.Barrier
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.ConstraintSet
 import com.android.keyguard.KeyguardUpdateMonitor
@@ -56,6 +57,12 @@ constructor(
             LayoutInflater.from(constraintLayout.context)
                 .inflate(R.layout.ambient_indication, constraintLayout, false)
         constraintLayout.addView(view)
+        constraintLayout.addView(
+            Barrier(constraintLayout.context).apply {
+                id = R.id.ambient_indication_top_barrier
+                setAllowsGoneWidget(false)
+            }
+        )
     }
 
     override fun applyConstraints(constraintSet: ConstraintSet) {
@@ -105,6 +112,18 @@ constructor(
                 ConstraintSet.END,
             )
         } else {
+            // Charging and other indications can sit above a low fingerprint sensor. Reserve
+            // whichever view starts higher so the ambient icon/text never shares their row.
+            constraintSet.createBarrier(
+                R.id.ambient_indication_top_barrier,
+                Barrier.TOP,
+                0,
+                *intArrayOf(AR.id.device_entry_icon_view, AR.id.keyguard_indication_area),
+            )
+            constraintSet.getConstraint(R.id.ambient_indication_top_barrier)
+                .layout.mBarrierAllowsGoneWidgets = false
+            constraintSet.clear(R.id.ambient_indication_container, ConstraintSet.TOP)
+            constraintSet.constrainMinHeight(R.id.ambient_indication_container, 0)
             constraintSet.constrainHeight(
                 R.id.ambient_indication_container,
                 ConstraintSet.WRAP_CONTENT,
@@ -112,8 +131,9 @@ constructor(
             constraintSet.connect(
                 R.id.ambient_indication_container,
                 ConstraintSet.BOTTOM,
-                AR.id.device_entry_icon_view,
+                R.id.ambient_indication_top_barrier,
                 ConstraintSet.TOP,
+                context.resources.getDimensionPixelSize(R.dimen.ambient_indication_row_spacing),
             )
             constraintSet.connect(
                 R.id.ambient_indication_container,
@@ -155,6 +175,9 @@ constructor(
         val view = constraintLayout.findViewById<View>(R.id.ambient_indication_container)
         if (view != null) {
             constraintLayout.removeView(view)
+        }
+        constraintLayout.findViewById<View>(R.id.ambient_indication_top_barrier)?.let {
+            constraintLayout.removeView(it)
         }
     }
 }
