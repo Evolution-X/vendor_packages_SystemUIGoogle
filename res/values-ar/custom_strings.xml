@@ -39,4 +39,11 @@
     <string name="battery_saver_confirmation_ok">تفعيل</string>
     <string name="saver_confirmation_dialog_dismiss_text">إلغاء</string>
     <string name="battery_saver_confirmation_setup">إعداد</string>
+    <string name="accessibility_smartspace_next_page">الصفحة التالية</string>
+    <string name="accessibility_smartspace_previous_page">الصفحة السابقة</string>
+    <string name="ambient_music_searching">جارٍ التعرّف على الأغنية</string>
+    <string name="ambient_music_no_match">تعذّر التعرّف على الأغنية</string>
+    <string name="ambient_music_play_with">التشغيل بواسطة</string>
+    <string name="calendar_quick_affordance_label">التقويم</string>
+    <string name="calculator_quick_affordance_label">الآلة الحاسبة</string>
 </resources>
