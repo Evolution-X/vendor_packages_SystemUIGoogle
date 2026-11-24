@@ -32,6 +32,7 @@ import com.android.systemui.accessibility.AccessibilityModule;
 import com.android.systemui.accessibility.SystemActionsModule;
 import com.android.systemui.accessibility.data.repository.AccessibilityRepositoryModule;
 import com.android.systemui.actioncorner.ActionCornerModule;
+import com.android.systemui.axdynamicbar.data.source.AmbientMusicSource;
 import com.android.systemui.clipboardoverlay.dagger.ClipboardOverlayOverrideModule;
 import com.android.systemui.communal.posturing.dagger.PosturingModule;
 import com.android.systemui.contextualcursor.ContextualCursorModule;
@@ -118,6 +119,7 @@ import com.android.systemui.wallpapers.dagger.WallpaperModule;
 
 import com.google.android.systemui.battery.BatterySaverModuleGoogle;
 import com.google.android.systemui.gesture.GestureModuleGoogle;
+import com.google.android.systemui.ambientmusic.AmbientMusicSourceImpl;
 import com.google.android.systemui.ambientmusic.nonpixel.NonPixelAmbientIndicationCoreStartable;
 import com.google.android.systemui.keyguard.AmbientIndicationCoreStartable;
 import com.google.android.systemui.keyguard.data.quickaffordance.CalculatorQuickAffordanceConfig;
@@ -298,6 +300,9 @@ public abstract class SystemUIGoogleModule {
         deviceProvisionedController.init();
         return deviceProvisionedController;
     }
+
+    @Binds
+    abstract AmbientMusicSource bindAmbientMusicSource(AmbientMusicSourceImpl impl);
 
     @Binds
     abstract KeyguardViewController bindKeyguardViewController(
